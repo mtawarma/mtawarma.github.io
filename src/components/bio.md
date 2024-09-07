@@ -13,7 +13,7 @@
 
 Mohit Tawarmalani is the Executive Associate Dean of Faculty and
 Allison and Nancy Schleicher Professor at the 
-[Mitchell E. Jr., Daniels School of Business, Purdue University][Daniels]. 
+[Mitch Daniels School of Business, Purdue University][Daniels]. 
 He serves as the academic director of 
 [Krenicki Center for Business Analytics and Machine Learning][Krenicki].
 He received his Ph.D. and Masters from the [University of
