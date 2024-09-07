@@ -1,26 +1,24 @@
-<div class="hidden">
 # Mohit Tawarmalani
-</div>
 
-100 S. Grant Street, West Lafayette, IN 47907-2076,\
-Email: <mtawarma@purdue.edu> Website:
-[web.ics.purdue.edu/\~mtawarma](http://web.ics.purdue.edu/~mtawarma)\
-765-496-2620 (w)\
+100 S. Grant Street, West Lafayette, IN 47907-2076,  
+<!--  ![Email][Email] --> Email: <mtawarma@purdue.edu> Website:
+[web.ics.purdue.edu/~mtawarma](http://web.ics.purdue.edu/~mtawarma)  
+765-496-2620 (w)  
 765-496-7434 (f)
 
 ## Education
 
 Ph.D. Industrial Engineering, University of Illinois at
-Urbana-Champaign, August 2001\
+Urbana-Champaign, August 2001  
 Thesis: Mixed Integer Nonlinear Programs: Theory, Algorithms and
 Applications
 
 M.S. Industrial Engineering, University of Illinois at Urbana-Champaign,
-May 1997\
+May 1997  
 Thesis: Multistage Network Optimization and Decomposition Algorithms
 
 B.Tech. Mechanical Engineering, Indian Institute of Technology, May
-1993\
+1993  
 Thesis: Feature Extraction in Turned Components
 
 ## Academic/Professional Appointments
@@ -58,7 +56,7 @@ India, July 1993 - December 1994
 ## Leadership Activities
 
 Acting Executive Associate Dean of Faculty, Mitchell E. Daniels,
-Jr. School of Business, September 2023--present
+Jr. School of Business, September 2023–present
 
 -   Represent DSB on Associate Dean for Research and Associate Dean for
     Faculty Affairs
@@ -70,17 +68,17 @@ Jr. School of Business, September 2023--present
 -   Direct suitable engagement opportunities from campus to relevant
     faculty
 
-Interim Dean, Mitchell E. Daniels, Jr. School of Business, July 2023 --
+Interim Dean, Mitchell E. Daniels, Jr. School of Business, July 2023 –
 August 2023
 
 -   Request for faculty positions
 -   Established a new way to make teaching credit hour predictions by
     area
--   Instituted Dean's Distinguished Lecture Series
+-   Instituted Dean’s Distinguished Lecture Series
 -   Transitioning new dean
 
 Director of Krenicki Center for Business Analytics and Machine Learning,
-2022--present
+2022–present
 
 -   Co-organizer of Data for Good Gala celebrating INFORMS UPS George D.
     Smith Prize
@@ -93,7 +91,7 @@ Director of Krenicki Center for Business Analytics and Machine Learning,
     companies
 -   Co-crafted a proposal for the New School of Business at Purdue
 
-Area Head, Quantitative Methods, 2020--2023
+Area Head, Quantitative Methods, 2020–2023
 
 -   Led the team that won the INFORMS UPS George D. Smith Prize for
     Business Analytics and Information Management programs
@@ -114,7 +112,7 @@ Management 2020-2021
     that changed their degree there are 180+ students in the program
 
 Founding director, Masters in Business Analytics and Information
-Management 2014--2018
+Management 2014–2018
 
 -   Designed program and obtained STEM certification by helping create a
     new process for majors at Purdue University
@@ -169,7 +167,7 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
 5.  Gooty, R. T., Agrawal, R., & Tawarmalani, M. (2024). [Advances in
     MINLP to identify energy-efficient distillation
     configurations](https://doi.org/10.1287/opre.2022.2340). *Operations
-    Research*, *72*, 639--659.
+    Research*, *72*, 639–659.
 
 6.  Chen, Z., Tawarmalani, M., & Agrawal, R. (2024). [Global
     minimization of power consumptions for multicomponent gas membrane
@@ -196,18 +194,18 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
 
 10. He, T., & Tawarmalani, M. (2022). [Tractable relaxations of
     composite functions](https://doi.org/10.1287/moor.2021.1162).
-    *Mathematics of Operations Research*, *47*(2), 1110--1140.
+    *Mathematics of Operations Research*, *47*(2), 1110–1140.
 
 11. Kim, J., Tawarmalani, M., & Richard, J.-P. P. (2022).
     [Convexification of permutation-invariant sets and an application to
     sparse principal component
     analysis](https://doi.org/10.1287/moor.2021.1219). *Mathematics of
-    Operations Research*, *47*(4), 2547--2584.
+    Operations Research*, *47*(4), 2547–2584.
 
 12. Chandra, A., & Tawarmalani, M. (2022). [Probability estimation via
     policy restrictions, convexification, and approximate
     sampling](https://doi.org/10.1007/s10107-022-01823-6). *Mathematical
-    Programming*, *196*(1), 309--345.
+    Programming*, *196*(1), 309–345.
 
 13. Chavez Velasco, J. A., Tawarmalani, M., & Agrawal, R. (2022). [Which
     separation scenarios are advantageous for membranes or
@@ -219,7 +217,7 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
     distillation
     configurations](https://doi.org/10.1021/acs.iecr.2c00870).
     *Industrial & Engineering Chemistry Research*, *61*(37),
-    13984--13995.
+    13984–13995.
 
 15. Jiang, Z., Tawarmalani, M., & Agrawal, R. (2022). [Minimum reflux
     calculation for multicomponent distillation in multi-feed,
@@ -232,22 +230,22 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
     Agrawal, R. (2022). [Advances in distillation: Significant
     reductions in energy consumption and carbon dioxide emissions for
     crude oil separation](https://doi.org/10.1016/j.joule.2022.10.004).
-    *Joule*, *6*(11), 2500--2512.
+    *Joule*, *6*(11), 2500–2512.
 
 17. Nguyen, T. T., Richard, J.-P. P., & Tawarmalani, M. (2021).
     [Convexification techniques for linear complementarity
     constraints](https://doi.org/10.1007/s10898-020-00979-9). *Journal
-    of Global Optimization*, *80*, 249--286.
+    of Global Optimization*, *80*, 249–286.
 
 18. He, T., & Tawarmalani, M. (2021). [A new framework to relax
     composite functions in nonlinear
     programs](https://doi.org/10.1007/s10107-020-01541-x). *Mathematical
-    Programming*, *190*, 427--466.
+    Programming*, *190*, 427–466.
 
 19. Chavez Velasco, J. A., Tawarmalani, M., & Agrawal, R. (2021).
     [Systematic analysis reveals thermal separations are not necessarily
     most energy intensive](https://doi.org/10.1016/j.joule.2020.12.002).
-    *Joule*, *5*(2), 330--343.
+    *Joule*, *5*(2), 330–343.
 
 20. Chavez Velasco, J. A., Gooty, R. T., Tawarmalani, M., & Agrawal, R.
     (2021). [Optimal design of membrane cascades for gaseous and liquid
@@ -258,29 +256,29 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
     (2021). [A simple criterion for feasibility of heat integration
     between distillation streams based on relative
     volatilities](https://doi.org/10.1021/acs.iecr.1c01036). *Industrial
-    & Engineering Chemistry Research*, *60*(28), 10286--10302.
+    & Engineering Chemistry Research*, *60*(28), 10286–10302.
 
 22. Kim, J., Tawarmalani, M., & Richard, J.-P. P. (2019). [On cutting
     planes for cardinality-constrained linear
     programs](https://doi.org/10.1007/s10107-018-1306-0). *Mathematical
-    Programming*, *178*, 417--448.
+    Programming*, *178*, 417–448.
 
 23. Wu, J., Tawarmalani, M., & Kannan, K. N. (2019). [Cardinality
-    bundling with Spence--Mirrlees reservation
+    bundling with Spence–Mirrlees reservation
     prices](https://doi.org/10.1287/mnsc.2017.2998). *Management
-    Science*, *65*(4), 1891--1908.
+    Science*, *65*(4), 1891–1908.
 
 24. Gooty, R. T., Agrawal, R., & Tawarmalani, M. (2019). [An MINLP
     formulation for the optimization of multicomponent distillation
     configurations](https://doi.org/10.1016/j.compchemeng.2019.02.013).
-    *Computers & Chemical Engineering*, *125*, 13--30.
+    *Computers & Chemical Engineering*, *125*, 13–30.
 
 25. Jiang, Z., Mathew, T. J., Zhang, H., Huff, J., Nallasivam, U.,
     Tawarmalani, M., & Agrawal, R. (2019). [Global optimization of
     multicomponent distillation configurations: Global minimization of
     total cost for multicomponent mixture
     separations](https://doi.org/10.1016/j.compchemeng.2019.04.009).
-    *Computers & Chemical Engineering*, *126*, 249--262.
+    *Computers & Chemical Engineering*, *126*, 249–262.
 
 26. Jiang, Z., Chen, Z., Huff, J., Shenvi, A. A., Tawarmalani, M., &
     Agrawal, R. (2019). [Global minimization of total exergy loss of
@@ -292,177 +290,177 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
     (2019). [110th anniversary: Thermal coupling via heat transfer: A
     potential route to simple distillation configurations with lower
     heat duty](https://doi.org/10.1021/acs.iecr.9b04689). *Industrial &
-    Engineering Chemistry Research*, *58*(47), 21671--21678.
+    Engineering Chemistry Research*, *58*(47), 21671–21678.
 
 28. Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2018). [A
     systematic method to synthesize all dividing wall columns for
     n-component separation: Part II](https://doi.org/10.1002/aic.15963).
-    *AIChE Journal*, *64*(2), 660--672.
+    *AIChE Journal*, *64*(2), 660–672.
 
 29. Nguyen, T. T., Richard, J.-P. P., & Tawarmalani, M. (2018).
     [Deriving convex hulls through lifting and
     projection](https://doi.org/10.1007/s10107-017-1138-3).
-    *Mathematical Programming*, *169*, 377--415.
+    *Mathematical Programming*, *169*, 377–415.
 
 30. Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2018). [A
     systematic method to synthesize all dividing wall columns for
-    n-component separation---part I](https://doi.org/10.1002/aic.15964).
-    *AIChE Journal*, *64*(2), 649--659.
+    n-component separation—part I](https://doi.org/10.1002/aic.15964).
+    *AIChE Journal*, *64*(2), 649–659.
 
 31. Jiang, Z., Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2018).
     [Minimum energy of multicomponent distillation systems using minimum
     additional heat and mass integration
     sections](https://doi.org/10.1002/aic.16189). *AIChE Journal*,
-    *64*(9), 3410--3418.
+    *64*(9), 3410–3418.
 
 32. Ramapriya, G. M., Selvarajah, A., Jimenez Cucaita, L. E., Huff, J.,
     Tawarmalani, M., & Agrawal, R. (2018). [Short-cut methods versus
     rigorous methods for performance-evaluation of distillation
     configurations](https://doi.org/10.1021/acs.iecr.7b05214).
-    *Industrial & Engineering Chemistry Research*, *57*(22), 7726--7731.
+    *Industrial & Engineering Chemistry Research*, *57*(22), 7726–7731.
 
 33. Davarnia, D., Richard, J.-P. P., & Tawarmalani, M. (2017).
     [Simultaneous convexification of bilinear functions over polytopes
     with application to network
     interdiction](https://doi.org/10.1137/16m1066166). *SIAM Journal on
-    Optimization*, *27*(3), 1801--1833.
+    Optimization*, *27*(3), 1801–1833.
 
 34. Kannan, K., Rahman, M. S., & Tawarmalani, M. (2016). [Economic and
     policy implications of restricted patch
     distribution](https://doi.org/10.1287/mnsc.2015.2309). *Management
-    Science*, *62*(11), 3161--3182.
+    Science*, *62*(11), 3161–3182.
 
 35. Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2016). [Thermal
     coupling links to liquid-only transfer streams: An enumeration
     method for new FTC dividing wall
     columns](https://doi.org/10.1002/aic.15053). *AIChE Journal*,
-    *62*(4), 1200--1211.
+    *62*(4), 1200–1211.
 
 36. Nallasivam, U., Shah, V. H., Shenvi, A. A., Huff, J., Tawarmalani,
     M., & Agrawal, R. (2016). [Global optimization of multicomponent
     distillation configurations: 2. Enumeration based global
     minimization algorithm](https://doi.org/10.1002/aic.15204). *AIChE
-    Journal*, *62*(6), 2071--2086.
+    Journal*, *62*(6), 2071–2086.
 
 37. Bao, X., Khajavirad, A., Sahinidis, N. V., & Tawarmalani, M. (2015).
     [Global optimization of nonconvex problems with multilinear
     intermediates](https://doi.org/10.1007/s12532-014-0073-z).
-    *Mathematical Programming Computation*, *7*(1), 1--37.
+    *Mathematical Programming Computation*, *7*(1), 1–37.
 
 38. Ramapriya, G. M., Shenvi, A. A., Tawarmalani, M., & Agrawal, R.
     (2015). [A new framework for combining a condenser and reboiler in a
     configuration to consolidate distillation
     columns](https://doi.org/10.1021/acs.iecr.5b01701). *Industrial &
-    Engineering Chemistry Research*, *54*(42), 10449--10464.
+    Engineering Chemistry Research*, *54*(42), 10449–10464.
 
 39. Gençer, E., Mallapragada, D. S., Maréchal, F., Tawarmalani, M., &
     Agrawal, R. (2015). [Round-the-clock power supply and a sustainable
     economy via synergistic integration of solar thermal power and
     hydrogen processes](https://doi.org/10.1073/pnas.1513488112).
     *Proceedings of the National Academy of Sciences*, *112*(52),
-    15821--15826.
+    15821–15826.
 
 40. Chung, K., Richard, J.-P. P., & Tawarmalani, M. (2014). [Lifted
     inequalities for 0-1 mixed-integer bilinear covering
     sets](https://doi.org/10.1007/s10107-013-0652-1). *Mathematical
-    Programming*, *145*(1), 403--450.
+    Programming*, *145*(1), 403–450.
 
 41. Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2014). [Modified
     basic distillation configurations with intermediate sections for
     energy savings](https://doi.org/10.1002/aic.14324). *AIChE Journal*,
-    *60*(3), 1091--1097.
+    *60*(3), 1091–1097.
 
 42. Mallapragada, D. S., Tawarmalani, M., & Agrawal, R. (2014).
     [Synthesis of augmented biofuel processes using solar
     energy](https://doi.org/10.1002/aic.14456). *AIChE Journal*,
-    *60*(7), 2533--2545.
+    *60*(7), 2533–2545.
 
 43. Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2014). [Thermal
     coupling links to liquid-only transfer streams: A path for new
     dividing wall columns](https://doi.org/10.1002/aic.14468). *AIChE
-    Journal*, *60*(8), 2949--2961.
+    Journal*, *60*(8), 2949–2961.
 
 44. Tawarmalani, M., Richard, J.-P. P., & Xiong, C. (2013). [Explicit
     convex and concave envelopes through polyhedral
     subdivisions](https://doi.org/10.1007/s10107-012-0581-4).
-    *Mathematical Programming*, *138*(1), 531--577.
+    *Mathematical Programming*, *138*(1), 531–577.
 
 45. Nallasivam, U., Shah, V. H., Shenvi, A. A., Tawarmalani, M., &
     Agrawal, R. (2013). [Global optimization of multicomponent
     distillation configurations: 1. Need for a reliable global
     optimization algorithm](https://doi.org/10.1002/aic.13875). *AIChE
-    Journal*, *59*(3), 971--981.
+    Journal*, *59*(3), 971–981.
 
 46. Bao, X., Sahinidis, N. V., & Tawarmalani, M. (2011). [Semidefinite
     relaxations for quadratically constrained quadratic programming: A
     review and comparisons](https://doi.org/10.1007/s10107-011-0462-2).
-    *Mathematical Programming*, *129*, 129--157.
+    *Mathematical Programming*, *129*, 129–157.
 
 47. Tawarmalani, M., & Li, Y. (2011). [Multi-period maintenance
     scheduling of tree networks with minimum flow
     disruption](https://doi.org/10.1002/nav.20455). *Naval Research
-    Logistics (NRL)*, *58*(5), 507--530.
+    Logistics (NRL)*, *58*(5), 507–530.
 
 48. Richard, J.-P. P., & Tawarmalani, M. (2010). [Lifting inequalities:
     A framework for generating strong cuts for nonlinear
     programs](https://doi.org/10.1007/s10107-008-0226-9). *Mathematical
-    Programming*, *121*, 61--104.
+    Programming*, *121*, 61–104.
 
 49. Tawarmalani, M., Richard, J.-P. P., & Chung, K. (2010). [Strong
     valid inequalities for orthogonal disjunctions and bilinear covering
     sets](https://doi.org/10.1007/s10107-010-0374-6). *Mathematical
-    Programming*, *124*(1), 481--512.
+    Programming*, *124*(1), 481–512.
 
 50. Bao, X., Sahinidis, N. V., & Tawarmalani, M. (2009). [Multiterm
     polyhedral relaxations for nonconvex, quadratically constrained
     quadratic programs](https://doi.org/10.1080/10556780902883184).
-    *Optimization Methods & Software*, *24*(4-5), 485--504.
+    *Optimization Methods & Software*, *24*(4-5), 485–504.
 
 51. Tawarmalani, M., Kannan, K., & De, P. (2009). [Allocating objects in
     a network of caches: Centralized and decentralized
     analyses](https://doi.org/10.1287/mnsc.1080.0923). *Management
-    Science*, *55*(1), 132--147.
+    Science*, *55*(1), 132–147.
 
 52. Tawarmalani, M., & Sahinidis, N. V. (2005). [A polyhedral
     branch-and-cut approach to global
     optimization](https://doi.org/10.1007/s10107-005-0581-8).
-    *Mathematical Programming*, *103*(2), 225--249.
+    *Mathematical Programming*, *103*(2), 225–249.
 
 53. Sahinidis, N. V., & Tawarmalani, M. (2005). [Accelerating
     branch-and-bound through a modeling language construct for
     relaxation-specific
     constraints](https://doi.org/10.1007/s10898-004-2705-8). *Journal of
-    Global Optimization*, *32*, 259--280.
+    Global Optimization*, *32*, 259–280.
 
 54. Tawarmalani, M., & Sahinidis, N. V. (2004). [Global optimization of
     mixed-integer nonlinear programs: A theoretical and computational
     study](https://doi.org/10.1007/s10107-003-0467-6). *Mathematical
-    Programming*, *99*(3), 563--591.
+    Programming*, *99*(3), 563–591.
 
 55. Ahmed, S., Tawarmalani, M., & Sahinidis, N. V. (2004). [A finite
     branch-and-bound algorithm for two-stage stochastic integer
     programs](https://doi.org/10.1007/s10107-003-0475-6). *Mathematical
-    Programming*, *100*(2), 355--377.
+    Programming*, *100*(2), 355–377.
 
 56. Sahinidis, N. V., Tawarmalani, M., & Yu, M. (2003). [Design of
     alternative refrigerants via global
     optimization](https://doi.org/10.1002/aic.690490714). *AIChE
-    Journal*, *49*(7), 1761--1775.
+    Journal*, *49*(7), 1761–1775.
 
 57. Tawarmalani, M., & Sahinidis, N. V. (2002). [Convex extensions and
     envelopes of lower semi-continuous
     functions](https://doi.org/10.1007/s10107-002-0308-z). *Mathematical
-    Programming*, *93*(2), 247--263.
+    Programming*, *93*(2), 247–263.
 
 58. Tawarmalani, M., Ahmed, S., & Sahinidis, N. V. (2002). [Global
     optimization of 0-1 hyperbolic
     programs](https://doi.org/10.1023/A:1021279918708). *Journal of
-    Global Optimization*, *24*(4), 385--416.
+    Global Optimization*, *24*(4), 385–416.
 
 59. Tawarmalani, M., & Sahinidis, N. V. (2001). [Semidefinite
     relaxations of fractional programs via novel convexification
     techniques](https://doi.org/10.1023/A:1011233805045). *Journal of
-    Global Optimization*, *20*, 133--154.
+    Global Optimization*, *20*, 133–154.
 
 60. Tawarmalani, M., Ahmed, S., & Sahinidis, N. V. (2001). [Product
     disaggregation in global optimization and relaxations of rational
@@ -472,11 +470,11 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
 61. Sahinidis, N. V., & Tawarmalani, M. (2000). [Applications of global
     optimization to process and molecular
     design](https://doi.org/10.1016/s0098-1354(00)00583-4). *Computers &
-    Chemical Engineering*, *24*(9-10), 2157--2169.
+    Chemical Engineering*, *24*(9-10), 2157–2169.
 
 62. Adhya, N., Tawarmalani, M., & Sahinidis, N. V. (1999). [A lagrangian
     approach to the pooling problem](https://doi.org/10.1021/ie980666q).
-    *Industrial & Engineering Chemistry Research*, *38*(5), 1956--1972.
+    *Industrial & Engineering Chemistry Research*, *38*(5), 1956–1972.
 
 ## Trade Publications
 
@@ -486,7 +484,7 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
 
 1.  Mathew, T. J., Gooty, R. T., Tawarmalani, M., & Agrawal, R. (2020).
     Quickly assess distillation columns. *Chemical Engineering
-    Progress*, *116*(12), 27--34.
+    Progress*, *116*(12), 27–34.
     <https://www.aiche.org/resources/publications/cep/2020/december/quickly-assess-distillation-columns>
 
 ## Refereed Book Chapters
@@ -499,12 +497,12 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
     traveling salesman
     problem](https://doi.org/10.1007/978-0-387-74759-0_681). In C. A.
     Floudas & P. M. Pardalos (Eds.), *Encyclopedia of optimization*
-    (pp. 3902--3908). Springer US.
+    (pp. 3902–3908). Springer US.
 
 2.  Tawarmalani, M., & Sahinidis, N. V. (2002). [Exact algorithms for
     global optimization of mixed-integer nonlinear
     programs](https://doi.org/10.1007/978-1-4757-5362-2_2). In *Handbook
-    of global optimization: Volume 2* (pp. 65--85). Springer US Boston,
+    of global optimization: Volume 2* (pp. 65–85). Springer US Boston,
     MA.
 
 ## Refereed Conference Proceedings
@@ -514,29 +512,29 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
 -->
 
 1.  Jafri, S. U., Rao, S., Shrivastav, V., & Tawarmalani, M. (2024).
-    Leo: Online [ML-based]{.nocase} traffic classification at
-    Multi-Terabit line rate. *21st USENIX Symposium on Networked Systems
-    Design and Implementation (NSDI 24)*, 1573--1591.
+    Leo: Online <span class="nocase">ML-based</span> traffic
+    classification at Multi-Terabit line rate. *21st USENIX Symposium on
+    Networked Systems Design and Implementation (NSDI 24)*, 1573–1591.
     <https://www.usenix.org/conference/nsdi24/presentation/jafri>
 
 2.  Jiang, C., Li, Z., Rao, S., & Tawarmalani, M. (2022). [Flexile:
     Meeting bandwidth objectives almost
     always](https://doi.org/10.1145/3555050.3569119). *Proceedings of
     the 18th International Conference on Emerging Networking Experiments
-    and Technologies*, 110--125.
+    and Technologies*, 110–125.
 
 3.  Mathew, T. J., Tawarmalani, M., & Agrawal, R. (2022).
     [Systematically identifying energy-efficient and attractive
     multicomponent distillation
     configurations](https://doi.org/10.1016/b978-0-323-85159-6.50106-8).
-    In *Computer aided chemical engineering* (Vol. 49, pp. 637--642).
+    In *Computer aided chemical engineering* (Vol. 49, pp. 637–642).
     Elsevier.
 
 4.  Chavez Velasco, J. A., Chen, Z., Gooty, R. T., Tawarmalani, M., &
     Agrawal, R. (2021). [Energy-efficient membrane cascades for
     industrial
     separations](https://doi.org/10.1016/b978-0-323-88506-5.50057-7). In
-    *Computer aided chemical engineering* (Vol. 50, pp. 359--364).
+    *Computer aided chemical engineering* (Vol. 50, pp. 359–364).
     Elsevier.
 
 5.  Jiang, C., Rao, S., & Tawarmalani, M. (2020). [PCF: Provably
@@ -544,72 +542,72 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
     routing](https://doi.org/10.1145/3387514.3405858). *Proceedings of
     the Annual Conference of the ACM Special Interest Group on Data
     Communication on the Applications, Technologies, Architectures, and
-    Protocols for Computer Communication*, 139--153.
+    Protocols for Computer Communication*, 139–153.
 
 6.  Chang, Y., Jiang, C., Chandra, A., Rao, S., & Tawarmalani, M.
     (2019). [Lancet: Better network resilience by designing for pruned
     failure sets](https://doi.org/10.1145/3393691.3394195). *Proceedings
     of the ACM on Measurement and Analysis of Computing Systems*, *3*,
-    1--26.
+    1–26.
 
 7.  Gooty, R. T., Mobed, P., Tawarmalani, M., & Agrawal, R. (2018).
     [Optimal multicomponent distillation column sequencing: Software and
     case studies](https://doi.org/10.1016/b978-0-444-64241-7.50032-x).
-    In *Computer aided chemical engineering* (Vol. 44, pp. 223--228).
+    In *Computer aided chemical engineering* (Vol. 44, pp. 223–228).
     Elsevier.
 
 8.  Jiang, Z., Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2018).
     [Process intensification in multicomponent
     distillation](https://doi.org/10.3303/CET1869141). *Chemical
-    Engineering Transactions*, *69*, 841--846.
+    Engineering Transactions*, *69*, 841–846.
 
 9.  Chang, Y., Rao, S., & Tawarmalani, M. (2017). Robust validation of
     network designs under uncertain demands and failures. *14th USENIX
     Symposium on Networked Systems Design and Implementation (NSDI 17)*,
-    347--362.
+    347–362.
     <https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/chang>
 
 10. Barik, A., Honorio, J., & Tawarmalani, M. (2017). [Information
     theoretic limits for linear prediction with graph-structured
     sparsity](https://doi.org/10.1109/isit.2017.8006949). *2017 IEEE
-    International Symposium on Information Theory (ISIT)*, 2348--2352.
+    International Symposium on Information Theory (ISIT)*, 2348–2352.
 
 11. Gençer, E., Tawarmalani, M., & Agrawal, R. (2015). [Integrated solar
     thermal hydrogen and power coproduction process for continuous power
     supply and production of
     chemicals](https://doi.org/10.1016/b978-0-444-63576-1.50076-5). In
-    *Computer aided chemical engineering* (Vol. 37, pp. 2291--2296).
+    *Computer aided chemical engineering* (Vol. 37, pp. 2291–2296).
     Elsevier.
 
 12. Shankaranarayanan, P., Sivakumar, A., Rao, S., & Tawarmalani, M.
     (2014). [Performance sensitive replication in geo-distributed cloud
     datastores](https://doi.org/10.1109/dsn.2014.34). *2014 44th Annual
     IEEE/IFIP International Conference on Dependable Systems and
-    Networks*, 240--251.
+    Networks*, 240–251.
 
 13. Gençer, E., Mallapragada, D., Tawarmalani, M., & Agrawal, R. (2014).
     [Synergistic biomass and natural gas conversion to liquid fuel with
     reduced CO2
     emissions](https://doi.org/10.1016/b978-0-444-63433-7.50072-9). In
-    *Computer aided chemical engineering* (Vol. 34, pp. 525--530).
+    *Computer aided chemical engineering* (Vol. 34, pp. 525–530).
     Elsevier.
 
 14. Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2014). New, useful
     dividing wall columns for sustainable distillation. *Book of Full
     Papers (Proceedings): 10th International Conference on Distillation
-    & Absorption*, 76--81.
+    & Absorption*, 76–81.
 
 15. Nguyen, T. T., Tawarmalani, M., & Richard, J.-P. P. (2011).
     [Convexification techniques for linear complementarity
     constraints](https://doi.org/10.1007/978-3-642-20807-2_27).
     *International Conference on Integer Programming and Combinatorial
-    Optimization*, 336--348.
+    Optimization*, 336–348.
 
 16. Hajjat, M., Sun, X., Sung, Y.-W. E., Maltz, D., Rao, S.,
     Sripanidkulchai, K., & Tawarmalani, M. (2010). [Cloudward bound:
     Planning for beneficial migration of enterprise applications to the
     cloud](https://doi.org/10.1145/1851182.1851212). *ACM SIGCOMM
-    Computer Communication Review*, *40*(4), 243--254.
+    Computer Communication Review*, *40*(4), 243–254.
 
 17. Rahman, M. S., Kannan, K. N., & Tawarmalani, M. (2007). The
     countervailing incentive of restricted patch distribution: Economic
@@ -620,7 +618,7 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
     [Interactive clustering and
     classification](https://doi.org/10.1115/1.802823.paper58).
     *Proceedings of Conf. Artificial Neural Networks in Eng.,
-    (ANNIE'08)*, 463--470.
+    (ANNIE’08)*, 463–470.
 
 19. Tawarmalani, M., Kannan, K. N., & De, P. (2005). [A mechanism for
     allocating objects in a network of symmetric
@@ -640,7 +638,7 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
 
 3.  Jafri, S. U., Rao, S., Shrivastav, V., & Tawarmalani, M. (2024).
     *Leo: Online ML-based traffic classification at multi-terabit line
-    rate*. NSDI '24, Santa Clara.
+    rate*. NSDI ’24, Santa Clara.
 
 4.  Nagoja, A., Tawarmalani, M., & Agrawal, R. (2023). *Heat pumps for
     electrification of multicomponent distillation trains: An MINLP
@@ -756,7 +754,7 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
 
 33. Gooty, R. T., Agrawal, R., & Tawarmalani, M. (2020).
     *Energy-efficient disitillation configurations: Novel formulation,
-    relaxations, and discretizations, CAST director's student
+    relaxations, and discretizations, CAST director’s student
     presentation award finalists*. AICHE Annual Meeting.
 
 34. Chen, Z., Gooty, R. T., Chavez Velasco, J. A., Tawarmalani, M., &
@@ -1311,35 +1309,35 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
 
 ## Honors
 
--   Salgo-Noren Outstanding Master's Teacher, 2023
--   Salgo-Noren Outstanding Master's Teacher, 2022
--   Distinguished Residential Master's Program Teacher, Spring 2021
+-   Salgo-Noren Outstanding Master’s Teacher, 2023
+-   Salgo-Noren Outstanding Master’s Teacher, 2022
+-   Distinguished Residential Master’s Program Teacher, Spring 2021
 -   Runner-up, Salgo Noren Foundation Award for Excellence in Teaching,
     Krannert School of Management, 2009, 2011, 2016, 2018, 2019, 2020
 -   2006 Beale-Orchard-Hays prize (with N. V. Sahinidis) for the paper
-    \`\`A polyhedral branch-and-cut approach to global optimization''
+    \`\`A polyhedral branch-and-cut approach to global optimization’’
 -   Krannert Faculty Fellow, 2006
 -   Best Paper Award (with K. Kannan and P. De) in the fifteenth
     Workshop on Information Technologies and Systems (2005) for the
     paper \`\`A Mechanism for Allocating Objects in a Network of
-    Symmetric Caches''
+    Symmetric Caches’’
 -   Honorable Mention in 2005 Junior Faculty Interest Group Competition
     (with Y. Li) for the paper \`\`Minimizing Flow Disruption due to
-    Network Maintenance''
--   Distinguished Core MBA Teaching Recognition, 2005--2011, 2014--2020
--   Distinguished Elective MBA Teaching Recognition, 2014--2019
+    Network Maintenance’’
+-   Distinguished Core MBA Teaching Recognition, 2005–2011, 2014–2020
+-   Distinguished Elective MBA Teaching Recognition, 2014–2019
 -   INFORMS Computing Society Prize (with N. V. Sahinidis), 2004 for
     research excellence in the interface between Computer Science and
     Operations Research
--   Jay N. Ross Young Faculty Scholar Award, 2002--2003, Purdue
+-   Jay N. Ross Young Faculty Scholar Award, 2002–2003, Purdue
     University
 -   American Institute of Chemical Engineers (AICHE) Computers and
-    Systems Technology (CAST) Director's Award, 1999. Best Poster: Novel
+    Systems Technology (CAST) Director’s Award, 1999. Best Poster: Novel
     Molecular Designs Via Global Optimization
 -   CSE Fellow, Computational Science & Engineering, University of
-    Illinois, Jan 1999--May 1999
+    Illinois, Jan 1999–May 1999
 -   Teaching Fellow, Department of Mechanical and Industrial
-    Engineering, University of Illinois, Aug 1998--May 1999
+    Engineering, University of Illinois, Aug 1998–May 1999
 -   Tata Consultancy Services award for *best project* in the areas of
     CAD/CAM, Robotics & Automation, July 1993
 
@@ -1351,35 +1349,35 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
 ## Grants
 
 -   PI, Air Force Office of Scientific Research, Quantifying
-    Probabilities using Optimization Techniques, \$378,105, January
+    Probabilities using Optimization Techniques, $378,105, January
     2022-January 2025
 -   PI, National Science Foundation, Collaborative Research: Novel
     Relaxations for Cardinality-Constrained Optimization Problems with
-    Applications in Network Interdiction and Data Analysis, \$396,424,
+    Applications in Network Interdiction and Data Analysis, $396,424,
     August 2017-July 2021
 -   Co-PI, National Science Foundation, CNS Core: Small: Designing
-    Networks for Stringent Performance Requirements, \$500,000, October
+    Networks for Stringent Performance Requirements, $500,000, October
     2019-September 2022
 -   Co-PI, Optimization of Oil/Gas Processes and Process Flowsheets,
-    Exxon Mobil Research Company, \$638,685, March 2017-February 2020
+    Exxon Mobil Research Company, $638,685, March 2017-February 2020
 -   Co-PI, Development of method and algorithms to identify easily
     implementable energy efficient low-cost multicomponent distillation
     column trains with energy savings for wide number of separations,
-    \$1,151,707 (Department of Energy Share: \$900,000, Purdue Cost
-    Share: \$251,707) December 2014-December 2017
+    $1,151,707 (Department of Energy Share: $900,000, Purdue Cost Share:
+    $251,707) December 2014-December 2017
 -   Co-PI, Multicomponent Distillation Configurations, Eastman Chemical
-    Company, \$45,000
+    Company, $45,000
 -   PI, National Science Foundation, Collaborative Research: Novel
     Tighter Relaxations for Complementarity Constraints with
-    Applications to Nonlinear and Bilevel Programming, \$226,172,
-    September 2012--August 2015
+    Applications to Nonlinear and Bilevel Programming, $226,172,
+    September 2012–August 2015
 -   Co-PI, National Science Foundation, CSR: Medium: Collaborative
     Research: Architecting Performance Sensitive Applications for the
-    Cloud, \$400000, August 2012--July 2016
+    Cloud, $400000, August 2012–July 2016
 -   PI, National Science Foundation, Collaborative Research: Generating
     Strong Cuts for Nonlinear Programs Via Orthogonal Disjunctions and
-    Lifting Techniques, \$204171, July 2009--June 2013
--   Amazon.com, \$25000 (with Prof. K. Tang), Evidence Based Solutions
+    Lifting Techniques, $204171, July 2009–June 2013
+-   Amazon.com, $25000 (with Prof. K. Tang), Evidence Based Solutions
     for Global Fulfillment Network, June 2007
 -   Huntingburg OFS project under Global Supply Chain Management
     Initiative, June 2006
@@ -1488,7 +1486,7 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
     *Operations Research Letters*, *Optimization and Engineering*,
     *Optimization Methods and Software*, and *SIAM Journal on
     Optimization*.
--   Developed and Maintained Web Interface for BARON, October 1999--May
+-   Developed and Maintained Web Interface for BARON, October 1999–May
     2001
 -   Organized Paper Sessions in INFORMS, Miami, 2001, INFORMS, San Jose,
     2002, INFORMS Optimization Society Meeting, Atlanta, 2008, and
