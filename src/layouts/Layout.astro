@@ -102,12 +102,12 @@ $page.subscribe((page) => {
          </div>
        <div class="menulist border-r-2 border-black/100 bg-base-200">
          <ul class="menu text-2xl bg-base-200 w-75 p-4 [&_li>*]:rounded-none">
-           <li><a class:list={["menuitem pagehome", {"navlink": !isHome}, {"myactive": isHome}]} href={isHome == false ? "/" : undefined}>Home</a></li>
-           <li><a class:list={["menuitem pageresume", {"navlink": !isResume}, {"myactive": isResume}]} href={isResume == false ? "/cv/index.html" : undefined}>Resume</a></li>
-           <li><a class:list={["menuitem pagebook", {"navlink": !isBook}, {"myactive": isBook}]} href={isBook == false ? "/cv/index.html#book" : undefined}>Book</a></li>
-           <li><a class:list={["menuitem pagepub", {"navlink": !isPubs}, {"myactive": isPubs}]} href={isPubs == false ? "/cv/index.html#journal-publications" : undefined}>Publications</a></li>
-           <li><a class:list={["menuitem pageconf", {"navlink": !isConf}, {"myactive": isConf}]} href={isConf == false ? "/cv/index.html#refereed-conference-proceedings" : undefined}>Conferences</a></li>
-           <li><a class:list={["menuitem pagehonor", {"navlink": !isHonor}, {"myactive": isHonor}]} href={isHonor == false ? "/cv/index.html#honors" : undefined}>Honors</a></li>
+           <li><a class:list={["menuitem pagehome", {"navlink": !isHome}, {"myactive": isHome}]} href="/">Home</a></li>
+           <li><a class:list={["menuitem pageresume", {"navlink": !isResume}, {"myactive": isResume}]} href="/cv/index.html">Resume</a></li>
+           <li><a class:list={["menuitem pagebook", {"navlink": !isBook}, {"myactive": isBook}]} href="/cv/index.html#book">Book</a></li>
+           <li><a class:list={["menuitem pagepub", {"navlink": !isPubs}, {"myactive": isPubs}]} href="/cv/index.html#journal-publications">Publications</a></li>
+           <li><a class:list={["menuitem pageconf", {"navlink": !isConf}, {"myactive": isConf}]} href="/cv/index.html#refereed-conference-proceedings">Conferences</a></li>
+           <li><a class:list={["menuitem pagehonor", {"navlink": !isHonor}, {"myactive": isHonor}]} href="/cv/index.html#honors">Honors</a></li> 
          </ul>
        </div>
        <div class="h-6 w-75 bg-base-200">
@@ -180,3 +180,9 @@ $page.subscribe((page) => {
 	}
 */
 </style>
+           <!--<li><a class:list={["menuitem pagehome", {"navlink": !isHome}, {"myactive": isHome}]} href={isHome == false ? "/" : undefined}>Home</a></li>
+           <li><a class:list={["menuitem pageresume", {"navlink": !isResume}, {"myactive": isResume}]} href={isResume == false ? "/cv/index.html" : undefined}>Resume</a></li>
+           <li><a class:list={["menuitem pagebook", {"navlink": !isBook}, {"myactive": isBook}]} href={isBook == false ? "/cv/index.html#book" : undefined}>Book</a></li>
+           <li><a class:list={["menuitem pagepub", {"navlink": !isPubs}, {"myactive": isPubs}]} href={isPubs == false ? "/cv/index.html#journal-publications" : undefined}>Publications</a></li>
+           <li><a class:list={["menuitem pageconf", {"navlink": !isConf}, {"myactive": isConf}]} href={isConf == false ? "/cv/index.html#refereed-conference-proceedings" : undefined}>Conferences</a></li>
+           <li><a class:list={["menuitem pagehonor", {"navlink": !isHonor}, {"myactive": isHonor}]} href={isHonor == false ? "/cv/index.html#honors" : undefined}>Honors</a></li> -->
