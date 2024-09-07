@@ -1,0 +1,85 @@
+---
+import Layout from '../layouts/Layout.astro';
+import CV from '../components/cv.md';
+---
+<Layout title="Mohit Tawarmalani's CV" isHome={false} isResume={false} isBook={false} isPubs={false} isConf={false} isHonor={false}> 
+	<main>
+<script>
+const prnc = document.querySelector(".pronounce");
+prnc!.addEventListener('click', () => {new Audio("MohitsName.m4a").play()});
+</script>
+
+<h1 class="title inline">Mohit Tawarmalani</h1><span class="pronounce inline-flex space-x-1 text-md"><div class=w-2></div><img width=30 src="http://web.ics.purdue.edu/~mtawarma/hearicon.png"><div>(pronounce)</div></span>
+
+<div class="lg:h-10 max-lg:h-5"></div>
+
+      <div class="flex max-lg:flex-col lg:space-x-10 max-lg:space-y-5 text-2xl max-md:text-xl">
+
+<div class="myinclude">
+
+<CV />
+</div>
+</div>
+
+</body>
+</html>
+
+	</main>
+</Layout>
+
+<style lang="scss">
+   .myinclude {
+    :global(p) {
+      margin: 1em 0;
+    }
+    :global(h2) {
+	font-size: 2rem;
+	font-weight: 600;
+	line-height: 1;
+	/* text-align: center; */
+	margin-bottom: 1em; 
+	@apply max-md:text-2xl;
+	margin-top: 1.4em;
+    }
+    :global(h1) {
+      visibility: hidden;
+    }
+    span.smallcaps{font-variant: small-caps;}
+}
+  </style>
+<style>
+	main {
+		@apply lg:m-10;
+		@apply max-lg:m-2;
+		@apply lg:p-10;
+		max-width: calc(100%); 
+		color: black;
+		font-size: 20px;
+		line-height: 1.6;
+	}
+	h1 {
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 1;
+		/* text-align: center; */
+		margin-bottom: 1em; 
+                @apply max-md:text-4xl;
+	}
+        .pronounce {
+                cursor: pointer;
+        }
+        span.myemail::before {
+          content: "mtawarma";
+        }
+a {
+   @apply underline text-blue-600 hover:text-blue-800 visited:text-purple-600
+}
+</style>
+<style lang="scss">
+   .myinclude {
+      :global(a) {
+        @apply underline text-blue-600 hover:text-blue-800 visited:text-purple-600
+     }
+   }
+
+</style>

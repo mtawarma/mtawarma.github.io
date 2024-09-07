@@ -1,0 +1,14 @@
+import { persistentMap } from '@nanostores/persistent';
+
+export type Pagetype = {
+ home: boolean,
+ publications: boolean,
+ conferences: boolean,
+ honors: boolean
+};
+
+export const $page = persistentMap<Pagetype>({home: false, publications: false,
+    conferences: false, honors: false});
+
+
+

@@ -1,0 +1,183 @@
+---
+interface Props {
+	title: string;
+        isHome: boolean;
+        isResume: boolean;
+        isBook: boolean;
+        isPubs: boolean;
+        isConf: boolean;
+        isHonor: boolean;
+}
+
+const {title, isHome, isResume, isBook, isPubs, isConf, isHonor} = Astro.props;
+---
+
+<script>
+import { $page } from "../store/store.ts";
+const homeelem = document.querySelector('.pagehome');
+const resumeelem = document.querySelector('.pageresume');
+const bookelem = document.querySelector('.pagebook');
+const pubelem = document.querySelector('.pagepub');
+const confelem = document.querySelector('.pageconf');
+const honorelem = document.querySelector('.pagehonor');
+const myMap = new Map([
+   ['home', homeelem],
+   ['resume', resumeelem],
+   ['book', bookelem],
+   ['publications', pubelem],
+   ['conferences', confelem],
+   ['honors', honorelem]
+]);
+const pages: string[] = ["home", "resume", "book", "publications", "conferences", "honors"];
+
+homeelem!.addEventListener("click", () => {
+  $page.set("1");
+});
+
+resumeelem!.addEventListener("click", () => {
+  $page.set("2");
+});
+
+bookelem!.addEventListener("click", () => {
+  $page.set("3");
+});
+
+pubelem!.addEventListener("click", () => {
+  $page.set("4");
+});
+
+confelem!.addEventListener("click", () => {
+  $page.set("5");
+});
+
+honorelem!.addEventListener("click", () => {
+  $page.set("6");
+});
+
+$page.subscribe((page) => {
+  for (let i=1; i<7; i++) {
+     if (i == parseInt(page!)) {
+       myMap.get(pages[i-1]!)!.classList.remove("navlink");
+       myMap.get(pages[i-1]!)!.classList.add("myactive");
+     } else {
+       myMap.get(pages[i-1]!)!.classList.remove("myactive");
+       myMap.get(pages[i-1]!)!.classList.add("navlink");
+     }
+  }
+})
+</script>
+
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Astro description" />
+	<meta name="viewport" content="width=device-width" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<meta name="generator" content={Astro.generator} />
+	<title>{title}</title>
+</head>
+
+<body>
+  <div class="drawer lg:drawer-open">
+    <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
+    <div class="drawer-content flex flex-col">
+      <!-- <div class="flex-1 px-10 mx-2 items-left justify-left"> -->
+          <slot />
+       <!-- </div> -->
+    </div>
+    <div class="flex-none lg:hidden justify-left">
+         <label for='my-drawer-2' class="btn btn-square drawer-button btn-ghost">
+               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current">
+                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+               </svg>
+        </label>
+    </div>
+    <div class="drawer-side">
+       <label for="my-drawer-2" aria-label="close sidebar" class="drawer-overlay"></label>
+       <div class="min-h-full">
+         <div class="h-6 w-75 bg-base-200">
+         </div>
+       <div class="menulist border-r-2 border-black/100 bg-base-200">
+         <ul class="menu text-2xl bg-base-200 w-75 p-4 [&_li>*]:rounded-none">
+           <li><a class:list={["menuitem pagehome", {"navlink": !isHome}, {"myactive": isHome}]} href={isHome == false ? "/" : undefined}>Home</a></li>
+           <li><a class:list={["menuitem pageresume", {"navlink": !isResume}, {"myactive": isResume}]} href={isResume == false ? "/cv/index.html" : undefined}>Resume</a></li>
+           <li><a class:list={["menuitem pagebook", {"navlink": !isBook}, {"myactive": isBook}]} href={isBook == false ? "/cv/index.html#book" : undefined}>Book</a></li>
+           <li><a class:list={["menuitem pagepub", {"navlink": !isPubs}, {"myactive": isPubs}]} href={isPubs == false ? "/cv/index.html#journal-publications" : undefined}>Publications</a></li>
+           <li><a class:list={["menuitem pageconf", {"navlink": !isConf}, {"myactive": isConf}]} href={isConf == false ? "/cv/index.html#refereed-conference-proceedings" : undefined}>Conferences</a></li>
+           <li><a class:list={["menuitem pagehonor", {"navlink": !isHonor}, {"myactive": isHonor}]} href={isHonor == false ? "/cv/index.html#honors" : undefined}>Honors</a></li>
+         </ul>
+       </div>
+       <div class="h-6 w-75 bg-base-200">
+       </div>
+    </div>
+  </div>
+
+</body>
+</html>
+<style is:global>
+	:root {
+		--accent: 136, 58, 234;
+		--accent-light: 224, 204, 250;
+		--accent-dark: 49, 10, 101;
+		--accent-gradient: linear-gradient(
+			45deg,
+			rgb(var(--accent)),
+			rgb(var(--accent-light)) 30%,
+			white 60%
+		);
+	}
+.noto-sans-400 {
+  font-family: "Noto Sans", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  html {
+    font-family: "Noto Sans", system-ui, sans-serif;
+  }
+}
+        a.menuitem.navlink:hover, a.menuitem.navlink:active {
+             @apply text-primary;
+             @apply bg-base-200;
+        }
+        a.menuitem.myactive, a.menuitem.myactive:hover {
+             @apply bg-gray-600;
+             @apply text-white;
+             cursor: default;
+        }
+        .menulist {
+             min-height: calc(100vh - 3rem);
+        }
+	code {
+		font-family:
+			Menlo,
+			Monaco,
+			Lucida Console,
+			Liberation Mono,
+			DejaVu Sans Mono,
+			Bitstream Vera Sans Mono,
+			Courier New,
+			monospace;
+	}
+        changeit {
+            color: red;
+        }
+/*
+	a.menuitem {
+		font-size: 2rem;
+		font-weight: 400;
+		text-align: center;
+                padding: 1.4rem;
+	}
+*/
+</style>
