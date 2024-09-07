@@ -8,6 +8,7 @@ import Bio from '../components/bio.md';
 import { $page } from "../store/store.ts";
 const resume = document.querySelector('.resume');
 const book = document.querySelector('.book');
+$page.set("1");
 resume!.addEventListener("click", () => {
   $page.set("2");
 });
