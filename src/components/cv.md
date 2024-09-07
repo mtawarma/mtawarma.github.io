@@ -1,8 +1,8 @@
 # Mohit Tawarmalani
 
 100 S. Grant Street, West Lafayette, IN 47907-2076,  
-<!--  ![Email][Email] --> Email: <mtawarma@purdue.edu> Website:
-[web.ics.purdue.edu/~mtawarma](http://web.ics.purdue.edu/~mtawarma)  
+Email: <mtawarma@purdue.edu> Website:
+[mohit.prof](https://www.mohit.prof/)  
 765-496-2620 (w)  
 765-496-7434 (f)
 
