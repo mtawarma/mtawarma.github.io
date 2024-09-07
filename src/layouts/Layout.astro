@@ -93,13 +93,13 @@ $page.subscribe((page) => {
                </svg>
         </label>
     </div>
-    <div class="drawer-side w-100">
+    <div class="drawer-side">
        <label for="my-drawer-2" aria-label="close sidebar" class="drawer-overlay"></label>
        <div class="min-h-full">
-         <div class="h-6 w-75 bg-base-200">
+         <div class="h-6 w-52 bg-base-200">
          </div>
        <div class="menulist border-r-2 border-black/100 bg-base-200">
-         <ul class="menu text-2xl bg-base-200 w-75 p-4 [&_li>*]:rounded-none">
+         <ul class="menu text-2xl bg-base-200 w-52 p-4 [&_li>*]:rounded-none">
            <li><a class:list={["menuitem pagehome", {"navlink": !isHome}, {"myactive": isHome}]} href="/">Home</a></li>
            <li><a class:list={["menuitem pageresume", {"navlink": !isResume}, {"myactive": isResume}]} href="/cv/index.html">Resume</a></li>
            <li><a class:list={["menuitem pagebook", {"navlink": !isBook}, {"myactive": isBook}]} href="/cv/index.html#book">Book</a></li>
