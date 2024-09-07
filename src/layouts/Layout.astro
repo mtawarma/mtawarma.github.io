@@ -3,6 +3,7 @@ import "../styles/fonts.css";
 
 interface Props {
 	title: string;
+        description: string;
         isHome: boolean;
         isResume: boolean;
         isBook: boolean;
@@ -11,7 +12,7 @@ interface Props {
         isHonor: boolean;
 }
 
-const {title, isHome, isResume, isBook, isPubs, isConf, isHonor} = Astro.props;
+const {title, description, isHome, isResume, isBook, isPubs, isConf, isHonor} = Astro.props;
 ---
 
 <script>
@@ -74,12 +75,8 @@ $page.subscribe((page) => {
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
-	<meta name="Mohit Tawarmalani" content="webpage" />
+	<meta name="description" content={description} />
 	<meta name="viewport" content="width=device-width" />
-        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
-	<meta name="generator" content={Astro.generator} />
 	<title>{title}</title>
 </head>
 
