@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Name from '../components/name.html';
 import CV from '../components/cv.md';
 ---
 <Layout title="Mohit Tawarmalani's CV" description="Mohit Tawarmalani Resume Including Education Publications and Honors" isHome={false} isResume={false} isBook={false} isPubs={false} isConf={false} isHonor={false}> 
@@ -9,7 +10,7 @@ const prnc = document.querySelector(".pronounce");
 prnc!.addEventListener('click', () => {new Audio("MohitsName.m4a").play()});
 </script>
 
-<h1 class="title inline">Mohit Tawarmalani</h1><span class="pronounce inline-flex space-x-1 text-md"><div class=w-2></div><img width=30 height=30 src="/hearicon.png" alt="hear"><div>(pronounce)</div></span>
+<Name />
 
 <div class="flex max-lg:flex-col lg:space-x-10 max-lg:space-y-5 text-2xl max-md:text-xl">
 
@@ -39,7 +40,7 @@ prnc!.addEventListener('click', () => {new Audio("MohitsName.m4a").play()});
 	margin-top: 1.4em;
     }
     :global(h1) {
-      visibility: hidden;
+       display: none;
     }
     span.smallcaps{font-variant: small-caps;}
 }
@@ -50,21 +51,9 @@ prnc!.addEventListener('click', () => {new Audio("MohitsName.m4a").play()});
 		@apply max-lg:m-2;
 		@apply lg:p-10;
 		max-width: calc(100%); 
-		color: black;
 		font-size: 20px;
 		line-height: 1.6;
 	}
-	h1 {
-		font-size: 4rem;
-		font-weight: 700;
-		line-height: 1;
-		/* text-align: center; */
-		margin-bottom: 1em; 
-                @apply max-md:text-4xl;
-	}
-        .pronounce {
-                cursor: pointer;
-        }
         span.myemail::before {
           content: "mtawarma";
         }

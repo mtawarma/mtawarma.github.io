@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Name from '../components/name.html';
 import Bio from '../components/bio.md';
 ---
 <Layout title="Mohit Tawarmalani's Bio" description="Mohit Tawarmalani's HomePage with Bio and Picture" isHome={true} isResume={false} isBook={false} isPubs={false} isConf={false} isHonor={false}> 
@@ -19,8 +20,7 @@ const prnc = document.querySelector(".pronounce");
 prnc!.addEventListener('click', () => {new Audio("MohitsName.m4a").play()});
 </script>
 
-<h1 class="title inline">Mohit Tawarmalani</h1><span class="pronounce inline-flex space-x-1 text-md"><div class=w-2></div><img width=30 height=30 src="/hearicon.png" alt="hear"><div>(pronounce)</div></span>
-
+<Name />
 <div class="lg:h-10 max-lg:h-5"></div>
 
       <div class="flex max-lg:flex-col lg:space-x-10 max-lg:space-y-5 text-2xl max-md:text-xl">
@@ -61,63 +61,9 @@ prnc!.addEventListener('click', () => {new Audio("MohitsName.m4a").play()});
 		@apply lg:m-10;
 		@apply max-lg:m-2;
 		@apply lg:p-10;
-		/* width: 800px; */
 		max-width: calc(100%); 
-		color: black;
 		font-size: 20px;
 		line-height: 1.6;
-	}
-	.astro-a {
-                position: relative;
-		top: -32px;
-		left: 50%;
-		transform: translatex(-50%);
-		width: 220px;
-		height: auto;
-		z-index: -1;
-	}
-	h1 {
-		font-size: 4rem;
-		font-weight: 700;
-		line-height: 1;
-		/* text-align: center; */
-		margin-bottom: 1em; 
-                @apply max-md:text-4xl;
-	}
-        .pronounce {
-                cursor: pointer;
-        }
-	.text-gradient {
-		background-image: var(--accent-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 400%;
-		background-position: 0%;
-	}
-	.instructions {
-		margin-bottom: 2rem;
-		border: 1px solid rgba(var(--accent-light), 25%);
-		background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
-		padding: 1.5rem;
-		border-radius: 8px;
-                min-width: fit-content;
-	}
-	.instructions code {
-		font-size: 0.8em;
-		font-weight: bold;
-		background: rgba(var(--accent-light), 12%);
-		color: rgb(var(--accent-light));
-		border-radius: 4px;
-		padding: 0.3em 0.4em;
-	}
-	.instructions strong {
-		color: rgb(var(--accent-light));
-	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(16ch, 1fr));
-		gap: 2rem;
-		padding: 0;
 	}
         span.myemail::before {
           content: "mtawarma";
