@@ -5,11 +5,20 @@ import CV from '../components/cv.md';
 ---
 <Layout title="Mohit Tawarmalani's CV" description="Mohit Tawarmalani Resume Including Education Publications and Honors" isHome={false} isResume={false} isBook={false} isPubs={false} isConf={false} isHonor={false}> 
 	<main>
+
+<!--
+<script>
+import { $page } from "../store/store.ts";
+if (parseInt($page) < 2 || parseInt($page) > 6) {
+  $page.set("2");
+}
+</script>
+-->
 <script>
 const prnc = document.querySelector(".pronounce");
-prnc!.addEventListener('click', () => {new Audio("MohitsName.m4a").play()});
+prnc!.addEventListener('click', () => {new Audio("/MohitsName.m4a").play()});
 </script>
-
+  
 <Name />
 
 <div class="flex max-lg:flex-col lg:space-x-10 max-lg:space-y-5 text-2xl max-md:text-xl">

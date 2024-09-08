@@ -116,25 +116,6 @@ $page.subscribe((page) => {
 </body>
 </html>
 <style is:global>
-	:root {
-		--accent: 136, 58, 234;
-		--accent-light: 224, 204, 250;
-		--accent-dark: 49, 10, 101;
-		--accent-gradient: linear-gradient(
-			45deg,
-			rgb(var(--accent)),
-			rgb(var(--accent-light)) 30%,
-			white 60%
-		);
-	}
-.noto-sans-400 {
-  font-family: "Noto Sans", system-ui;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -155,32 +136,4 @@ $page.subscribe((page) => {
         .menulist {
              min-height: calc(100vh - 3rem);
         }
-	code {
-		font-family:
-			Menlo,
-			Monaco,
-			Lucida Console,
-			Liberation Mono,
-			DejaVu Sans Mono,
-			Bitstream Vera Sans Mono,
-			Courier New,
-			monospace;
-	}
-        changeit {
-            color: red;
-        }
-/*
-	a.menuitem {
-		font-size: 2rem;
-		font-weight: 400;
-		text-align: center;
-                padding: 1.4rem;
-	}
-*/
 </style>
-           <!--<li><a class:list={["menuitem pagehome", {"navlink": !isHome}, {"myactive": isHome}]} href={isHome == false ? "/" : undefined}>Home</a></li>
-           <li><a class:list={["menuitem pageresume", {"navlink": !isResume}, {"myactive": isResume}]} href={isResume == false ? "/cv/index.html" : undefined}>Resume</a></li>
-           <li><a class:list={["menuitem pagebook", {"navlink": !isBook}, {"myactive": isBook}]} href={isBook == false ? "/cv/index.html#book" : undefined}>Book</a></li>
-           <li><a class:list={["menuitem pagepub", {"navlink": !isPubs}, {"myactive": isPubs}]} href={isPubs == false ? "/cv/index.html#journal-publications" : undefined}>Publications</a></li>
-           <li><a class:list={["menuitem pageconf", {"navlink": !isConf}, {"myactive": isConf}]} href={isConf == false ? "/cv/index.html#refereed-conference-proceedings" : undefined}>Conferences</a></li>
-           <li><a class:list={["menuitem pagehonor", {"navlink": !isHonor}, {"myactive": isHonor}]} href={isHonor == false ? "/cv/index.html#honors" : undefined}>Honors</a></li> -->
