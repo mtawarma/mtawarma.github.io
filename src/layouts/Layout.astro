@@ -37,7 +37,7 @@ let pageno: number = parseInt($page.get()!);
 const drawer = document.querySelector(".drawer");
 
 const pagetype: string = drawer!.getAttribute("data-page")!;
-console.log("pagetype", $page.get()!);
+console.log(pagetype, $page.get()!);
 
 if (pagetype == "home" && pageno != 1) {
    $page.set("1");
