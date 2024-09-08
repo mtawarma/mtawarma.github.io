@@ -33,15 +33,17 @@ const myMap = new Map([
 ]);
 const pages: string[] = ["home", "resume", "book", "publications", "conferences", "honors"];
 
-const pageno: number = $page.get();
+let pageno: number = $page.get();
 const drawer = document.querySelector(".drawer");
 
 if (drawer.dataset.page == "home" && pageno != 1) {
    $page.set("1");
 }
+
 if (drawer.dataset.page == "cv" && pageno < 2 || pageno > 6) {
    $page.set("2");
 }
+
 homeelem!.addEventListener("click", () => {
   $page.set("1");
 });
@@ -65,6 +67,21 @@ confelem!.addEventListener("click", () => {
 honorelem!.addEventListener("click", () => {
   $page.set("6");
 });
+
+for (let i=1; i<7; i++) {
+   let mappage = myMap.get(pages[i-1]!);
+   if (i == parseInt($page.get())) {
+     if (mappage!.classList.contains('navlink')) {
+        mappage!.classList.remove('navlink');
+     }
+     mappage!.classList.add('myactive');
+   } else {
+     if (mappage!.classList.contains('myactive')) {
+        mappage!.classList.remove('myactive');
+     }
+     mappage!.classList.add('navlink');
+   }
+}
 
 $page.subscribe((page) => {
   for (let i=1; i<7; i++) {
