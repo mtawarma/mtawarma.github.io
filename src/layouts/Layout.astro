@@ -47,6 +47,8 @@ if (pagetype == "cv" && (pageno < 2 || pageno > 6)) {
    $page.set("2");
 }
 
+console.log("readjusted to ", pagetype, $page.get()!);
+
 homeelem!.addEventListener("click", () => {
   $page.set("1");
 });
@@ -73,15 +75,19 @@ honorelem!.addEventListener("click", () => {
 
 for (let i=1; i<7; i++) {
    let mappage = myMap.get(pages[i-1]!);
-   if (i == parseInt($page.get()!)) {
+   if (i == parseInt($page.get())) {
      if (mappage!.classList.contains('navlink')) {
+        console.log("removing navlink from ", i);
         mappage!.classList.remove('navlink');
      }
+     console.log("adding myactive to ", i);
      mappage!.classList.add('myactive');
    } else {
      if (mappage!.classList.contains('myactive')) {
+        console.log("1. removing myactive from ", i);
         mappage!.classList.remove('myactive');
      }
+     console.log("2. adding navlink to ", i);
      mappage!.classList.add('navlink');
    }
 }
