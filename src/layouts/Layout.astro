@@ -43,7 +43,7 @@ if (pagetype == "home" && pageno != 1) {
    $page.set("1");
 }
 
-if (pagetype == "cv" && pageno < 2 || pageno > 6) {
+if (pagetype == "cv" && (pageno < 2 || pageno > 6)) {
    $page.set("2");
 }
 
