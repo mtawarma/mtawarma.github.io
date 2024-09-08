@@ -75,7 +75,7 @@ honorelem!.addEventListener("click", () => {
 
 for (let i=1; i<7; i++) {
    let mappage = myMap.get(pages[i-1]!);
-   if (i == parseInt($page.get())) {
+   if (i == parseInt($page.get()!)) {
      if (mappage!.classList.contains('navlink')) {
         console.log("removing navlink from ", i);
         mappage!.classList.remove('navlink');
