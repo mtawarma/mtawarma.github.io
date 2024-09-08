@@ -33,6 +33,15 @@ const myMap = new Map([
 ]);
 const pages: string[] = ["home", "resume", "book", "publications", "conferences", "honors"];
 
+const pageno: number = $page.get();
+const drawer = document.querySelector(".drawer");
+
+if (drawer.dataset.page == "home" && pageno != 1) {
+   $page.set("1");
+}
+if (drawer.dataset.page == "cv" && pageno < 2 || pageno > 6) {
+   $page.set("2");
+}
 homeelem!.addEventListener("click", () => {
   $page.set("1");
 });
@@ -59,15 +68,21 @@ honorelem!.addEventListener("click", () => {
 
 $page.subscribe((page) => {
   for (let i=1; i<7; i++) {
+     let mappage = myMap.get(pages[i-1]!);
      if (i == parseInt(page!)) {
-       myMap.get(pages[i-1]!)!.classList.remove("navlink");
-       myMap.get(pages[i-1]!)!.classList.add("myactive");
+       if (mappage!.classList.contains('navlink')) {
+          mappage!.classList.remove('navlink');
+       }
+       mappage!.classList.add('myactive');
      } else {
-       myMap.get(pages[i-1]!)!.classList.remove("myactive");
-       myMap.get(pages[i-1]!)!.classList.add("navlink");
+       if (mappage!.classList.contains('myactive')) {
+          mappage!.classList.remove('myactive');
+       }
+       mappage!.classList.add('navlink');
      }
   }
 })
+
 </script>
 
 
@@ -81,7 +96,7 @@ $page.subscribe((page) => {
 </head>
 
 <body>
-  <div class="drawer lg:drawer-open">
+  <div class="drawer lg:drawer-open" data-page={isHome ? "home" : "cv"} >
     <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
     <div class="drawer-content">
           <slot />
@@ -104,7 +119,7 @@ $page.subscribe((page) => {
            <li><a class:list={["menuitem pageresume", {"navlink": !isResume}, {"myactive": isResume}]} href="/cv/index.html">Resume</a></li>
            <li><a class:list={["menuitem pagebook", {"navlink": !isBook}, {"myactive": isBook}]} href="/cv/index.html#book">Book</a></li>
            <li><a class:list={["menuitem pagepub", {"navlink": !isPubs}, {"myactive": isPubs}]} href="/cv/index.html#journal-publications">Publications</a></li>
-           <li><a class:list={["menuitem pageconf", {"navlink": !isConf}, {"myactive": isConf}]} href="/cv/index.html#refereed-conference-proceedings">Conferences</a></li>
+           <li><a class:list={["menuitem pageconf", {"navlink": !isConf}, {"myactive": isConf} ]} href="/cv/index.html#refereed-conference-proceedings">Conferences</a></li>
            <li><a class:list={["menuitem pagehonor", {"navlink": !isHonor}, {"myactive": isHonor}]} href="/cv/index.html#honors">Honors</a></li> 
          </ul>
        </div>
