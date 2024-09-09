@@ -661,7 +661,7 @@ and Decision Analysis, Optimization Models.
 17. Rahman, M. S., Kannan, K. N., & Tawarmalani, M. (2007). The
     countervailing incentive of restricted patch distribution: Economic
     and policy implications. *WEIS*.
-    [URL[(https://econinfosec.org/archive/weis2007/program.htm)
+    [URL](https://econinfosec.org/archive/weis2007/program.htm)
 
 18. Xia, Q., Ersoy, O., Moskowitz, H., & Tawarmalani, M. (2007).
     [Interactive clustering and
