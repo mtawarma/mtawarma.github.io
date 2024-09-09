@@ -189,7 +189,7 @@ and Decision Analysis, Optimization Models.
 1.  Kim, J., Richard, J.-P. P., & Tawarmalani, M. (2024, accepted). A
     reciprocity between tree ensemble optimization and multilinear
     optimization. *Operations Research*.
-    <https://optimization-online.org/2022/03/8828/>
+    [URL](https://optimization-online.org/2022/03/8828/)
 
 2.  He, T., Liu, S., & Tawarmalani, M. (2024, accepted).
     [Convexification techniques for fractional
@@ -202,7 +202,7 @@ and Decision Analysis, Optimization Models.
 
 4.  Kim, J., Richard, J.-P. P., & Tawarmalani, M. (2024, accepted).
     Piecewise polyhedral relaxations of multilinear optimization. *SIAM
-    Journal on Optimization*. <https://optimization-online.org/?p=19069>
+    Journal on Optimization*. [URL](https://optimization-online.org/?p=19069)
 
 5.  Gooty, R. T., Agrawal, R., & Tawarmalani, M. (2024). [Advances in
     MINLP to identify energy-efficient distillation
@@ -528,7 +528,7 @@ and Decision Analysis, Optimization Models.
 1.  Mathew, T. J., Gooty, R. T., Tawarmalani, M., & Agrawal, R. (2020).
     Quickly assess distillation columns. *Chemical Engineering
     Progress*, *116*(12), 27–34.
-    <https://www.aiche.org/resources/publications/cep/2020/december/quickly-assess-distillation-columns>
+    [URL](https://www.aiche.org/resources/publications/cep/2020/december/quickly-assess-distillation-columns)
 
 </section>
 <section id="refereed-book-chapters">
@@ -564,7 +564,7 @@ and Decision Analysis, Optimization Models.
     Leo: Online <span class="nocase">ML-based</span> traffic
     classification at Multi-Terabit line rate. *21st USENIX Symposium on
     Networked Systems Design and Implementation (NSDI 24)*, 1573–1591.
-    <https://www.usenix.org/conference/nsdi24/presentation/jafri>
+    [URL](https://www.usenix.org/conference/nsdi24/presentation/jafri)
 
 2.  Jiang, C., Li, Z., Rao, S., & Tawarmalani, M. (2022). [Flexile:
     Meeting bandwidth objectives almost
@@ -614,7 +614,7 @@ and Decision Analysis, Optimization Models.
     network designs under uncertain demands and failures. *14th USENIX
     Symposium on Networked Systems Design and Implementation (NSDI 17)*,
     347–362.
-    <https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/chang>
+    [URL](https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/chang)
 
 10. Barik, A., Honorio, J., & Tawarmalani, M. (2017). [Information
     theoretic limits for linear prediction with graph-structured
@@ -661,7 +661,7 @@ and Decision Analysis, Optimization Models.
 17. Rahman, M. S., Kannan, K. N., & Tawarmalani, M. (2007). The
     countervailing incentive of restricted patch distribution: Economic
     and policy implications. *WEIS*.
-    <https://econinfosec.org/archive/weis2007/program.htm>
+    [URL[(https://econinfosec.org/archive/weis2007/program.htm)
 
 18. Xia, Q., Ersoy, O., Moskowitz, H., & Tawarmalani, M. (2007).
     [Interactive clustering and
