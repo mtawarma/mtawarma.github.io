@@ -16,26 +16,10 @@ const {title, description, isHome} = Astro.props;
 ---
 
 <script>
-import { $page } from "../store/store.ts";
-const homeelem = document.querySelector('.pagehome');
-const resumeelem = document.querySelector('.pageresume');
-const bookelem = document.querySelector('.pagebook');
-const pubelem = document.querySelector('.pagepub');
-const confelem = document.querySelector('.pageconf');
-const honorelem = document.querySelector('.pagehonor');
-const myMap = new Map([
-   ['home', homeelem],
-   ['resume', resumeelem],
-   ['book', bookelem],
-   ['publications', pubelem],
-   ['conferences', confelem],
-   ['honors', honorelem]
-]);
-const pages: string[] = ["home", "resume", "book", "publications", "conferences", "honors"];
+import { $page, homeelem, resumeelem, bookelem, pubelem, confelem, honorelem } from "../store/store.ts";
 
 let pageno: number = parseInt($page.get()!);
 const drawer = document.querySelector(".drawer");
-
 const pagetype: string = drawer!.getAttribute("data-page")!;
 console.log(pagetype, $page.get()!);
 
@@ -73,14 +57,15 @@ honorelem!.addEventListener("click", () => {
   $page.set("6");
 });
 
+/*
 for (let i=1; i<7; i++) {
    let mappage = myMap.get(pages[i-1]!);
    if (i == parseInt($page.get()!)) {
      if (mappage!.classList.contains('navlink')) {
-        console.log("removing navlink from ", i);
+        console.log("1. removing navlink from ", i);
         mappage!.classList.remove('navlink');
      }
-     console.log("adding myactive to ", i);
+     console.log("1. adding myactive to ", i);
      mappage!.classList.add('myactive');
    } else {
      if (mappage!.classList.contains('myactive')) {
@@ -91,24 +76,7 @@ for (let i=1; i<7; i++) {
      mappage!.classList.add('navlink');
    }
 }
-
-$page.subscribe((page) => {
-  for (let i=1; i<7; i++) {
-     let mappage = myMap.get(pages[i-1]!);
-     if (i == parseInt(page!)) {
-       if (mappage!.classList.contains('navlink')) {
-          mappage!.classList.remove('navlink');
-       }
-       mappage!.classList.add('myactive');
-     } else {
-       if (mappage!.classList.contains('myactive')) {
-          mappage!.classList.remove('myactive');
-       }
-       mappage!.classList.add('navlink');
-     }
-  }
-})
-
+*/
 </script>
 
 
