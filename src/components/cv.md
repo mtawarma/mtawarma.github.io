@@ -3,12 +3,11 @@
 <section id="contact-information">
 
 100 S. Grant Street, West Lafayette, IN 47907-2076,  
-Email: <mtawarma@purdue.edu> Website:
-[mohit.prof](https://www.mohit.prof/)  
+Email: <mtawarma@purdue.edu> Website: [mohit.prof](Home)  
 765-496-2620 (w)  
 765-496-7434 (f)
-</section>
 
+</section>
 <section id="education">
 
 ## Education
@@ -27,7 +26,6 @@ B.Tech. Mechanical Engineering, Indian Institute of Technology, May
 Thesis: Feature Extraction in Turned Components
 
 </section>
-
 <section id="appointments">
 
 ## Academic/Professional Appointments
@@ -62,7 +60,6 @@ Software Engineer, ComputerVision, India, January 1995 - July 1995
 Graduate Engineer, TELCO (Tata Engineering and Locomotive Company),
 India, July 1993 - December 1994
 </section>
-
 <section id="leadership-activities">
 
 ## Leadership Activities
@@ -72,11 +69,17 @@ Jr. School of Business, September 2023–present
 
 -   Represent DSB on Associate Dean for Research and Associate Dean for
     Faculty Affairs
+
 -   Initiated various joint degree program initiatives
+
 -   Chaired area promotion committee for School of Business
+
 -   Faculty hiring initiative
+
 -   Allocation of PhD and Faculty lines across departments and areas
+
 -   Secure faculty for executive education across campus
+
 -   Direct suitable engagement opportunities from campus to relevant
     faculty
 
@@ -84,9 +87,12 @@ Interim Dean, Mitchell E. Daniels, Jr. School of Business, July 2023 –
 August 2023
 
 -   Request for faculty positions
+
 -   Established a new way to make teaching credit hour predictions by
     area
+
 -   Instituted Dean’s Distinguished Lecture Series
+
 -   Transitioning new dean
 
 Director of Krenicki Center for Business Analytics and Machine Learning,
@@ -94,24 +100,33 @@ Director of Krenicki Center for Business Analytics and Machine Learning,
 
 -   Co-organizer of Data for Good Gala celebrating INFORMS UPS George D.
     Smith Prize
+
 -   Co-organizer for Statistics and Optimization in Data Science
     Workshop
+
 -   Helped organize Purdue Student Lab with AT Kearney.
+
 -   Chaired the design of a PhD program in Business Analytics & Data
     Science
+
 -   Establish and manage consulting engagements with several leading
     companies
+
 -   Co-crafted a proposal for the New School of Business at Purdue
 
 Area Head, Quantitative Methods, 2020–2023
 
 -   Led the team that won the INFORMS UPS George D. Smith Prize for
     Business Analytics and Information Management programs
+
 -   Hired faculty with analytics research with varied terminal degrees
+
 -   Planned area growth strategy, teaching activities, and managed area
     budgets
+
 -   Managed multiple program starts and dynamic scheduling during
     COVID-19 pandemic
+
 -   Helped develop consensus for an A journal list
 
 Chair, Bachelors Program in Business Analytics and Information
@@ -120,6 +135,7 @@ Management 2020-2021
 -   Designed the undergraduate degree program; helped create classes to
     fill gaps; introduced new lab classes during sophomore year for
     early engagement with analytics
+
 -   the first cohort consists of over 110 students; including students
     that changed their degree there are 180+ students in the program
 
@@ -128,10 +144,11 @@ Management 2014–2018
 
 -   Designed program and obtained STEM certification by helping create a
     new process for majors at Purdue University
+
 -   Grew the program from 21 to 83 students in its third year of
     inception
-</section>
 
+</section>
 <section id="research-interests">
 
 ## Research Interests
@@ -141,8 +158,8 @@ Computing. Research emphasis is on global optimization theory,
 algorithms and software. Applications and models in business, economics,
 data science, process sytems, and network models are of particular
 interest.
-</section>
 
+</section>
 <section id="teaching-interests">
 
 ## Teaching Interests
@@ -151,8 +168,8 @@ Deterministic and Stochastic Operations Research, Mathematical
 Programming, Global Optimization, Convex Optimization, Applied
 Probability and Statistics, Quantitative Analysis, Spreadsheet Modeling
 and Decision Analysis, Optimization Models.
-</section>
 
+</section>
 <section id="books">
 
 ## Book
@@ -162,14 +179,11 @@ and Decision Analysis, Optimization Models.
     programming: Theory, algorithms, software, and
     applications](https://doi.org/10.1007/978-1-4757-3532-1)*. Springer
     Science & Business Media.
-</section>
 
-<section id="journal-publications" class=mt-12>
+</section>
+<section id="journal-publications" class="mt-12">
 
 ## Journal Publications
-
-BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
-
 
 1.  Kim, J., Richard, J.-P. P., & Tawarmalani, M. (2024, accepted). A
     reciprocity between tree ensemble optimization and multilinear
@@ -500,29 +514,28 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
 62. Adhya, N., Tawarmalani, M., & Sahinidis, N. V. (1999). [A lagrangian
     approach to the pooling problem](https://doi.org/10.1021/ie980666q).
     *Industrial & Engineering Chemistry Research*, *38*(5), 1956–1972.
-</section>
 
+</section>
 <section id="trade-publications">
 
 ## Trade Publications
 
 <!--
-BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
+ 
 -->
 
 1.  Mathew, T. J., Gooty, R. T., Tawarmalani, M., & Agrawal, R. (2020).
     Quickly assess distillation columns. *Chemical Engineering
     Progress*, *116*(12), 27–34.
     <https://www.aiche.org/resources/publications/cep/2020/december/quickly-assess-distillation-columns>
+
 </section>
-
-
 <section id="refereed-book-chapters">
 
 ## Refereed Book Chapters
 
 <!--
-BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
+ 
 -->
 
 1.  Tawarmalani, M., & Sahinidis, N. V. (2009). [Time-dependent
@@ -536,14 +549,14 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
     programs](https://doi.org/10.1007/978-1-4757-5362-2_2). In *Handbook
     of global optimization: Volume 2* (pp. 65–85). Springer US Boston,
     MA.
-</section>
 
+</section>
 <section id="refereed-conference-proceedings">
 
 ## Refereed Conference Proceedings
 
 <!--
-BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
+ 
 -->
 
 1.  Jafri, S. U., Rao, S., Shrivastav, V., & Tawarmalani, M. (2024).
@@ -659,8 +672,8 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
     allocating objects in a network of symmetric
     caches](https://doi.org/10.2139/ssrn.885925). *15th Annual Workshop
     on Information Technolgies & Systems (WITS) Paper*.
-</section>
 
+</section>
 <section id="presentations">
 
 ## Presentations
@@ -1338,63 +1351,78 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
 
 172. Tawarmalani, M., & Sahinidis, N. V. (1996). *Decomposition method
      for the TDTSP and QAP*. INFORMS Annual Meeting, Washington, DC.
-</section>
 
+</section>
 <section id="software">
 
 ## Software
 
 -   Co-authored BARON (Branch and Reduce Optimization Navigator) for
     global optimization of mixed-integer nonlinear programs
--   Data Reduction subroutine (Merge) for CADDS5
-</section>
 
+-   Data Reduction subroutine (Merge) for CADDS5
+
+</section>
 <section id="honors">
 
 ## Honors
 
 -   Salgo-Noren Outstanding Master’s Teacher, 2023
+
 -   Salgo-Noren Outstanding Master’s Teacher, 2022
+
 -   Distinguished Residential Master’s Program Teacher, Spring 2021
+
 -   Runner-up, Salgo Noren Foundation Award for Excellence in Teaching,
     Krannert School of Management, 2009, 2011, 2016, 2018, 2019, 2020
+
 -   2006 Beale-Orchard-Hays prize (with N. V. Sahinidis) for the paper
     \`\`A polyhedral branch-and-cut approach to global optimization’’
+
 -   Krannert Faculty Fellow, 2006
+
 -   Best Paper Award (with K. Kannan and P. De) in the fifteenth
     Workshop on Information Technologies and Systems (2005) for the
     paper \`\`A Mechanism for Allocating Objects in a Network of
     Symmetric Caches’’
+
 -   Honorable Mention in 2005 Junior Faculty Interest Group Competition
     (with Y. Li) for the paper \`\`Minimizing Flow Disruption due to
     Network Maintenance’’
+
 -   Distinguished Core MBA Teaching Recognition, 2005–2011, 2014–2020
+
 -   Distinguished Elective MBA Teaching Recognition, 2014–2019
+
 -   INFORMS Computing Society Prize (with N. V. Sahinidis), 2004 for
     research excellence in the interface between Computer Science and
     Operations Research
+
 -   Jay N. Ross Young Faculty Scholar Award, 2002–2003, Purdue
     University
+
 -   American Institute of Chemical Engineers (AICHE) Computers and
     Systems Technology (CAST) Director’s Award, 1999. Best Poster: Novel
     Molecular Designs Via Global Optimization
+
 -   CSE Fellow, Computational Science & Engineering, University of
     Illinois, Jan 1999–May 1999
+
 -   Teaching Fellow, Department of Mechanical and Industrial
     Engineering, University of Illinois, Aug 1998–May 1999
+
 -   Tata Consultancy Services award for *best project* in the areas of
     CAD/CAM, Robotics & Automation, July 1993
-</section>
 
+</section>
 <section id="patents">
 
 ## Patents
 
 -   Distillation Heating System and Method, Provisional Application, PRF
     70601-01, 63/555,569, (2024)
+
 </section>
-
-
 <section id="grants">
 
 ## Grants
@@ -1402,113 +1430,167 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
 -   PI, Air Force Office of Scientific Research, Quantifying
     Probabilities using Optimization Techniques, $378,105, January
     2022-January 2025
+
 -   PI, National Science Foundation, Collaborative Research: Novel
     Relaxations for Cardinality-Constrained Optimization Problems with
     Applications in Network Interdiction and Data Analysis, $396,424,
     August 2017-July 2021
+
 -   Co-PI, National Science Foundation, CNS Core: Small: Designing
     Networks for Stringent Performance Requirements, $500,000, October
     2019-September 2022
+
 -   Co-PI, Optimization of Oil/Gas Processes and Process Flowsheets,
     Exxon Mobil Research Company, $638,685, March 2017-February 2020
+
 -   Co-PI, Development of method and algorithms to identify easily
     implementable energy efficient low-cost multicomponent distillation
     column trains with energy savings for wide number of separations,
     $1,151,707 (Department of Energy Share: $900,000, Purdue Cost Share:
     $251,707) December 2014-December 2017
+
 -   Co-PI, Multicomponent Distillation Configurations, Eastman Chemical
     Company, $45,000
+
 -   PI, National Science Foundation, Collaborative Research: Novel
     Tighter Relaxations for Complementarity Constraints with
     Applications to Nonlinear and Bilevel Programming, $226,172,
     September 2012–August 2015
+
 -   Co-PI, National Science Foundation, CSR: Medium: Collaborative
     Research: Architecting Performance Sensitive Applications for the
     Cloud, $400000, August 2012–July 2016
+
 -   PI, National Science Foundation, Collaborative Research: Generating
     Strong Cuts for Nonlinear Programs Via Orthogonal Disjunctions and
     Lifting Techniques, $204171, July 2009–June 2013
+
 -   Amazon.com, $25000 (with Prof. K. Tang), Evidence Based Solutions
     for Global Fulfillment Network, June 2007
+
 -   Huntingburg OFS project under Global Supply Chain Management
     Initiative, June 2006
+
 -   Purdue Research Foundation Summer Faculty Grant, Relaxation
     Hierarchies and Continuous Lifting in Deterministic Global
     Optimization, 2006
+
 -   Purdue Research Foundation Summer Faculty Grant, Disjunctive
     Relaxations of Non-convex Nonlinear Programs, 2005
-</section>
 
+</section>
 <section id="professional-memberships">
 
 ## Professional Memberships
 
 -   Member of Institute of Operations Research and Management Science
     since 1996
+
 -   Member of Mathematical Programming/Optimization Society 2003-2006,
     2015-present
+
 -   Web Administrator of Optimization Section of Institute for
     Operations Research and Management Science 1996-2001
-</section>
 
+</section>
 <section id="service">
 
 ## Service
 
 -   Quantitative Methods Area Coordinator, 2020-2023
+
 -   Member, Transition Steering Committee, 2022-till date
+
 -   Chair, Design Committee for PhD in Business Analytics & Data
     Science, 2022
+
 -   Director, Krenicki Center for Business Analytics & Machine Learning,
     2022-till date
+
 -   PhD Advisor for Quantitative Methods, 2007-till date
+
 -   Member, Organizing team member for AT Kearney sponsored Industry
     Practicum, Fall 2022
+
 -   Member, Faculty group visit for MOU signing with IIT Chennai and
     Delhi, 2022
+
 -   Member, Clinical faculty search committee, 2022-2023
+
 -   Member, Krannert Data Initiative Committee, 2022-2023
+
 -   Co-chair Application for INFORMS UPS Prize, 2022-2023
+
 -   Member, Application for INFORMS UPS Prize, 2021-2022
+
 -   Department Restructuring Committee, 2022
+
 -   Member, Tech MBA Design Committee, 2022
+
 -   Member, MBA Design Committee, 2021
+
 -   Co-Chair, Design Committee for Bachelors in Business Analytics and
     Information Management, 2020-2021
+
 -   PhD Committee, 2018-2019
+
 -   Data Science Initiative, Faculty Representative, 2017-2018
+
 -   Co-director, Business Information and Analytics Center, 2016-2018
+
 -   Co-director, MS in Business Analytics and Information Management,
     2015-2018
+
 -   STAMINA IT/Analytics Case Competition, Judge, 2016, 2017
+
 -   Krannert delegate for Associate Deans for Research Meetings,
     2015-2020
+
 -   MBA Review Committee, 2015-2016
+
 -   Krannert Masters Committee, 2015-2016
+
 -   Star Committee, 2013-2014
+
 -   Design Committee for MS in Business Analytics and Information
     Management, 2012-2015
+
 -   Reviewer for Big Ideas Challenge. Purdue University, 2016-2017
+
 -   Graduate Council, 2009-2012
+
 -   Restructuring Committee for Quantitative Methods PhD Program,
     2007-2008
+
 -   Opportunity Day, Analytical Consulting, Presenter, 2009-2012
+
 -   Katalyst/Blackboard Vista Transition Working Group, 2007-2008
+
 -   PhD Recruitment Committee for Quantitative Methods, 2002-till date
+
 -   Faculty Grievance Committee, 2004-2007
+
 -   Panel Discussant and Presenter at Research and Teaching Worshop for
     New Faculty, 2007, 2008
+
 -   Information Technology Access Committee, Chair, 2007-2008
+
 -   DCCME/GSCMI Advisory Committee, 2005-2010
+
 -   Undergraduate Task Force, 2005-2006
+
 -   Undergraduate Curriculum Committee, 2004-2005
+
 -   Information Technology Access Committee, Member 2002-2008
+
 -   Faculty Search Committee, Chair 2010-2011
+
 -   Faculty Search Committee, Member 2002-2003, 2010-2011, 2012-2013,
     2014-2015
--   KGSA interclub competition judge, 2008
-</section>
 
+-   KGSA interclub competition judge, 2008
+
+</section>
 <section id="professional-activities">
 
 ## Professional Activities
@@ -1516,25 +1598,39 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
 -   Editorial Boards: Associate Editor, *Journal of Global
     Optimization*, Associate Editor, *Mathematical Programming
     Computation*, Associate Editor, *Operations Research Forum*
+
 -   Cluster Co-Chair, ICCOPT, Convexification and Global Optimization,
     2022
+
 -   Nicholson Award Committee, 2021, 2022
+
 -   Optimization Society Student Paper Prize, Chair, 2015
+
 -   Optimization Society Student Paper Prize, Member, 2015-2016
+
 -   Contributing Author for Global Optimization, NEOS Wiki 2011
+
 -   Cluster Chair for Global Optimization, International Symposium on
+
     Mathematical Programming, 2015
+
 -   Program Committee, 2011 INFORMS Midwest Meeting, 2011
+
 -   Program Committee, 2009 CPAIOR International Meeting, Pittsburgh,
     2009
+
 -   Organized the Global Optimization Cluster for ICCOPT-MOPTA,
     Hamilton, 2007
+
 -   Organized the Global Optimization Cluster for INFORMS, Pittsburgh,
     2006
+
 -   Organized the Global Optimization Cluster for INFORMS, San
     Francisco, 2005
+
 -   Vice Chair of Global Optimization, INFORMS Optimization Society,
     October 2004 to November 2006
+
 -   Refereed papers for *Computers and Chemical Engineering*,
     *Computational Optimization and Applications*, *Discrete
     Optimization*, *European Journal of Operational Research*,
@@ -1546,9 +1642,12 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
     *Operations Research Letters*, *Optimization and Engineering*,
     *Optimization Methods and Software*, and *SIAM Journal on
     Optimization*.
+
 -   Developed and Maintained Web Interface for BARON, October 1999–May
     2001
+
 -   Organized Paper Sessions in INFORMS, Miami, 2001, INFORMS, San Jose,
     2002, INFORMS Optimization Society Meeting, Atlanta, 2008, and
     INFORMS, Washington DC, 2008.
+
 </section>
