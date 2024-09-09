@@ -1,0 +1,38 @@
+   .myinclude {
+    :global(p) {
+      margin: 1em 0;
+    }
+    :global(h2) {
+	font-size: 2rem;
+	font-weight: 600;
+	line-height: 1;
+	/* text-align: center; */
+	margin-bottom: 1em; 
+	@apply max-md:text-2xl;
+	margin-top: 1.4em;
+    }
+    :global(h1) {
+       display: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+}
+	main {
+		@apply lg:m-10;
+		@apply max-lg:m-2;
+		@apply lg:p-10;
+		max-width: calc(100%); 
+		font-size: 20px;
+		line-height: 1.6;
+	}
+        span.myemail::before {
+          content: "mtawarma";
+        }
+a {
+   @apply underline text-blue-600 hover:text-blue-800 visited:text-purple-600
+}
+   .myinclude {
+      :global(a) {
+        @apply underline text-blue-600 hover:text-blue-800 visited:text-purple-600
+     }
+   }
+

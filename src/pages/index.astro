@@ -3,10 +3,10 @@ import Layout from '../layouts/Layout.astro';
 import Name from '../components/name.html';
 import Bio from '../components/bio.md';
 ---
-<Layout title="Mohit Tawarmalani's Bio" description="Mohit Tawarmalani's HomePage with Bio and Picture" isHome={true}> 
+<Layout title="Mohit Tawarmalani's CV" description="Mohit Tawarmalani Homepage, Biography and Picture" isHome={true}  isResume={false} isBook={false} isPubs={false} isConf={false} isHonors={false}> 
 	<main>
 <script>
-import { $page } from "../store/store.ts";
+/*
 const resume = document.querySelector('.resume');
 const book = document.querySelector('.book');
 resume!.addEventListener("click", () => {
@@ -15,6 +15,7 @@ resume!.addEventListener("click", () => {
 book!.addEventListener("click", () => {
   $page.set("3");
 });
+*/
 const prnc = document.querySelector(".pronounce");
 prnc!.addEventListener('click', () => {new Audio("/MohitsName.m4a").play()});
 </script>

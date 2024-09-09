@@ -1,10 +1,15 @@
 # Mohit Tawarmalani
 
+<section id="contact-information">
+
 100 S. Grant Street, West Lafayette, IN 47907-2076,  
 Email: <mtawarma@purdue.edu> Website:
 [mohit.prof](https://www.mohit.prof/)  
 765-496-2620 (w)  
 765-496-7434 (f)
+</section>
+
+<section id="education">
 
 ## Education
 
@@ -20,6 +25,10 @@ Thesis: Multistage Network Optimization and Decomposition Algorithms
 B.Tech. Mechanical Engineering, Indian Institute of Technology, May
 1993  
 Thesis: Feature Extraction in Turned Components
+
+</section>
+
+<section id="appointments">
 
 ## Academic/Professional Appointments
 
@@ -52,6 +61,9 @@ Software Engineer, ComputerVision, India, January 1995 - July 1995
 
 Graduate Engineer, TELCO (Tata Engineering and Locomotive Company),
 India, July 1993 - December 1994
+</section>
+
+<section id="leadership-activities">
 
 ## Leadership Activities
 
@@ -118,6 +130,9 @@ Management 2014–2018
     new process for majors at Purdue University
 -   Grew the program from 21 to 83 students in its third year of
     inception
+</section>
+
+<section id="research-interests">
 
 ## Research Interests
 
@@ -126,6 +141,9 @@ Computing. Research emphasis is on global optimization theory,
 algorithms and software. Applications and models in business, economics,
 data science, process sytems, and network models are of particular
 interest.
+</section>
+
+<section id="teaching-interests">
 
 ## Teaching Interests
 
@@ -133,6 +151,9 @@ Deterministic and Stochastic Operations Research, Mathematical
 Programming, Global Optimization, Convex Optimization, Applied
 Probability and Statistics, Quantitative Analysis, Spreadsheet Modeling
 and Decision Analysis, Optimization Models.
+</section>
+
+<section id="books">
 
 ## Book
 
@@ -141,10 +162,14 @@ and Decision Analysis, Optimization Models.
     programming: Theory, algorithms, software, and
     applications](https://doi.org/10.1007/978-1-4757-3532-1)*. Springer
     Science & Business Media.
+</section>
+
+<section id="journal-publications" class=mt-12>
 
 ## Journal Publications
 
 BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
+
 
 1.  Kim, J., Richard, J.-P. P., & Tawarmalani, M. (2024, accepted). A
     reciprocity between tree ensemble optimization and multilinear
@@ -475,6 +500,9 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
 62. Adhya, N., Tawarmalani, M., & Sahinidis, N. V. (1999). [A lagrangian
     approach to the pooling problem](https://doi.org/10.1021/ie980666q).
     *Industrial & Engineering Chemistry Research*, *38*(5), 1956–1972.
+</section>
+
+<section id="trade-publications">
 
 ## Trade Publications
 
@@ -486,6 +514,10 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
     Quickly assess distillation columns. *Chemical Engineering
     Progress*, *116*(12), 27–34.
     <https://www.aiche.org/resources/publications/cep/2020/december/quickly-assess-distillation-columns>
+</section>
+
+
+<section id="refereed-book-chapters">
 
 ## Refereed Book Chapters
 
@@ -504,6 +536,9 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
     programs](https://doi.org/10.1007/978-1-4757-5362-2_2). In *Handbook
     of global optimization: Volume 2* (pp. 65–85). Springer US Boston,
     MA.
+</section>
+
+<section id="refereed-conference-proceedings">
 
 ## Refereed Conference Proceedings
 
@@ -624,6 +659,9 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
     allocating objects in a network of symmetric
     caches](https://doi.org/10.2139/ssrn.885925). *15th Annual Workshop
     on Information Technolgies & Systems (WITS) Paper*.
+</section>
+
+<section id="presentations">
 
 ## Presentations
 
@@ -1300,12 +1338,18 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
 
 172. Tawarmalani, M., & Sahinidis, N. V. (1996). *Decomposition method
      for the TDTSP and QAP*. INFORMS Annual Meeting, Washington, DC.
+</section>
+
+<section id="software">
 
 ## Software
 
 -   Co-authored BARON (Branch and Reduce Optimization Navigator) for
     global optimization of mixed-integer nonlinear programs
 -   Data Reduction subroutine (Merge) for CADDS5
+</section>
+
+<section id="honors">
 
 ## Honors
 
@@ -1340,11 +1384,18 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
     Engineering, University of Illinois, Aug 1998–May 1999
 -   Tata Consultancy Services award for *best project* in the areas of
     CAD/CAM, Robotics & Automation, July 1993
+</section>
+
+<section id="patents">
 
 ## Patents
 
 -   Distillation Heating System and Method, Provisional Application, PRF
     70601-01, 63/555,569, (2024)
+</section>
+
+
+<section id="grants">
 
 ## Grants
 
@@ -1386,6 +1437,9 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
     Optimization, 2006
 -   Purdue Research Foundation Summer Faculty Grant, Disjunctive
     Relaxations of Non-convex Nonlinear Programs, 2005
+</section>
+
+<section id="professional-memberships">
 
 ## Professional Memberships
 
@@ -1395,6 +1449,9 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
     2015-present
 -   Web Administrator of Optimization Section of Institute for
     Operations Research and Management Science 1996-2001
+</section>
+
+<section id="service">
 
 ## Service
 
@@ -1450,6 +1507,9 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
 -   Faculty Search Committee, Member 2002-2003, 2010-2011, 2012-2013,
     2014-2015
 -   KGSA interclub competition judge, 2008
+</section>
+
+<section id="professional-activities">
 
 ## Professional Activities
 
@@ -1491,3 +1551,4 @@ BibTeX entries on [ORCid](https://orcid.org/0000-0003-3085-0084)
 -   Organized Paper Sessions in INFORMS, Miami, 2001, INFORMS, San Jose,
     2002, INFORMS Optimization Society Meeting, Atlanta, 2008, and
     INFORMS, Washington DC, 2008.
+</section>

@@ -5,19 +5,56 @@ interface Props {
 	title: string;
         description: string;
         isHome: boolean;
-/*        _isResume: boolean;
-        _isBook: boolean;
-        _isPubs: boolean;
-        _isConf: boolean;
-        _isHonor: boolean; */
+        isResume: boolean;
+        isBook: boolean;
+        isPubs: boolean;
+        isConf: boolean;
+        isHonors: boolean; 
+        isContact: boolean; 
 }
 
-const {title, description, isHome} = Astro.props;
+const {title, description, isHome, isResume, isBook, isPubs, isConf, isHonors, isContact} = Astro.props;
 ---
 
+<!--
 <script>
-import { $page, homeelem, resumeelem, bookelem, pubelem, confelem, honorelem } from "../store/store.ts";
 
+// Get the current URL
+let currentUrl: string = window.location.pathname; 
+let currentHash: string = window.location.hash;
+console.log(currentUrl.concat(currentHash));
+const navLinks = document.querySelectorAll('.menuitem'); 
+navLinks.forEach(link => {
+    let currentUrl = window.location.pathname; 
+    let currentHash = window.location.hash;
+    console.log(link.getAttribute('href'), currentUrl.concat(currentHash));
+    if (link.getAttribute('href') == currentUrl.concat(currentHash)) {
+      console.log("adding myactive to ", link.getAttribute('href'));
+      link.classList.add('myactive');
+      link.classList.remove('navlink');
+    } else {
+      link.classList.add('navlink');
+      link.classList.remove('myactive');
+    }
+  });
+
+navLinks.forEach(item => item.addEventListener("click", () => {
+  navLinks.forEach(link => {
+    let currentUrl = window.location.pathname; 
+    let currentHash = window.location.hash;
+    console.log(link.getAttribute('href'), currentUrl.concat(currentHash));
+    if (link.getAttribute('href') == currentUrl.concat(currentHash)) {
+      console.log("adding myactive to ", link.getAttribute('href'));
+      link.classList.add('myactive');
+      link.classList.remove('navlink');
+    } else {
+      link.classList.add('navlink');
+      link.classList.remove('myactive');
+    }
+  })
+}));
+
+import { $page, homeelem, resumeelem, bookelem, pubelem, confelem, honorelem } from "../store/store.ts";
 let pageno: number = parseInt($page.get()!);
 const drawer = document.querySelector(".drawer");
 const pagetype: string = drawer!.getAttribute("data-page")!;
@@ -57,7 +94,6 @@ honorelem!.addEventListener("click", () => {
   $page.set("6");
 });
 
-/*
 for (let i=1; i<7; i++) {
    let mappage = myMap.get(pages[i-1]!);
    if (i == parseInt($page.get()!)) {
@@ -76,8 +112,8 @@ for (let i=1; i<7; i++) {
      mappage!.classList.add('navlink');
    }
 }
-*/
 </script>
+-->
 
 
 <!doctype html>
@@ -87,6 +123,7 @@ for (let i=1; i<7; i++) {
 	<meta name="description" content={description} />
 	<meta name="viewport" content="width=device-width" />
 	<title>{title}</title>
+        <link rel="shortcut icon" href="#">
 </head>
 
 <body>
@@ -110,11 +147,12 @@ for (let i=1; i<7; i++) {
        <div class="menulist border-r-2 border-black/100 bg-base-200">
          <ul class="menu text-2xl bg-base-200 w-52 p-4 [&_li>*]:rounded-none">
            <li><a class:list={["menuitem pagehome", {"navlink": !isHome}, {"myactive": isHome}]} href="/">Home</a></li>
-           <li><a class:list={["menuitem pageresume"]} href="/cv/index.html">Resume</a></li>
-           <li><a class:list={["menuitem pagebook"]}  href="/cv/index.html#book">Book</a></li>
-           <li><a class:list={["menuitem pagepub"]} href="/cv/index.html#journal-publications">Publications</a></li>
-           <li><a class:list={["menuitem pageconf"]} href="/cv/index.html#refereed-conference-proceedings">Conferences</a></li>
-           <li><a class:list={["menuitem pagehonor"]} href="/cv/index.html#honors">Honors</a></li> 
+           <li><a class:list={["menuitem pageresume", {"navlink": !isResume}, {"myactive": isResume}]} href="/cv/">Resume</a></li>
+           <li><a class:list={["menuitem pagebook", {"navlink": !isBook}, {"myactive": isBook}]} href="/books/">Book</a></li>
+           <li><a class:list={["menuitem pagepub", {"navlink": !isPubs}, {"myactive": isPubs}]} href="/journals/">Publications</a></li>
+           <li><a class:list={["menuitem pageconf", {"navlink": !isConf}, {"myactive": isConf}]} href="/conferences/">Conferences</a></li>
+           <li><a class:list={["menuitem pagehonor", {"navlink": !isHonors}, {"myactive": isHonors}]} href="/honors/">Honors</a></li> 
+           <li><a class:list={["menuitem pagehonor", {"navlink": !isContact}, {"myactive": isContact}]} href="/contact/">Contact</a></li> 
          </ul>
        </div>
        <div class="h-6 w-75 bg-base-200">
