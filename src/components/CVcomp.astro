@@ -1,0 +1,38 @@
+---
+import "../styles/fonts.css";
+
+interface Props {
+	title: string;
+        description: string;
+        isHome: boolean;
+        isResume: boolean;
+        isBook: boolean;
+        isPubs: boolean;
+        isConf: boolean;
+        isHonors: boolean; 
+        isContact: boolean; 
+}
+
+import Layout from '../layouts/Layout.astro';
+import Name from '../components/name.astro';
+
+const {title, description, isHome, isResume, isBook, isPubs, isConf, isHonors, isContact} = Astro.props;
+---
+<Layout title={title} description={description} isHome={isHome}  isResume={isResume} isBook={isBook} isPubs={isPubs} isConf={isConf} isHonors={isHonors} isContact={isContact}> 
+<main>
+
+<script>
+import "../store/pronounce.ts";
+</script>
+  
+<Name />
+
+<div class="flex max-lg:flex-col lg:space-x-10 max-lg:space-y-5 text-2xl max-md:text-xl">
+<slot />
+</div>
+</main>
+</Layout>
+
+<style lang="scss">
+ @use "../styles/cvstyle.scss";
+</style>

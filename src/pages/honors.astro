@@ -1,23 +1,13 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Name from '../components/name.html';
+import CVcomp from '../components/CVcomp.astro'
 import CV from '../components/cv.md';
 ---
-<Layout title="Mohit Tawarmalani's CV" description="Mohit Tawarmalani Resume Including Education Publications and Honors" isHome={false}  isResume={false} isBook={false} isPubs={false} isConf={false} isHonors={true} isContact={false}> 
-<main>
 
-<script>
-import "../store/pronounce.ts";
-</script>
-  
-<Name />
-
-<div class="flex max-lg:flex-col lg:space-x-10 max-lg:space-y-5 text-2xl max-md:text-xl">
+<CVcomp title="Mohit Tawarmalani's CV" description="Mohit Tawarmalani Resume Including Education Publications and Honors" isHome={false}  isResume={false} isBook={false} isPubs={false} isConf={false} isHonors={true} isContact={false}> 
 <div class="myinclude">
 <CV />
-</div></div>
-</main>
-</Layout>
+</div>
+</CVcomp>
 
 <style lang="scss">
  @use "../styles/cvstyle.scss";
