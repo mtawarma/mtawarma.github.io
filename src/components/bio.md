@@ -26,7 +26,7 @@ Mohit has worked in the MIS area of Tata Engineering and Locomotive Company
 
 Mohit Tawarmalani's research interests are at the interface of computer
 science, optimization, and operations research with applications in business
-and engineering.  Mohit has co-authored a <a class="book" href="cv.html#book">book</a> on global
+and engineering.  Mohit has co-authored a <a class="book" href="/books/">book</a> on global
 optimization algorithms and has co-authored [BARON][BARON], a software package
 widely used for global optimization. Mohit has interest in applications of
 optimization in harnessing solar energy, building better distillation trains,
