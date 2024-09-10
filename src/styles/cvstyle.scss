@@ -36,4 +36,21 @@ a {
         @apply md:break-all;
      }
    }
+   .myinclude {
+      :global(#leadership-activities),:global(#honors), :global(#grants),
+      :global(#service), :global(#professional-activities)  {
+         :global(li) {
+            @apply list-disc list-outside ml-10;
+          }
+       }
+    }
+   .myinclude {
+       :global(#books), :global(#journal-publications), :global(#trade-publications),
+       :global(#refereed-book-chapters), :global(#refereed-conference-proceedings),
+       :global(#presentations), :global(#grants) {
+          :global(ol) {
+            @apply list-outside list-decimal lg:pl-14  max-lg:pl-10;
+          }
+        }
+     }
 

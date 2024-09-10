@@ -1612,7 +1612,6 @@ and Decision Analysis, Optimization Models.
 -   Contributing Author for Global Optimization, NEOS Wiki 2011
 
 -   Cluster Chair for Global Optimization, International Symposium on
-
     Mathematical Programming, 2015
 
 -   Program Committee, 2011 INFORMS Midwest Meeting, 2011
