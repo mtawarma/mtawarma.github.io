@@ -8,6 +8,8 @@
 
 -   Distinguished Residential Master’s Program Teacher, Spring 2021
 
+-   Distinguished Elective MBA Teaching Recognition, 2014–2023
+
 -   Runner-up, Salgo Noren Foundation Award for Excellence in Teaching,
     Krannert School of Management, 2009, 2011, 2016, 2018, 2019, 2020
 
@@ -26,8 +28,6 @@
     Network Maintenance’’
 
 -   Distinguished Core MBA Teaching Recognition, 2005–2011, 2014–2020
-
--   Distinguished Elective MBA Teaching Recognition, 2014–2019
 
 -   INFORMS Computing Society Prize (with N. V. Sahinidis), 2004 for
     research excellence in the interface between Computer Science and
