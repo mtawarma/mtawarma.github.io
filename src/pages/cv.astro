@@ -11,4 +11,13 @@ import CV from '../components/cv.md';
 
 <style lang="scss">
  @use "../styles/cvstyle.scss";
+ .myinclude {
+    :global(#contact-information) {
+      display: block;
+    }
+    :global(span.myemail)::before {
+       content: "mtawarma";
+    }
+ }
+
 </style>

@@ -15,7 +15,10 @@ import CV from '../components/contact.md';
 
  .myinclude {
     :global(#contact-information) {
-      display: block;
+      display: inline;
+    }
+    :global(span.myemail)::before {
+       content: "mtawarma";
     }
  }
 </style>
