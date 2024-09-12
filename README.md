@@ -8,6 +8,6 @@ The website has a minimalist design and uses the following technologies:
 1. [Tailwindcss](https://tailwindcss.com/) 
 1. [DaisyUI](https://daisyui.com/)
 1. [Typescript](https://www.typescriptlang.org/)
-[//]: # 1. [Persistent Nanostores](https://github.com/nanostores/persistent)
+[comment]: <> 1. [Persistent Nanostores](https://github.com/nanostores/persistent) 
 
 
