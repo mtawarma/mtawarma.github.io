@@ -10,6 +10,7 @@
 [MSBAIM]: https://business.purdue.edu/masters/programs/ms-business-analytics-and-information-management/home.php?
 [BSBAIM]: https://business.purdue.edu/undergraduate/academics/business-analytics-and-information-management.php
 [INFORMSUPS]: https://www.informs.org/Recognizing-Excellence/INFORMS-Prizes/UPS-George-D.-Smith-Prize
+[BOOK]: books/
 
 Mohit Tawarmalani is the Executive Associate Dean of Faculty and
 Allison and Nancy Schleicher Professor at the 
@@ -26,7 +27,7 @@ Mohit has worked in the MIS area of Tata Engineering and Locomotive Company
 
 Mohit Tawarmalani's research interests are at the interface of computer
 science, optimization, and operations research with applications in business
-and engineering.  Mohit has co-authored a <a class="book" href="/books/">book</a> on global
+and engineering.  Mohit has co-authored a [book][BOOK] on global
 optimization algorithms and has co-authored [BARON][BARON], a software package
 widely used for global optimization. Mohit has interest in applications of
 optimization in harnessing solar energy, building better distillation trains,

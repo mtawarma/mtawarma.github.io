@@ -27,6 +27,7 @@ const {title, description, isHome, isResume, isBook, isPubs, isConf, isHonors, i
         {(isHome || isHonors || isContact) ? undefined : <link rel="preload" href="/fonts//fonts/o-0ZIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevtuXOmHS91iw.woff2" crossorigin="anonymous" as="font" type="/fonts/woff2">}
         <link rel="preload" href="/fonts/o-0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5a7du3mhPy0.woff2" crossorigin="anonymous" as="font" type="/fonts/woff2">
         <link rel="sitemap" href="/sitemap-index.xml" />
+        <base href={import.meta.env.BASE_URL} />
 </head>
 
 <body>
@@ -49,13 +50,13 @@ const {title, description, isHome, isResume, isBook, isPubs, isConf, isHonors, i
          </div>
        <div class="menulist border-r-2 border-black/100 bg-base-200">
          <ul class="menu text-2xl bg-base-200 w-52 p-4 [&_li>*]:rounded-none">
-           <li><a class:list={["menuitem pagehome", {"navlink": !isHome}, {"myactive": isHome}]} href="/">Home</a></li>
-           <li><a class:list={["menuitem pageresume", {"navlink": !isResume}, {"myactive": isResume}]} href="/cv/">Resume</a></li>
-           <li><a class:list={["menuitem pagebook", {"navlink": !isBook}, {"myactive": isBook}]} href="/books/">Book</a></li>
-           <li><a class:list={["menuitem pagepub", {"navlink": !isPubs}, {"myactive": isPubs}]} href="/journals/">Publications</a></li>
-           <li><a class:list={["menuitem pageconf", {"navlink": !isConf}, {"myactive": isConf}]} href="/conferences/">Conferences</a></li>
-           <li><a class:list={["menuitem pagehonor", {"navlink": !isHonors}, {"myactive": isHonors}]} href="/honors/">Honors</a></li> 
-           <li><a class:list={["menuitem pagehonor", {"navlink": !isContact}, {"myactive": isContact}]} href="/contact/">Contact</a></li> 
+           <li><a class:list={["menuitem pagehome", {"navlink": !isHome}, {"myactive": isHome}]} href="">Home</a></li>
+           <li><a class:list={["menuitem pageresume", {"navlink": !isResume}, {"myactive": isResume}]} href="cv/">Resume</a></li>
+           <li><a class:list={["menuitem pagebook", {"navlink": !isBook}, {"myactive": isBook}]} href="books/">Book</a></li>
+           <li><a class:list={["menuitem pagepub", {"navlink": !isPubs}, {"myactive": isPubs}]} href="journals/">Publications</a></li>
+           <li><a class:list={["menuitem pageconf", {"navlink": !isConf}, {"myactive": isConf}]} href="conferences/">Conferences</a></li>
+           <li><a class:list={["menuitem pagehonor", {"navlink": !isHonors}, {"myactive": isHonors}]} href="honors/">Honors</a></li> 
+           <li><a class:list={["menuitem pagehonor", {"navlink": !isContact}, {"myactive": isContact}]} href="contact/">Contact</a></li> 
          </ul>
        </div>
        <div class="h-10 w-75 bg-base-200">
