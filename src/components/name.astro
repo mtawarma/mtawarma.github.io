@@ -1,4 +1,15 @@
-<div class=mb-4><h1 class="title align-bottom">Mohit Tawarmalani</h1><span class="pronounce min-[1180px]:inline-block max-[1180px]:block w-54 min-[1180px]:pl-5 [1180px]:p-1 min-[1180px]:border-r-2"><img width=30 height=30 class="inline" src="hearicon.png" alt="hear"> (pronounce)</span></div>
+---
+const base:string = String(import.meta.env.BASE_URL);
+const audiourl:string = base.concat("MohitsName.m4a");
+---
+<script is:inline define:vars={{ audiourl }}>
+document.addEventListener("DOMContentLoaded", function() { 
+  const prnc = document.querySelector(".pronounce");
+  prnc.addEventListener('click', () => {new Audio(audiourl).play()});
+});
+</script>
+
+<div class=mb-4><h1 class="title align-bottom">Mohit Tawarmalani</h1><span class="pronounce min-[1180px]:inline-block max-[1180px]:block w-54 min-[1180px]:pl-5 [1180px]:p-1 min-[1180px]:border-r-2"><img width=30 height=30 class="inline" src=`${base}hearicon.png` alt="hear"> (pronounce)</span></div>
 
 <style>
 	h1 {

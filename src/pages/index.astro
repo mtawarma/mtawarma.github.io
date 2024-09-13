@@ -2,30 +2,16 @@
 import Layout from '../layouts/Layout.astro';
 import Name from '../components/name.astro';
 import Bio from '../components/bio.md';
+const base:string = String(import.meta.env.BASE_URL);
 ---
 <Layout title="Mohit Tawarmalani: Homepage & Biography" description="Mohit Tawarmalani: Homepage, Biography and Picture" isHome={true}  isResume={false} isBook={false} isPubs={false} isConf={false} isHonors={false} isContact={false}> 
 	<main>
-<script>
-/*
-const resume = document.querySelector('.resume');
-const book = document.querySelector('.book');
-resume!.addEventListener("click", () => {
-  $page.set("2");
-});
-book!.addEventListener("click", () => {
-  $page.set("3");
-});
-*/
-const prnc = document.querySelector(".pronounce");
-prnc!.addEventListener('click', () => {new Audio("MohitsName.m4a").play()});
-</script>
-
 <Name />
 <div class="lg:h-10 max-lg:h-5"></div>
 
       <div class="flex max-lg:flex-col lg:space-x-10 max-lg:space-y-5 text-2xl max-md:text-xl">
          <div class="flex-none">
-             <img class="shrink-0" width="378" height="476" src="mohit.webp" alt="Picture">
+             <img class="shrink-0" width="378" height="476" src=`${base}mohit.webp` alt="Picture">
          </div>
          <div> Executive Associate Dean of Faculty<br />
              Professor and Allison and Nancy Schleicher Chair of Management<br />
@@ -38,8 +24,8 @@ prnc!.addEventListener('click', () => {new Audio("MohitsName.m4a").play()});
              Email: <span class=myemail><span style="display: none">remove</span>@purdue<span style="display: none">remove</span></span>.edu
 <!-- <img width=300 class="inline-block" src="http://web.ics.purdue.edu/~mtawarma/email.png" alt="Email" />--><br />
              Phone: (765) 496-2620<br />
-             My CV: <a class=resume href="cv/">HTML</a>,
-             <a href="cv.pdf">PDF</a><br />
+             My CV: <a class=resume href="/cv/">HTML</a>,
+             <a href="/cv.pdf">PDF</a><br />
              <a href="https://orcid.org/0000-0003-3085-0084">ORCiD</a>
              <a class="ml-2" href="https://www.linkedin.com/in/mohit-tawarmalani/">LinkedIn</a>
          </div>
