@@ -1,3 +1,5 @@
+[BOOK]: /books/
+
 <div class="flex flex-col space-y-5 text-2xl max-md:text-xl">
 
 [UIUC]: http://illinois.edu/
@@ -10,7 +12,6 @@
 [MSBAIM]: https://business.purdue.edu/masters/programs/ms-business-analytics-and-information-management/home.php?
 [BSBAIM]: https://business.purdue.edu/undergraduate/academics/business-analytics-and-information-management.php
 [INFORMSUPS]: https://www.informs.org/Recognizing-Excellence/INFORMS-Prizes/UPS-George-D.-Smith-Prize
-[BOOK]: /books/
 
 Mohit Tawarmalani is the Executive Associate Dean of Faculty and
 Allison and Nancy Schleicher Professor at the 

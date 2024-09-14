@@ -24,8 +24,8 @@ const base:string = String(import.meta.env.BASE_URL);
              Email: <span class=myemail><span style="display: none">remove</span>@purdue<span style="display: none">remove</span></span>.edu
 <!-- <img width=300 class="inline-block" src="http://web.ics.purdue.edu/~mtawarma/email.png" alt="Email" />--><br />
              Phone: (765) 496-2620<br />
-             My CV: <a class=resume href="/cv/">HTML</a>,
-             <a href="/cv.pdf">PDF</a><br />
+             My CV: <a class=resume href={`${base}cv/`}>HTML</a>,
+             <a href={`${base}cv.pdf`}>PDF</a><br />
              <a href="https://orcid.org/0000-0003-3085-0084">ORCiD</a>
              <a class="ml-2" href="https://www.linkedin.com/in/mohit-tawarmalani/">LinkedIn</a>
          </div>

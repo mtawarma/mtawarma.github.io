@@ -1,5 +1,5 @@
 ---
-import "../styles/fonts.css";
+import "../styles/fonts.scss";
 
 interface Props {
 	title: string;
@@ -25,8 +25,8 @@ const base:string = String(import.meta.env.BASE_URL);
 	<meta name="viewport" content="width=device-width" />
 	<title>{title}</title>
         <link rel="shortcut icon" href="#">
-        {(isHome || isHonors || isContact) ? undefined : <link rel="preload" href="/fonts//fonts/o-0ZIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevtuXOmHS91iw.woff2" crossorigin="anonymous" as="font" type="/fonts/woff2">}
-        <!--<link rel="preload" href="/fonts/o-0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5a7du3mhPy0.woff2" crossorigin="anonymous" as="font" type="/fonts/woff2"> -->
+        {(isHome || isHonors || isContact) ? undefined : <link rel="preload" href={`${base}fonts/o-0ZIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevtuXOmHS91iw.woff2`} crossorigin="anonymous" as="font" type="/fonts/woff2">}
+        <link rel="preload" href={`${base}fonts/o-0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5a7du3mhPy0.woff2`} crossorigin="anonymous" as="font" type="/fonts/woff2"> 
         <link rel="sitemap" href="/sitemap-index.xml" />
 </head>
 
