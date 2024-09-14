@@ -53,12 +53,12 @@ const base:string = String(import.meta.env.BASE_URL);
          <ul class="menu text-2xl bg-base-200 w-52 p-4 [&_li>*]:rounded-none">
            <li><a class:list={["menuitem pagehome", {"navlink": !isHome}, {"myactive": isHome}]} href={base}>Home</a></li>
            <li><a class:list={["menuitem pageresume", {"navlink": !isResume}, {"myactive": isResume}]} href={`${base}cv/`}>Resume</a></li>
-           <li><a class:list={["menuitem pagebook", {"navlink": !isBook}, {"myactive": isBook}]} href=`${base}books/`>Book</a></li>
-           <li><a class:list={["menuitem pagepub", {"navlink": !isPubs}, {"myactive": isPubs}]} href=`${base}journals/`>Publications</a></li>
-           <li><a class:list={["menuitem pageconf", {"navlink": !isConf}, {"myactive": isConf}]} href=`${base}conferences/`>Conferences</a></li>
-           <li><a class:list={["menuitem pagehonor", {"navlink": !isHonors}, {"myactive": isHonors}]} href=`${base}honors/`>Honors</a></li> 
-           <li><a class:list={["menuitem pagehonor", {"navlink": !isTeaching}, {"myactive": isTeaching}]} href=`${base}teaching`>Teaching</a></li> 
-           <li><a class:list={["menuitem pagehonor", {"navlink": !isContact}, {"myactive": isContact}]} href=`${base}contact`>Contact</a></li> 
+           <li><a class:list={["menuitem pagebook", {"navlink": !isBook}, {"myactive": isBook}]} href={`${base}books/`}>Book</a></li>
+           <li><a class:list={["menuitem pagepub", {"navlink": !isPubs}, {"myactive": isPubs}]} href={`${base}journals/`}>Publications</a></li>
+           <li><a class:list={["menuitem pageconf", {"navlink": !isConf}, {"myactive": isConf}]} href={`${base}conferences/`}>Conferences</a></li>
+           <li><a class:list={["menuitem pagehonor", {"navlink": !isHonors}, {"myactive": isHonors}]} href={`${base}honors/`}>Honors</a></li> 
+           <li><a class:list={["menuitem pagehonor", {"navlink": !isTeaching}, {"myactive": isTeaching}]} href={`${base}teaching`}>Teaching</a></li> 
+           <li><a class:list={["menuitem pagehonor", {"navlink": !isContact}, {"myactive": isContact}]} href={`${base}contact`}>Contact</a></li> 
          </ul>
        </div>
        <div class="h-10 w-75 bg-base-200">
