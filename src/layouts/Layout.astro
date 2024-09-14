@@ -10,10 +10,11 @@ interface Props {
         isPubs: boolean;
         isConf: boolean;
         isHonors: boolean; 
+        isTeaching: boolean; 
         isContact: boolean; 
 }
 
-const {title, description, isHome, isResume, isBook, isPubs, isConf, isHonors, isContact} = Astro.props;
+const {title, description, isHome, isResume, isBook, isPubs, isConf, isHonors, isTeaching, isContact} = Astro.props;
 const base:string = String(import.meta.env.BASE_URL);
 ---
 
@@ -56,6 +57,7 @@ const base:string = String(import.meta.env.BASE_URL);
            <li><a class:list={["menuitem pagepub", {"navlink": !isPubs}, {"myactive": isPubs}]} href=`${base}journals/`>Publications</a></li>
            <li><a class:list={["menuitem pageconf", {"navlink": !isConf}, {"myactive": isConf}]} href=`${base}conferences/`>Conferences</a></li>
            <li><a class:list={["menuitem pagehonor", {"navlink": !isHonors}, {"myactive": isHonors}]} href=`${base}honors/`>Honors</a></li> 
+           <li><a class:list={["menuitem pagehonor", {"navlink": !isTeaching}, {"myactive": isTeaching}]} href=`${base}teaching`>Teaching</a></li> 
            <li><a class:list={["menuitem pagehonor", {"navlink": !isContact}, {"myactive": isContact}]} href=`${base}contact`>Contact</a></li> 
          </ul>
        </div>

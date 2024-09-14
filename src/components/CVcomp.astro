@@ -10,15 +10,16 @@ interface Props {
         isPubs: boolean;
         isConf: boolean;
         isHonors: boolean; 
+        isTeaching: boolean; 
         isContact: boolean; 
 }
 
 import Layout from '../layouts/Layout.astro';
 import Name from '../components/name.astro';
 
-const {title, description, isHome, isResume, isBook, isPubs, isConf, isHonors, isContact} = Astro.props;
+const {title, description, isHome, isResume, isBook, isPubs, isConf, isHonors, isTeaching, isContact} = Astro.props;
 ---
-<Layout title={title} description={description} isHome={isHome}  isResume={isResume} isBook={isBook} isPubs={isPubs} isConf={isConf} isHonors={isHonors} isContact={isContact}> 
+<Layout title={title} description={description} isHome={isHome}  isResume={isResume} isBook={isBook} isPubs={isPubs} isConf={isConf} isHonors={isHonors} isTeaching={isTeaching} isContact={isContact}> 
 <main>
 
 <Name />

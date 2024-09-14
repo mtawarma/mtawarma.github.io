@@ -38,7 +38,7 @@ a {
    }
    .myinclude {
       :global(#leadership-activities),:global(#honors), :global(#grants),
-      :global(#service), :global(#professional-activities)  {
+      :global(#service), :global(#professional-activities), :global(#teaching)  {
          :global(li) {
             @apply list-disc list-outside ml-10;
           }
