@@ -44,6 +44,6 @@ Mohit was a founding co-director of Purdue’s
 [Bachelors in Business Analytics and Information Management][BSBAIM] program, and led the team that won the [INFORMS UPS George D. Smith Prize][INFORMSUPS] for innovative educational practices in training students to be practitioners of operations research and analytics.
 
 Mohit serves as an Associate Editor for the Journal of Global Optimization and
-as a Technical Editor for Mathematical Programming Computation. 
+Mathematical Programming Computation. 
 
 </div>
