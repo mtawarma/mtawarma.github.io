@@ -45,5 +45,6 @@ Mohit was a founding co-director of Purdue’s
 
 Mohit serves as an Associate Editor for the Journal of Global Optimization and
 Mathematical Programming Computation. 
+Mohit is a participant of the 2024-2025 Big Ten Academic Alliance Academic Leadership Program.
 
 </div>

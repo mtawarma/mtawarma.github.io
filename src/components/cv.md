@@ -1374,6 +1374,8 @@ and Decision Analysis, Optimization Models.
 
 ## Honors
 
+-   Big Academic Alliance Academic Leadership Program Fellow, 2024-2025
+
 -   Salgo-Noren Outstanding Master’s Teacher, 2023
 
 -   Salgo-Noren Outstanding Master’s Teacher, 2022
