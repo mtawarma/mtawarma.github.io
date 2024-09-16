@@ -4,18 +4,34 @@ import "../styles/fonts.scss";
 interface Props {
 	title: string;
         description: string;
-        isHome: boolean;
-        isResume: boolean;
-        isBook: boolean;
-        isPubs: boolean;
-        isConf: boolean;
-        isHonors: boolean; 
-        isTeaching: boolean; 
-        isContact: boolean; 
+        pagetype: string;
 }
 
-const {title, description, isHome, isResume, isBook, isPubs, isConf, isHonors, isTeaching, isContact} = Astro.props;
+const {title, description, pagetype} = Astro.props;
+
 const base:string = String(import.meta.env.BASE_URL);
+let isHome:boolean = false;
+let isResume:boolean = false;
+let isAppointment:boolean = false;
+let isBook:boolean = false;
+let isPubs:boolean = false;
+let isConf:boolean = false;
+let isHonors:boolean = false;
+let isTeaching:boolean = false;
+let isContact:boolean = false;
+
+switch (pagetype) {
+   case "home": isHome = true; break;
+   case "resume": isResume = true; break;
+   case "appointments": isAppointment = true; break;
+   case "books": isBook = true; break;
+   case "publications": isPubs = true; break;
+   case "conferences": isConf = true; break;
+   case "honors": isHonors = true; break;
+   case "teaching": isTeaching = true; break;
+   case "contact": isContact = true; break;
+   default: break;
+}
 ---
 
 <!doctype html>
@@ -50,9 +66,10 @@ const base:string = String(import.meta.env.BASE_URL);
          <div class="h-10 w-52 bg-base-200">
          </div>
        <div class="menulist border-r-2 border-black/100 bg-base-200">
-         <ul class="menu text-2xl bg-base-200 w-52 p-4 [&_li>*]:rounded-none">
+         <ul class="menu text-2xl bg-base-200 w-56 p-4 [&_li>*]:rounded-none">
            <li><a class:list={["menuitem pagehome", {"navlink": !isHome}, {"myactive": isHome}]} href={base}>Home</a></li>
            <li><a class:list={["menuitem pageresume", {"navlink": !isResume}, {"myactive": isResume}]} href={`${base}cv/`}>Resume</a></li>
+           <li><a class:list={["menuitem pageresume", {"navlink": !isAppointment}, {"myactive": isAppointment}]} href={`${base}appointments/`}>Appointments</a></li>
            <li><a class:list={["menuitem pagebook", {"navlink": !isBook}, {"myactive": isBook}]} href={`${base}books/`}>Book</a></li>
            <li><a class:list={["menuitem pagepub", {"navlink": !isPubs}, {"myactive": isPubs}]} href={`${base}journals/`}>Publications</a></li>
            <li><a class:list={["menuitem pageconf", {"navlink": !isConf}, {"myactive": isConf}]} href={`${base}conferences/`}>Conferences</a></li>

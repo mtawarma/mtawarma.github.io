@@ -4,22 +4,15 @@ import "../styles/fonts.scss";
 interface Props {
 	title: string;
         description: string;
-        isHome: boolean;
-        isResume: boolean;
-        isBook: boolean;
-        isPubs: boolean;
-        isConf: boolean;
-        isHonors: boolean; 
-        isTeaching: boolean; 
-        isContact: boolean; 
+        pagetype: string;
 }
 
 import Layout from '../layouts/Layout.astro';
 import Name from '../components/name.astro';
 
-const {title, description, isHome, isResume, isBook, isPubs, isConf, isHonors, isTeaching, isContact} = Astro.props;
+const {title, description, pagetype} = Astro.props;
 ---
-<Layout title={title} description={description} isHome={isHome}  isResume={isResume} isBook={isBook} isPubs={isPubs} isConf={isConf} isHonors={isHonors} isTeaching={isTeaching} isContact={isContact}> 
+<Layout title={title} description={description} pagetype={pagetype}> 
 <main>
 
 <Name />

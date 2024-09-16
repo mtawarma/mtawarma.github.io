@@ -4,8 +4,11 @@ import Name from '../components/name.astro';
 import Bio from '../components/bio.md';
 const base:string = String(import.meta.env.BASE_URL);
 ---
-<Layout title="Mohit Tawarmalani: Homepage & Biography" description="Mohit Tawarmalani: Homepage, Biography and Picture" isHome={true}  isResume={false} isBook={false} isPubs={false} isConf={false} isHonors={false} isTeaching={false} isContact={false}> 
-	<main>
+<Layout title="Mohit Tawarmalani: Resume"
+ description="Mohit Tawarmalani: Resume"
+ pagetype="home"
+> 
+<main>
 <Name />
 <div class="lg:h-10 max-lg:h-5"></div>
 
