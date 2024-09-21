@@ -8,8 +8,10 @@ const base:string = String(import.meta.env.BASE_URL);
  description="Mohit Tawarmalani: Homepage and Biography"
  pagetype="home"
 > 
+
 <main>
 <Name />
+
 <div class="lg:h-10 max-lg:h-5"></div>
 
       <div class="flex max-lg:flex-col lg:space-x-10 max-lg:space-y-5 text-2xl max-md:text-xl">
@@ -24,8 +26,7 @@ const base:string = String(import.meta.env.BASE_URL);
              4095 Rawls Hall<br />
              100 S. Grant Street<br />
              West Lafayette, IN 47907-2076<br />
-             Email: <span class=myemail><span style="display: none">remove</span>@purdue<span style="display: none">remove</span></span>.edu
-<!-- <img width=300 class="inline-block" src="http://web.ics.purdue.edu/~mtawarma/email.png" alt="Email" />--><br />
+             Email: <span class=myemail><span style="display: none">remove</span>@purdue<span style="display: none">remove</span></span>.edu <br />
              Phone: (765) 496-2620<br />
              My CV: <a class=resume href={`${base}cv/`}>HTML</a>,
              <a href={`${base}cv.pdf`}>PDF</a><br />
@@ -34,17 +35,13 @@ const base:string = String(import.meta.env.BASE_URL);
              <a class="ml-2" href="https://scholar.google.com/citations?user=g62pd6YAAAAJ&hl=en&oi=ao">Google Scholar</a>
          </div>
       </div>
-
 <div class="h-10"></div>
 
 <div class="myinclude">
 <Bio />
 </div>
+</main>
 
-</body>
-</html>
-
-	</main>
 </Layout>
 
 <style>

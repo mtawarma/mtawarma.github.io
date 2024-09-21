@@ -1,25 +1,12 @@
 ---
 const base:string = String(import.meta.env.BASE_URL);
-const audiourl:string = base.concat("MohitsName.m4a");
+const audiourl:string = "".concat("playAudio(", "\"", base, "MohitsName.m4a", "\"", ");");
 ---
-<script is:inline define:vars={{ audiourl }}>
-document.addEventListener("DOMContentLoaded", function() { 
-  const prnc = document.querySelector(".pronounce");
-  prnc.addEventListener('click', () => {new Audio(audiourl).play()});
-});
-</script>
 
-<div class=mb-4><h1 class="title align-bottom">Mohit Tawarmalani</h1><span class="pronounce min-[1180px]:inline-block max-[1180px]:block w-54 min-[1180px]:pl-5 [1180px]:p-1 min-[1180px]:border-r-2"><img width=30 height=30 class="inline" src=`${base}hearicon.png` alt="hear"> (pronounce)</span></div>
 
-<style>
-	h1 {
-		font-weight: 700;
-		line-height: 1;
-                display: inline-block;
-                @apply max-md:text-4xl;
-                @apply md:text-[4rem];
-	}
-        .pronounce {
-                cursor: pointer;
-        }
-</style>
+<div class="mb-4 md:h-[75px] min-[1180px]:w-[790px]">
+<h1 class="title font-bold inline-block leading-none max-md:text-4xl md:text-[4rem] align-bottom md:w-[625px] md:h-[75px]">Mohit Tawarmalani</h1>
+<span class="pronounce cursor-pointer min-[1180px]:inline-block lg:w-min-[1180px]:pl-5 [1180px]:p-1 w-[150px] h-[45px]" onclick={audiourl}>
+<img width=30 height=30 class="inline" src=`${base}hearicon.png` alt="hear"> (pronounce)
+</span>
+</div>
