@@ -1,0 +1,15 @@
+<IfModule mod_expires.c>
+   <Files "/mohit.webp">
+      ExpiresActive On
+      ExpiresDefault A864000
+   </Files>
+   <Files "/hearicon.png">
+      ExpiresActive On
+      ExpiresDefault A864000
+   </Files>
+   <FilesMatch "\.woff2?$">
+      ExpiresActive On
+      ExpiresDefault A864000
+   </Files>
+</IfModule>
+
