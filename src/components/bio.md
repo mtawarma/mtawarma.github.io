@@ -2,12 +2,12 @@
 
 <div class="flex flex-col space-y-5 text-2xl max-md:text-xl">
 
-[UIUC]: http://illinois.edu/
-[Daniels]: http://business.purdue.edu/
+[UIUC]: https://illinois.edu/
+[Daniels]: https://business.purdue.edu/
 [Krenicki]: https://business.purdue.edu/centers/krenicki-center/
 [IITD]: http://iitd.ernet.in/
 [BARON]: https://sahinidis.coe.gatech.edu/baron
-[BEALE]: http://www.mathopt.org/?nav=boh_2006
+[BEALE]: https://www.mathopt.org/?nav=boh_2006
 [ICSPrize]: https://www.informs.org/Recognizing-Excellence/Community-Prizes/INFORMS-Computing-Society/INFORMS-Computing-Society-Prize
 [MSBAIM]: https://business.purdue.edu/masters/programs/ms-business-analytics-and-information-management/home.php?
 [BSBAIM]: https://business.purdue.edu/undergraduate/academics/business-analytics-and-information-management.php
