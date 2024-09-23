@@ -28,11 +28,12 @@
           content: "mtawarma";
         }
 a {
-   @apply underline text-blue-600 hover:text-blue-800 visited:text-purple-600
+   @apply link-accent hover:link-primary visited:link-secondary;
 }
    .myinclude {
       :global(a) {
-        @apply underline text-blue-600 hover:text-blue-800 visited:text-purple-600;
+        @apply link-accent hover:link-primary visited:link-secondary;
+        /*@apply underline text-blue-600 hover:text-blue-800 visited:text-purple-600;*/
         /*@apply max-md:break-all;*/
      }
    }

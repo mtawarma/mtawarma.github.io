@@ -1,6 +1,4 @@
 ---
-import "../styles/fonts.scss";
-
 interface Props {
 	title: string;
         description: string;
@@ -68,10 +66,10 @@ switch (pagetype) {
     <div class="drawer-side">
        <label for="my-drawer-2" aria-label="close sidebar" class="drawer-overlay"></label>
        <div class="min-h-full">
-         <div class="h-10 w-56 bg-base-200">
+         <div class="h-10 w-56 bg-base-100">
          </div>
-       <div class="menulist border-r-2 border-black/100 bg-base-200">
-         <ul class="menu text-2xl bg-base-200 w-56 p-4 [&_li>*]:rounded-none">
+       <div class="menulist border-r-2 border-black/100 bg-base-100">
+         <ul class="menu text-2xl w-56 p-4 [&_li>*]:rounded-none">
            <li><a class:list={["menuitem pagehome", {"navlink": !isHome}, {"myactive": isHome}]} href={base}>Home</a></li>
            <li><a class:list={["menuitem pageresume", {"navlink": !isResume}, {"myactive": isResume}]} href={`${base}cv/`}>Resume</a></li>
            <li><a class:list={["menuitem pageresume", {"navlink": !isAppointment}, {"myactive": isAppointment}]} href={`${base}appointments/`}>Appointments</a></li>
@@ -83,7 +81,7 @@ switch (pagetype) {
            <li><a class:list={["menuitem pagehonor", {"navlink": !isContact}, {"myactive": isContact}]} href={`${base}contact/`}>Contact</a></li> 
          </ul>
        </div>
-       <div class="h-10 w-56 bg-base-200">
+       <div class="h-10 w-56 bg-base-100">
        </div>
     </div>
   </div>
@@ -102,11 +100,11 @@ switch (pagetype) {
 }
         a.menuitem.navlink:hover, a.menuitem.navlink:active {
              @apply text-primary;
-             @apply bg-base-200;
+             @apply bg-base-100;
         }
         a.menuitem.myactive, a.menuitem.myactive:hover {
-             @apply bg-gray-600;
-             @apply text-white;
+             @apply bg-neutral;
+             @apply text-neutral-content;
              /*cursor: default;*/
         }
         .menulist {

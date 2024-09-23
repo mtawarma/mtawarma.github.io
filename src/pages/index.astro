@@ -57,13 +57,13 @@ const base:string = String(import.meta.env.BASE_URL);
           content: "mtawarma";
         }
 a {
-   @apply underline text-blue-600 hover:text-blue-800 visited:text-purple-600
+   @apply link-accent hover:link-primary visited:link-secondary;
 }
 </style>
 <style lang="scss">
    .myinclude {
       :global(a) {
-        @apply underline text-blue-600 hover:text-blue-800 visited:text-purple-600
+        @apply link-accent hover:link-primary visited:link-secondary;
      }
    }
 

@@ -29,8 +29,10 @@ export default {
           {
             garden: {
               ...require("daisyui/src/theming/themes")["garden"],
-              "default": "rgb(249,249,249)",
               "primary": "rgb(193,46,54)",
+              "secondary": "rgb(147 51 234)",
+              "accent": " rgb(37 99 235)",
+              "neutral-content": "rgb(249,249,249)",
               "base-100": "rgb(249,249,249)",
               "base-200": "rgb(249,249,249)",
             },
