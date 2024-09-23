@@ -37,6 +37,7 @@ export default {
               "base-200": "rgb(249,249,249)",
             },
           },
+          "dark", 
         ],
     }
 }
