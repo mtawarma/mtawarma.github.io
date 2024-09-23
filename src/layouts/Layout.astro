@@ -39,7 +39,9 @@ switch (pagetype) {
 	<meta name="description" content={description} />
 	<meta name="viewport" content="width=device-width" />
 	<title>{title}</title>
-        <link rel="shortcut icon" href="#">
+        <link rel="icon" sizes="16x16" href={`${base}favicon_16x16.ico`}>
+        <link rel="icon" type="image/x-icon" sizes="32x32" href={`${base}favicon.ico`}>
+        <!-- <link rel="shortcut icon" href="#"> -->
         {(isHome || isHonors || isContact) ? undefined : <link rel="preload" href={`${base}fonts/o-0ZIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevtuXOmHS91iw.woff2`} crossorigin="anonymous" as="font">}
         <link rel="preload" href={`${base}fonts/o-0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5a7du3mhPy0.woff2`} crossorigin as="font"> 
         <link rel="sitemap" href="/sitemap-index.xml" />
