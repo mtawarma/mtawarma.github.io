@@ -1,11 +1,12 @@
 ---
+import "../styles/fonts.scss";
 import Layout from '../layouts/Layout.astro';
 import Name from '../components/name.astro';
 import Bio from '../components/bio.md';
 const base:string = String(import.meta.env.BASE_URL);
 ---
-<Layout title="Mohit Tawarmalani: Homepage and Biography"
- description="Mohit Tawarmalani: Homepage and Biography"
+<Layout title="Mohit Tawarmalani: Homepage and Biosketch"
+ description="Mohit Tawarmalani: Homepage and Biosketch"
  pagetype="home"
 > 
 
@@ -44,27 +45,6 @@ const base:string = String(import.meta.env.BASE_URL);
 
 </Layout>
 
-<style>
-	main {
-		@apply lg:m-10;
-		@apply max-lg:m-2;
-		@apply lg:p-10;
-		max-width: calc(100%); 
-		font-size: 20px;
-		line-height: 1.6;
-	}
-        span.myemail::before {
-          content: "mtawarma";
-        }
-a {
-   @apply link-accent hover:link-primary visited:link-secondary;
-}
-</style>
 <style lang="scss">
-   .myinclude {
-      :global(a) {
-        @apply link-accent hover:link-primary visited:link-secondary;
-     }
-   }
-
+ @use "../styles/cvstyle.scss";
 </style>
