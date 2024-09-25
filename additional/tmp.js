@@ -1,3 +1,4 @@
+/*
 document.querySelector('html').setAttribute('data-theme', theme);
 <script>
   // figure out user's preferred theme and set it as html class for tailwind before paint
@@ -19,4 +20,4 @@ document.querySelector('html').setAttribute('data-theme', theme);
     }
   })();
 </script>
-
+*/
