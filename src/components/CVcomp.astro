@@ -12,6 +12,10 @@ import Name from '../components/name.astro';
 
 const {title, description, pagetype} = Astro.props;
 ---
+<script is:inline type="module">
+    await import('/pagefind/pagefind-highlight.js');
+    new PagefindHighlight({ highlightParam: "highlight" });
+</script>
 <Layout title={title} description={description} pagetype={pagetype}> 
 
 <main>

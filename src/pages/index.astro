@@ -5,6 +5,10 @@ import Name from '../components/name.astro';
 import Bio from '../components/bio.md';
 const base:string = String(import.meta.env.BASE_URL);
 ---
+<script is:inline type="module">
+    await import('/pagefind/pagefind-highlight.js');
+    new PagefindHighlight({ highlightParam: "highlight" });
+</script>
 <Layout title="Mohit Tawarmalani: Homepage and Biosketch"
  description="Mohit Tawarmalani: Homepage and Biosketch"
  pagetype="home"

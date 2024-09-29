@@ -2,6 +2,7 @@ import { defineConfig } from 'astro/config';
 import svelte from "@astrojs/svelte";
 import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
+import pagefind from "astro-pagefind";
 
 import mdx from "@astrojs/mdx";
 
@@ -11,5 +12,5 @@ export default defineConfig({
   base: '/',
   integrations: [svelte(), tailwind({
     applyBaseStyles: false
-  }), sitemap(), mdx()]
+  }), sitemap(), mdx(), pagefind()]
 });
