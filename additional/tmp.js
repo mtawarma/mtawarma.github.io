@@ -20,4 +20,13 @@ document.querySelector('html').setAttribute('data-theme', theme);
     }
   })();
 </script>
+
+<script>
+ /*const y = document.getElementsByClassName('pronounce');
+ Array.from(y).forEach(el => {el.addEventListener("click", function() {
+     new Audio(audiourl).play();
+ })})*/
+</script>
 */
+
+
