@@ -8,6 +8,7 @@ The website has a minimalist design and uses the following technologies:
 1. [Tailwindcss](https://tailwindcss.com/) 
 1. [DaisyUI](https://daisyui.com/)
 1. [Typescript](https://www.typescriptlang.org/)
+1. [Pagefind](https://pagefind.app/)
 
 To change base directory: update astro.config.mjs, src/styles/fonts.scss, src/components/bio.md
 
