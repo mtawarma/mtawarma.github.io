@@ -3,6 +3,8 @@ import "../styles/fonts.scss";
 import Layout from '../layouts/Layout.astro';
 import Name from '../components/name.astro';
 import Bio from '../components/bio.md';
+import { Image } from "astro:assets";
+import myHeadshot from "../assets/mohit.webp";
 const base:string = String(import.meta.env.BASE_URL);
 ---
 <script is:inline type="module">
@@ -21,7 +23,8 @@ const base:string = String(import.meta.env.BASE_URL);
 
       <div class="flex max-lg:flex-col lg:space-x-10 max-lg:space-y-5 text-2xl max-md:text-xl">
          <div class="flex-none">
-             <img class="shrink-0" width="378" height="476" src=`${base}mohit.webp` alt="Picture">
+             <!--<img class="shrink-0" width="378" height="476" src=`${base}mohit.webp` alt="Headshot">-->
+             <Image src={myHeadshot} alt="Headshot" />
          </div>
          <div> <span class="font-semibold">Executive Associate Dean of Faculty<br />
              Professor and Allison and Nancy Schleicher Chair of Management<br />
