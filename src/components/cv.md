@@ -348,7 +348,7 @@ and Decision Analysis, Optimization Models.
 
 31. Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2018). [A
     systematic method to synthesize all dividing wall columns for
-    n-component separation—part I](https://doi.org/10.1002/aic.15964).
+    n-component separation—Part I](https://doi.org/10.1002/aic.15964).
     *AIChE Journal*, *64*(2), 649–659.
 
 32. Jiang, Z., Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2018).
