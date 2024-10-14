@@ -3,15 +3,31 @@ import CVcomp from '../components/CVcomp.astro'
 import CV from '../components/journals.mdx';
 ---
 
-
 <CVcomp title="Mohit Tawarmalani: Journal Publications"
  description="Mohit Tawarmalani: Journal Publications"
  pagetype="publications"
 > 
 <div class="myinclude">
+<button class="btn" id="showBtn">Show abstracts</button>
+<button class="btn" id="hideBtn">Hide abstracts</button>
 <CV />
 </div>
 </CVcomp>
+
+<script is:inline>
+expandDetBtn = document.getElementById("showBtn");
+collapseDetBtn = document.getElementById("hideBtn");
+
+function toggleDetails(open) {
+  for(element of document.getElementsByTagName("details")) {
+    element.open = open;
+  }
+}
+
+expandDetBtn.addEventListener("click", toggleDetails.bind(null, true));
+collapseDetBtn.addEventListener("click", toggleDetails.bind(null, false));
+</script> 
+
 
 <style lang="scss">
  @use "../styles/cvstyle.scss";
