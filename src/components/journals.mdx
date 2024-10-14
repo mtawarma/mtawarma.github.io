@@ -1,3 +1,5 @@
+import Latex from "../components/Latex.astro"
+
 <section id="journal-publications">
 
 ## Journal Publications
@@ -791,17 +793,16 @@
     interdiction](https://doi.org/10.1137/16m1066166). *SIAM Journal on
     Optimization*, *27*(3), 1801–1833.
     <details open><summary>Abstract</summary><span class="csl-block">We study the simultaneous convexification of
-    graphs of bilinear functions g^k(x;y) = y^T A^k x over x Xi = x ^n |
-    Ex &gt;= f and y \_m = y R\_+^m | 1^y &lt;= 1 . We propose a
-    constructive procedure to obtain a linear description of the convex
-    hull of the resulting set. This procedure can be applied to derive
-    convex and concave envelopes of certain bilinear functions, to study
-    unary expansions of integer variables in mixed integer bilinear
-    sets, and to obtain convex hulls of sets with complementarity
-    constraints. Exploiting the structure of Xi, the procedure naturally
-    yields stronger linearizations for bilinear terms in a variety of
-    practical settings. In particular, we demonstrate the effectiveness
-    of the approach by strengthening the traditional dual formulation of
+    graphs of bilinear functions <Latex formula="g^k(x;y) = y^\intercal A^k x" /> over <Latex formula="x \in \Xi = \{x \in [0,1]^n \mid E{x} \geq f \}" /> and <Latex formula="y \in \Delta_m = \{ y \in R_+^m \mid 1^\intercal y \leq 1 \}" />. We propose a constructive
+    procedure to obtain a linear description of the convex hull of the
+    resulting set. This procedure can be applied to derive convex and
+    concave envelopes of certain bilinear functions, to study unary
+    expansions of integer variables in mixed integer bilinear sets, and
+    to obtain convex hulls of sets with complementarity constraints.
+    Exploiting the structure of <Latex formula="\Xi" />, the procedure naturally yields
+    stronger linearizations for bilinear terms in a variety of practical
+    settings. In particular, we demonstrate the effectiveness of the
+    approach by strengthening the traditional dual formulation of
     network interdiction problems and report encouraging preliminary
     numerical results.</span></details>
 
@@ -998,8 +999,8 @@
     allowing for simultaneous mass, heat, and power integration, is
     built over a process superstructure and solved using global
     optimization tools. As a case study, biomass thermochemical
-    conversion via gasification/Fischer–Tropsch synthesis and
-    fast-hydropyrolysis/hydrodeoxygenation (HDO) is considered. The
+    conversion via gasification and Fischer–Tropsch synthesis or
+    fast-hydropyrolysis and hydrodeoxygenation (HDO) is considered. The
     optimal process configurations can be categorized either as
     standalone (eta-carbon &lt;= 54%), augmented using solar heat
     (54% &lt;= eta-carbon &lt;= 74%), or augmented using solar heat and
@@ -1412,7 +1413,7 @@
     Chemical Engineering*, *24*(9-10), 2157–2169.
     <details open><summary>Abstract</summary><span class="csl-block">The purpose of this paper is to review some
     recent results that demonstrate the importance of identifying global
-    optima of MINLP formulations.We present two global optimization
+    optima of MINLP formulations. We present two global optimization
     “success stories” based on the application of global optimization
     techniques to two design problems. The first application deals with
     the design of just-in-time flowshops. On a collection of nine
