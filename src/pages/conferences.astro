@@ -1,6 +1,6 @@
 ---
 import CVcomp from '../components/CVcomp.astro'
-import CV from '../components/conferences.md';
+import CV from '../components/conferences.mdx';
 ---
 
 <CVcomp title="Mohit Tawarmalani: Conference Publications"
@@ -8,9 +8,26 @@ import CV from '../components/conferences.md';
  pagetype="conferences"
 > 
 <div class="myinclude">
+<button class="btn" id="showBtn">Show abstracts</button>
+<button class="btn" id="hideBtn">Hide abstracts</button>
 <CV />
 </div>
 </CVcomp>
+
+<script is:inline>
+expandDetBtn = document.getElementById("showBtn");
+collapseDetBtn = document.getElementById("hideBtn");
+
+function toggleDetails(open) {
+  for(element of document.getElementsByTagName("details")) {
+    element.open = open;
+  }
+}
+
+expandDetBtn.addEventListener("click", toggleDetails.bind(null, true));
+collapseDetBtn.addEventListener("click", toggleDetails.bind(null, false));
+</script> 
+
 
 <style lang="scss">
  @use "../styles/cvstyle.scss";
@@ -20,5 +37,13 @@ import CV from '../components/conferences.md';
     :global(#refereed-conference-proceedings) {
       display: block;
     }
+ .myinclude {
+    :global(p) {
+      margin: 0em 0;
+    }
+    :global(li) {
+      @apply pb-8;
+    }
+   }
  }
 </style>

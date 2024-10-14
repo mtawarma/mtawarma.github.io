@@ -525,10 +525,6 @@ and Decision Analysis, Optimization Models.
 
 ## Trade Publications
 
-<!--
- 
--->
-
 1.  Mathew, T. J., Gooty, R. T., Tawarmalani, M., & Agrawal, R. (2020).
     Quickly assess distillation columns. *Chemical Engineering
     Progress*, *116*(12), 27–34.
@@ -538,10 +534,6 @@ and Decision Analysis, Optimization Models.
 <section id="refereed-book-chapters">
 
 ## Refereed Book Chapters
-
-<!--
- 
--->
 
 1.  Tawarmalani, M., & Sahinidis, N. V. (2009). [Time-dependent
     traveling salesman
@@ -559,10 +551,6 @@ and Decision Analysis, Optimization Models.
 <section id="refereed-conference-proceedings">
 
 ## Refereed Conference Proceedings
-
-<!--
- 
--->
 
 1.  AlQiam, A. A., Yao, Y., Wang, Z., Ahuja, S. S., Zhang, Y., Rao, S.
     G., Ribeiro, B., & Tawarmalani, M. (2024). [Transferable neural WAN

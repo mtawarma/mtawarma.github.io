@@ -1,0 +1,438 @@
+<section id="refereed-conference-proceedings">
+
+## Refereed Conference Proceedings
+
+1.  AlQiam, A. A., Yao, Y., Wang, Z., Ahuja, S. S., Zhang, Y., Rao, S.
+    G., Ribeiro, B., & Tawarmalani, M. (2024). [Transferable neural WAN
+    TE for changing
+    topologies](https://doi.org/10.1145/3651890.3672237). *Proceedings
+    of the ACM SIGCOMM 2024 Conference*, 86–102.
+    <details open><summary>Abstract</summary><span class="csl-block">Recently, researchers have proposed
+    ML-driven traffic engineering (TE) schemes where a neural network
+    model is used to produce TE decisions in lieu of conventional
+    optimization solvers. Unfortunately existing ML-based TE schemes are
+    not explicitly designed to be robust to topology changes that may
+    occur due to WAN evolution, failures or planned maintenance. In this
+    paper, we present HARP, a neural model for TE explicitly capable of
+    handling variations in topology including those not observed in
+    training. HARP is designed with two principles in mind: (i) ensure
+    invariances to natural input transformations (e.g., permutations of
+    node ids, tunnel reordering); and (ii) align neural architecture to
+    the optimization model. Evaluations on a multi-week dataset of a
+    large private WAN show HARP achieves an MLU at most 11% higher than
+    optimal over 98% of the time despite encountering significantly
+    different topologies in testing relative to training data. Further,
+    comparisons with state-of-the-art ML-based TE schemes indicate the
+    importance of the mechanisms introduced by HARP to handle topology
+    variability. Finally, when predicted traffic matrices are provided,
+    HARP outperforms classic optimization solvers achieving a median
+    reduction in MLU of 5 to 10% on the true traffic matrix.</span></details>
+
+2.  Jafri, S. U., Rao, S., Shrivastav, V., & Tawarmalani, M. (2024).
+    Leo: Online <span class="nocase">ML-based</span> traffic
+    classification at Multi-Terabit line rate. *21st USENIX Symposium on
+    Networked Systems Design and Implementation (NSDI 24)*, 1573–1591.
+    [URL](https://www.usenix.org/conference/nsdi24/presentation/jafri)
+    <details open><summary>Abstract</summary><span class="csl-block">Online traffic classification enables
+    critical applications such as network intrusion detection and
+    prevention, providing Quality-of-Service, and real-time IoT
+    analytics. However, with increasing network speeds, it has become
+    extremely challenging to analyze and classify traffic online. In
+    this paper, we present Leo, a system for online traffic
+    classification at multi-terabit line rates. At its core, Leo
+    implements an online machine learning (ML) model for traffic
+    classification, namely the decision tree, in the network switch’s
+    data plane. Leo’s design is fast (can classify packets at switch’s
+    line rate), scalable (can automatically select a resource-efficient
+    design for the class of decision tree models a user wants to
+    support), and runtime programmable (the model can be updated
+    on-the-fly without switch downtime), while achieving high model
+    accuracy. We implement Leo on top of Intel Tofino switches. Our
+    evaluations show that Leo is able to classify traffic at line rate
+    with nominal latency overhead, can scale to model sizes more than
+    twice as large as state-of-the-art data plane ML classification
+    systems, while achieving classification accuracy on-par with an
+    offline traffic classifier.</span></details>
+
+3.  Jiang, C., Li, Z., Rao, S., & Tawarmalani, M. (2022). [Flexile:
+    Meeting bandwidth objectives almost
+    always](https://doi.org/10.1145/3555050.3569119). *Proceedings of
+    the 18th International Conference on Emerging Networking Experiments
+    and Technologies*, 110–125.
+    <details open><summary>Abstract</summary><span class="csl-block">Wide-area cloud provider networks must
+    support the bandwidth requirements of network traffic despite
+    failures. Existing traffic engineering (TE) schemes perform no
+    better than an approach that optimally routes traffic for each
+    failure scenario. We show that this results in sub-optimal routing
+    decisions that hurt performance, and are potentially unfair to some
+    traffic across scenarios. To tackle this, we develop Flexile, which
+    exploits and discovers opportunities to improve network performance
+    by prioritizing certain traffic in each failure state so that it can
+    meet its bandwidth requirements. Flexile seeks to minimize a desired
+    percentile of loss across all traffic flows, while modeling diverse
+    needs of different traffic classes. To achieve this, Flexile
+    consists of (i) an offline phase that identifies which failure
+    states are critical for each flow; and (ii) an online phase, which
+    on failure allocates bandwidth prioritizing critical flows for that
+    failure state, while also judiciously allocating bandwidth to
+    non-critical flows. For tractability, Flexile’s offline phase uses a
+    decomposition algorithm aided with problem-specific accelerations.
+    Evaluations using real topologies, and validated with emulation
+    testbed experiments, show that Flexile outperforms state-of-the-art
+    TE schemes including SWAN, SMORE, and Teavar in reducing flow loss
+    at desired percentiles by 46% or more in the median case.</span></details>
+
+4.  Mathew, T. J., Tawarmalani, M., & Agrawal, R. (2022).
+    [Systematically identifying energy-efficient and attractive
+    multicomponent distillation
+    configurations](https://doi.org/10.1016/b978-0-323-85159-6.50106-8).
+    In *Computer aided chemical engineering* (Vol. 49, pp. 637–642).
+    Elsevier.
+    <details open><summary>Abstract</summary><span class="csl-block">Thousands of configurations exist for
+    multicomponent distillation, making it laborious to use standard
+    process simulators for identifying which among this plenitude are
+    energy-efficient for a given separation. Shortcut models quickly
+    screen the wide search space, but their development has been limited
+    by various obstacles. In this work, we overcome three challenges:
+    assumptions of constant relative volatilities and constant molar
+    overflow, and utilizing heat integration. We incorporate our
+    solutions into an optimization formulation and subsequently
+    demonstrate its ability to identify energy-efficient and
+    heat-integrated configurations on a case study. We also demonstrate
+    how process intensification can be used to raise the value of the
+    selected configuration.</span></details>
+
+5.  Chavez Velasco, J. A., Chen, Z., Gooty, R. T., Tawarmalani, M., &
+    Agrawal, R. (2021). [Energy-efficient membrane cascades for
+    industrial
+    separations](https://doi.org/10.1016/b978-0-323-88506-5.50057-7). In
+    *Computer aided chemical engineering* (Vol. 50, pp. 359–364).
+    Elsevier.
+    <details open><summary>Abstract</summary><span class="csl-block">he energy requirement for the separation of
+    a given mixture via a multistage membrane cascade depends on the
+    choice of the cascade and its operating conditions. Identifying the
+    optimal cascade along with its optimal operating conditions is
+    challenging, since it requires the solution of a nonconvex
+    mathematical program. To address the challenge, we propose novel
+    Mixed Integer Nonlinear Programs (MINLPs) that are formulated such
+    that they can be solved using off-the-shelf global optimization
+    solvers. We illustrate the practicality of our models with two case
+    studies: (1) separation of p-xylene from o-xylene (2) recovery of
+    natural gas liquid (NGL) from shale gas. Further, for NGL recovery,
+    we determine the target selectivity and permeability that will
+    enable membrane technology to outcompete the conventional
+    demethanizer. These target values provide guidance for experimental
+    groups that are developing new membrane materials for NGL
+    recovery.</span></details>
+
+6.  Jiang, C., Rao, S., & Tawarmalani, M. (2020). [PCF: Provably
+    resilient flexible
+    routing](https://doi.org/10.1145/3387514.3405858). *Proceedings of
+    the Annual Conference of the ACM Special Interest Group on Data
+    Communication on the Applications, Technologies, Architectures, and
+    Protocols for Computer Communication*, 139–153.
+    <details open><summary>Abstract</summary><span class="csl-block">Recently, traffic engineering mechanisms
+    have been developed that guarantee that a network (cloud provider
+    WAN, or ISP) does not experience congestion under failures. In this
+    paper, we show that existing congestion-free mechanisms, notably
+    FFC, achieve performance far short of the network’s intrinsic
+    capability. We propose PCF, a set of novel congestion-free
+    mechanisms to bridge this gap. PCF achieves these goals by better
+    modeling network structure, and by carefully enhancing the
+    flexibility of network response while ensuring that the performance
+    under failures can be tractably modeled. All of PCF’s schemes
+    involve relatively light-weight operations on failures, and many of
+    them can be realized using a local proportional routing scheme
+    similar to FFC. We show PCF’s effectiveness through formal
+    theoretical results, and empirical experiments over 21 Internet
+    topologies. PCF’s schemes provably out-perform FFC, and in practice,
+    can sustain higher throughput than FFC by a factor of 1.11X to 1.5X
+    on average across the topologies, while providing a benefit of 2.6X
+    in some cases.</span></details>
+
+7.  Chang, Y., Jiang, C., Chandra, A., Rao, S., & Tawarmalani, M.
+    (2019). [Lancet: Better network resilience by designing for pruned
+    failure sets](https://doi.org/10.1145/3393691.3394195). *Proceedings
+    of the ACM on Measurement and Analysis of Computing Systems*, *3*,
+    1–26.
+    <details open><summary>Abstract</summary><span class="csl-block">Recently, researchers have started exploring
+    the design of route protection schemes that ensure networks can
+    sustain traffic demand without congestion under failures. Existing
+    approaches focus on ensuring worst-case performance over
+    simultaneous f-failure scenarios is acceptable. Unfortunately, even
+    a single bad scenario may render the schemes unable to protect
+    against any f-failure scenario. In this paper, we present Lancet, a
+    system designed to handle most failures when not all can be tackled.
+    Lancet comprises three components: (i) an algorithm to analyze which
+    failure scenarios the network can intrinsically handle which
+    provides a benchmark for any protection routing scheme, and guides
+    the design of new schemes; (ii) an approach to efficiently design a
+    protection schemes for more general failure sets than all f-failure
+    scenarios; and (iii) techniques to determine which of
+    combinatorially many scenarios to design for. Our evaluations with
+    real topologies and validations on an emulation testbed show that
+    Lancet outperforms a worst-case approach by protecting against many
+    more scenarios, and can even match the scenarios handled by optimal
+    network response.</span></details>
+
+8.  Gooty, R. T., Mobed, P., Tawarmalani, M., & Agrawal, R. (2018).
+    [Optimal multicomponent distillation column sequencing: Software and
+    case studies](https://doi.org/10.1016/b978-0-444-64241-7.50032-x).
+    In *Computer aided chemical engineering* (Vol. 44, pp. 223–228).
+    Elsevier.
+    <details open><summary>Abstract</summary><span class="csl-block">Distillation is one of the most widely used
+    unit operation for separations in chemical and petrochemical
+    industries. It is well-known that the number of distillation
+    configurations available for the separation of an n-component
+    mixture increases combinatorially with n. In this article, we
+    describe a tool we have developed that screens through the entire
+    search space to identify a handful of distillation configurations
+    that are attractive for an application. Towards our goal, we
+    formulate a novel Mixed Integer Nonlinear Program (MINLP) using
+    Underwood’s method to estimate the vapour duty in each column. The
+    MINLP formulation is integrated with DISTOPT: an easy-to-use
+    in-house visualization software that takes feed properties as input,
+    solves the optimization problem, and displays attractive
+    configurations pictorially. The capabilities of the developed tool
+    are illustrated with two case studies.</span></details>
+
+9.  Jiang, Z., Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2018).
+    [Process intensification in multicomponent
+    distillation](https://doi.org/10.3303/CET1869141). *Chemical
+    Engineering Transactions*, *69*, 841–846.
+    <details open><summary>Abstract</summary><span class="csl-block">Process Intensification (PI) is an emerging
+    concept in chemical engineering which describes the design
+    innovations that lead to significant shrinkage in size and dramatic
+    boost in efficiency in a process plant. Distillation, which is one
+    of the most important separation technologies in the chemical
+    industry, is therefore a crucial component in PI. Here, we discuss
+    two aspects of PI in multicomponent distillation: 1) Performing
+    simultaneous heat and mass integration among thermally coupled
+    distillation columns to reduce the number of columns and heat duty
+    requirement; and 2) Conducting any thermally coupled distillation in
+    only a single column shell using a dividing wall column that is
+    fully operable. Through examples, we show that synergistic use of
+    both strategies leads to the design of compact, easy-to-operate,
+    energy efficient and cost effective multicomponent distillation
+    systems.</span></details>
+
+10. Chang, Y., Rao, S., & Tawarmalani, M. (2017). Robust validation of
+    network designs under uncertain demands and failures. *14th USENIX
+    Symposium on Networked Systems Design and Implementation (NSDI 17)*,
+    347–362.
+    [URL](https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/chang)
+    <details open><summary>Abstract</summary><span class="csl-block">A key challenge confronting wide-area
+    network architects is validating that their network designs provide
+    assurable performance in the face of variable traffic demands and
+    failures. Validation is hard because of the exponential, and
+    possibly non-enumerable, set of scenarios that must be considered.
+    Current theoretical tools provide overly conservative bounds on
+    network performance since to remain tractable, they do not
+    adequately model the flexible routing strategies that networks
+    employ in practice to adapt to failures and changing traffic
+    demands. In this paper, we develop an optimization-theoretic
+    framework to derive the worst-case network performance across
+    scenarios of interest by modeling flexible routing adaptation
+    strategies. We present an approach to tackling the resulting
+    intractable problems, which can achieve tighter bounds on network
+    performance than current techniques. While our framework is general,
+    we focus on bounding worst-case link utilizations, and case studies
+    involving topology design, and MPLS tunnels, chosen both for their
+    practical importance and to illustrate key aspects of our framework.
+    Evaluations over real network topologies and traffic data show the
+    promise of the approach.</span></details>
+
+11. Barik, A., Honorio, J., & Tawarmalani, M. (2017). [Information
+    theoretic limits for linear prediction with graph-structured
+    sparsity](https://doi.org/10.1109/isit.2017.8006949). *2017 IEEE
+    International Symposium on Information Theory (ISIT)*, 2348–2352.
+    <details open><summary>Abstract</summary><span class="csl-block">We analyze the necessary number of samples
+    for sparse vector recovery in a noisy linear prediction setup. This
+    model includes problems such as linear regression and
+    classification. We focus on structured graph models. In particular,
+    we prove that sufficient number of samples for the weighted graph
+    model proposed by Hegde and others is also necessary. We use the
+    Fano’s inequality on well constructed ensembles as our main tool in
+    establishing information theoretic lower bounds.</span></details>
+
+12. Gençer, E., Tawarmalani, M., & Agrawal, R. (2015). [Integrated solar
+    thermal hydrogen and power coproduction process for continuous power
+    supply and production of
+    chemicals](https://doi.org/10.1016/b978-0-444-63576-1.50076-5). In
+    *Computer aided chemical engineering* (Vol. 37, pp. 2291–2296).
+    Elsevier.
+    <details open><summary>Abstract</summary><span class="csl-block">In this study, we introduce a novel solar
+    thermal (ST) hydrogen and electricity coproduction process, which
+    integrates a new solar water power (SWP) cycle and ST hydrogen
+    production techniques. SWP cycle has a potential to generate
+    electricity with efficiencies greater than 40% for solar heat
+    collection temperatures above 1250 K. Higher solar heat collection
+    temperatures enable the integration of SWP cycle with ST hydrogen
+    production techniques to coproduce hydrogen and oxygen. When solar
+    energy is unavailable, we propose a turbine based hydrogen water
+    power cycle. For a 100 MW continuous power supply plant, the overall
+    efficiency of the proposed integrated process is estimated to be
+    greater than 34% in spite of the assumed 20% solar energy loss in
+    the solar collector system. Furthermore, the coproduced hydrogen and
+    oxygen can be used for various applications other than energy
+    storage to create a sustainable economy.</span></details>
+
+13. Shankaranarayanan, P., Sivakumar, A., Rao, S., & Tawarmalani, M.
+    (2014). [Performance sensitive replication in geo-distributed cloud
+    datastores](https://doi.org/10.1109/dsn.2014.34). *2014 44th Annual
+    IEEE/IFIP International Conference on Dependable Systems and
+    Networks*, 240–251.
+    <details open><summary>Abstract</summary><span class="csl-block">Modern web applications face stringent
+    requirements along many dimensions including latency, scalability,
+    and availability. In response, several geo-distributed cloud data
+    stores have emerged in recent years. Customizing data stores to meet
+    application SLAs is challenging given the scale of applications, and
+    their diverse and dynamic workloads. In this paper, we tackle these
+    challenges in the context of quorum-based systems (e.g. Amazon
+    Dynamo, Cassandra), an important class of cloud storage systems. We
+    present models that optimize percentiles of response time under
+    normal operation and under a data-center (DC) failure. Our models
+    consider factors like the geographic spread of users, DC locations,
+    consistency requirements and inter-DC communication costs. We
+    evaluate our models using real-world traces of three applications:
+    Twitter, Wikipedia and Go Walla on a Cassandra cluster deployed in
+    Amazon EC2. Our results confirm the importance and effectiveness of
+    our models, and highlight the benefits of customizing replication in
+    cloud datastores.</span></details>
+
+14. Gençer, E., Mallapragada, D., Tawarmalani, M., & Agrawal, R. (2014).
+    [Synergistic biomass and natural gas conversion to liquid fuel with
+    reduced CO2
+    emissions](https://doi.org/10.1016/b978-0-444-63433-7.50072-9). In
+    *Computer aided chemical engineering* (Vol. 34, pp. 525–530).
+    Elsevier.
+    <details open><summary>Abstract</summary><span class="csl-block">Towards reducing the CO2 emissions
+    associated with the transportation sector, we investigate the design
+    of carbon and energy efficient processes for integrated biomass and
+    natural gas (NG) conversion to liquid fuel. A process superstructure
+    considering biomass conversion via gasification/Fischer-Tropsch (FT)
+    synthesis and fast- hydropyrolsis/hydrodeoxygenation, and NG
+    conversion via reforming followed by FT synthesis is established.
+    Subsequently, a mixed integer nonlinear programming model (MINLP) is
+    formulated to identify the process configurations that maximize the
+    energy output as liquid fuel for different ratios of NG to biomass
+    carbon feeds (delta-ng). For 1% &lt;= delta-ng &lt;= 150%, the
+    optimal process configurations are capable of producing  5–14% more
+    liquid fuel output than the combined fuel output of individual
+    standalone processes converting the same amount of biomass and NG.
+    This synergy originates from synthesizing additional liquid fuel by
+    combining the residual biomass carbon with the excess hydrogen per
+    carbon available from the NG feed. These integrated processes are
+    also estimated to achieve up to 80% reductions in greenhouse gas
+    (GHG) emissions relative to petroleum-based fuels.</span></details>
+
+15. Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2014). New, useful
+    dividing wall columns for sustainable distillation. *Book of Full
+    Papers (Proceedings): 10th International Conference on Distillation
+    & Absorption*, 76–81.
+
+16. Nguyen, T. T., Tawarmalani, M., & Richard, J.-P. P. (2011).
+    [Convexification techniques for linear complementarity
+    constraints](https://doi.org/10.1007/978-3-642-20807-2_27).
+    *International Conference on Integer Programming and Combinatorial
+    Optimization*, 336–348.
+    <details open><summary>Abstract</summary><span class="csl-block">We develop convexification techniques for
+    linear programs with linear complementarity constraints (LPCC). In
+    particular, we generalize the reformulation-linearization technique
+    of Sherali and Adams to complementarity problems and discuss how it
+    reduces to the standard technique for binary mixed-integer programs.
+    Then, we consider a class of complementarity problems that appear in
+    KKT systems and show that its convex hull is that of a binary
+    mixed-integer program. For this class of problems, we study further
+    the case where a single complementarity constraint is imposed and
+    show that all nontrivial facet-defining inequalities can be obtained
+    through a simple cancel-and-relax procedure. We use this result to
+    identify special cases where McCormick inequalities suffice to
+    describe the convex hull and other cases where these inequalities
+    are not sufficient.</span></details>
+
+17. Hajjat, M., Sun, X., Sung, Y.-W. E., Maltz, D., Rao, S.,
+    Sripanidkulchai, K., & Tawarmalani, M. (2010). [Cloudward bound:
+    Planning for beneficial migration of enterprise applications to the
+    cloud](https://doi.org/10.1145/1851182.1851212). *ACM SIGCOMM
+    Computer Communication Review*, *40*(4), 243–254.
+    <details open><summary>Abstract</summary><span class="csl-block">In this paper, we tackle challenges in
+    migrating enterprise services into hybrid cloud-based deployments,
+    where enterprise operations are partly hosted on-premise and partly
+    in the cloud. Such hybrid architectures enable enterprises to
+    benefit from cloud-based architectures, while honoring application
+    performance requirements, and privacy restrictions on what services
+    may be migrated to the cloud. We make several contributions. First,
+    we highlight the complexity inherent in enterprise applications
+    today in terms of their multi-tiered nature, large number of
+    application components, and interdependencies. Second, we have
+    developed a model to explore the benefits of a hybrid migration
+    approach. Our model takes into account enterprise-specific
+    constraints, cost savings, and increased transaction delays and
+    wide-area communication costs that may result from the migration.
+    Evaluations based on real enterprise applications and Azure-based
+    cloud deployments show the benefits of a hybrid migration approach,
+    and the importance of planning which components to migrate. Third,
+    we shed insight on security policies associated with enterprise
+    applications in data centers. We articulate the importance of
+    ensuring assurable reconfiguration of security policies as
+    enterprise applications are migrated to the cloud. We present
+    algorithms to achieve this goal, and demonstrate their efficacy on
+    realistic migration scenarios.</span></details>
+
+18. Rahman, M. S., Kannan, K. N., & Tawarmalani, M. (2007). The
+    countervailing incentive of restricted patch distribution: Economic
+    and policy implications. *WEIS*.
+    [URL](https://econinfosec.org/archive/weis2007/program.htm)
+    <details open><summary>Abstract</summary><span class="csl-block">Traditionally, the government has been the
+    sole entity to enforce anti-piracy measures. Of late, software
+    vendors are attempting to thwart piracy of their products by
+    providing patches only to legal users. By doing so, a vendor can
+    vertically differentiate the legal copy from the pirated copy. It is
+    not clear if the vendor’s differentiation strategy complements or
+    substitutes the government’s effort with respect to social welfare.
+    We study this issue by analyzing the impact of a monopolistic
+    vendor’s action to restrict patches on both the vendor’s profit and
+    the social welfare. Two key distinguishing features of our model
+    are: (i) we endogenize the hacker activity and, therefore, the loss
+    suffered by the users, and (ii) we also endogenize the quality of
+    the patch developed by the vendor. Based on our analysis, we find
+    that a monopolist does not always benefit from vertical
+    differentiation. More specifically, when the government’s
+    anti-piracy effort is intense and the cost of developing a good
+    quality patch is high, the vendor does not benefit from vertical
+    differentiation. Another interesting result of our analysis is that,
+    by strategically utilizing the hacker’s activity, it is possible to
+    improve social welfare relative to that when the patch is
+    universally distributed.</span></details>
+
+19. Xia, Q., Ersoy, O., Moskowitz, H., & Tawarmalani, M. (2007).
+    [Interactive clustering and
+    classification](https://doi.org/10.1115/1.802823.paper58).
+    *Proceedings of Conf. Artificial Neural Networks in Eng.,
+    (ANNIE’08)*, 463–470.
+    <details open><summary>Abstract</summary><span class="csl-block">n this paper, we propose a general framework
+    referred to as interactive clustering and classification (ICC). It
+    is designed to identify sub-groups of samples with different model
+    structures. The framework features an interaction between
+    classification and clustering process, allowing the clustering
+    process to be partially driven by the classification process and is
+    therefore, presumably, more informative. The method is tested
+    rigorously on both synthetic datasets and real world problems.
+    Experimental results demonstrate that ICC provided a good
+    approximation of complex model structure by an aggregation of simple
+    models while circumventing the issue of over-fitting.</span></details>
+
+20. Tawarmalani, M., Kannan, K. N., & De, P. (2005). [A mechanism for
+    allocating objects in a network of symmetric
+    caches](https://doi.org/10.2139/ssrn.885925). *15th Annual Workshop
+    on Information Technolgies & Systems (WITS) Paper*.
+    <details open><summary>Abstract</summary><span class="csl-block">In this paper, we analyze object allocation
+    in a network of caches that share web content to exploit network
+    externality benefits. The analysis is presented for both centralized
+    and decentralized scenarios, and is carried out using operations
+    research and game-theoretic tools. The optimal allocation is found
+    for each case, and cache incentives are aligned with the socially
+    optimal welfare by devising appropriate pricing mechanisms.</span></details>
+
+</section>
