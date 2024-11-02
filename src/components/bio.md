@@ -12,6 +12,7 @@
 [MSBAIM]: https://business.purdue.edu/masters/programs/ms-business-analytics-and-information-management/home.php?
 [BSBAIM]: https://business.purdue.edu/undergraduate/academics/business-analytics-and-information-management.php
 [INFORMSUPS]: https://www.informs.org/Recognizing-Excellence/INFORMS-Prizes/UPS-George-D.-Smith-Prize
+[CCE]: https://www.aiche.org/community/sites/divisions-forums/computing-systems-technology-division-cast/blog/2024-computing-chemical-engineering-award
 
 Mohit Tawarmalani is the Executive Associate Dean of Faculty and
 Allison and Nancy Schleicher Professor at the 
@@ -35,8 +36,8 @@ optimization in harnessing solar energy, building better distillation trains,
 network systems design, and in understanding economics of business decisions.
 For his research, Mohit has been awarded the [INFORMS Computing Society Prize in
 2004][ICSPrize], the Best Paper Award from the Workshop on Information Technology and
-Systems in 2005, and the [Beale-Orchard-Hays Prize from the Mathematical
-Programming Society in 2006][BEALE].  He is also the 2003 Jay N. Ross Young Faculty
+Systems in 2005, the [Beale-Orchard-Hays Prize from the Mathematical
+Programming Society in 2006][BEALE], and the [Computing in Chemical Engineering from AIChE in 2024][CCE].  He is also the 2003 Jay N. Ross Young Faculty
 Scholar and the 2006 Krannert Faculty Fellow.
 
 Mohit was a founding co-director of Purdue’s 
