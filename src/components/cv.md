@@ -445,7 +445,7 @@ and Decision Analysis, Optimization Models.
 48. Tawarmalani, M., & Li, Y. (2011). [Multi-period maintenance
     scheduling of tree networks with minimum flow
     disruption](https://doi.org/10.1002/nav.20455). *Naval Research
-    Logistics (NRL)*, *58*(5), 507–530.
+    Logistics*, *58*(5), 507–530.
 
 49. Richard, J.-P. P., & Tawarmalani, M. (2010). [Lifting inequalities:
     A framework for generating strong cuts for nonlinear
@@ -511,7 +511,7 @@ and Decision Analysis, Optimization Models.
 61. Tawarmalani, M., Ahmed, S., & Sahinidis, N. V. (2001). [Product
     disaggregation in global optimization and relaxations of rational
     programs](https://doi.org/10.1023/A:1021043227181). *Optimization
-    and Engineering*.
+    and Engineering*, *3*, 281–303.
 
 62. Sahinidis, N. V., & Tawarmalani, M. (2000). [Applications of global
     optimization to process and molecular
@@ -1373,6 +1373,9 @@ and Decision Analysis, Optimization Models.
 <section id="honors">
 
 ## Honors
+
+-   2024 Computing in Chemical Engineering Award (with R. Agrawal), CAST
+    Division, AIChE
 
 -   Big Academic Alliance Academic Leadership Program Fellow, 2024-2025
 

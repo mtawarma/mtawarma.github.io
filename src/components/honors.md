@@ -2,6 +2,9 @@
 
 ## Honors
 
+-   2024 Computing in Chemical Engineering Award (with R. Agrawal), CAST
+    Division, AIChE
+
 -   Big Academic Alliance Academic Leadership Program Fellow, 2024-2025
 
 -   Salgo-Noren Outstanding Master’s Teacher, 2023
