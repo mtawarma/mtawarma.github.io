@@ -14,6 +14,9 @@
     :global(h1) {
        display: none;
     }
+    .btn {
+      @apply text-2xl bg-base-300;
+    }
     span.smallcaps{font-variant: small-caps;}
 }
 	main {
