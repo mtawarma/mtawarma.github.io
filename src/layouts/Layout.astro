@@ -1,4 +1,6 @@
 ---
+import "../styles/global.css";
+
 interface Props {
 	title: string;
         description: string;
@@ -119,6 +121,8 @@ switch (pagetype) {
 </html>
 <style is:global>
 @use "../styles/fonts.scss";
+@reference "../styles/global.css";
+/*
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -127,6 +131,7 @@ switch (pagetype) {
     font-family: "Noto Sans",  system-ui, sans-serif;
   }
 }
+*/
         li.menuitem > :active {
              @apply bg-base-100;
         }

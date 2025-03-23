@@ -1,4 +1,5 @@
 ---
+import "../styles/global.css";
 import CVcomp from '../components/CVcomp.astro'
 import SearchField from "../components/SearchField.astro";
 ---
@@ -18,6 +19,8 @@ import SearchField from "../components/SearchField.astro";
 </style>
 
 <style is:global>
+@reference "../styles/global.css";
+
   nav {
     display: grid;
     place-items: center;
@@ -100,6 +103,7 @@ import SearchField from "../components/SearchField.astro";
     @apply text-2xl;
     height: auto;
     @apply p-3;
+    @apply text-accent;
     /*@apply border-primary focus-visible:border-primary;*/
   }
 
@@ -107,8 +111,8 @@ import SearchField from "../components/SearchField.astro";
     @apply mr-2;
     @apply text-xl;
     height: auto;
-    @apply p-4;
-    @apply bg-opacity-100;
+    @apply p-3.5;
+    @apply opacity-100;
     @apply text-accent;
   }
 

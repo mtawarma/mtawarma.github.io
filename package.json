@@ -1,34 +1,29 @@
 {
-  "name": "astro-starter",
+  "name": "my-website",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
+    "build": "astro build && pagefind --site dist",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.3",
-    "@astrojs/mdx": "^3.1.7",
-    "@astrojs/sitemap": "^3.1.6",
-    "@astrojs/svelte": "^5.7.1",
-    "@astrojs/tailwind": "^5.1.1",
-    "@nanostores/persistent": "^0.10.2",
+    "@astrojs/mdx": "^4.2.1",
+    "@astrojs/sitemap": "^3.3.0",
+    "@astrojs/svelte": "^7.0.7",
+    "@tailwindcss/vite": "^4.0.15",
     "@types/katex": "^0.16.7",
-    "astro": "^4.15.8",
-    "astro-pagefind": "^1.6.0",
-    "katex": "^0.16.11",
-    "nanostores": "^0.11.3",
-    "pagefind": "^1.1.1",
-    "svelte": "^4.2.19",
-    "tailwindcss": "^3.4.10",
-    "typescript": "^5.5.4"
+    "astro": "^5.5.4",
+    "astro-pagefind": "^1.8.3",
+    "katex": "^0.16.21",
+    "svelte": "^5.25.2",
+    "tailwindcss": "^4.0.15",
+    "typescript": "^5.8.2"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.15",
-    "daisyui": "^4.12.10",
-    "sass-embedded": "^1.78.0"
+    "@tailwindcss/typography": "^0.5.16",
+    "daisyui": "^5.0.9",
+    "sass-embedded": "^1.86.0"
   }
 }

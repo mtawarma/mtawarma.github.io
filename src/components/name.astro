@@ -1,4 +1,5 @@
 ---
+import "../styles/global.css";
 import { Image } from "astro:assets";
 import hearicon from "../assets/hearicon.png";
 const base:string = String(import.meta.env.BASE_URL);
@@ -7,7 +8,7 @@ const audiourl:string = base.concat("MohitsName.m4a");
 ---
 <div class="mb-4">
 <h1 class="font-bold max-[1180px]:block min-[1180px]:inline-block leading-none max-md:text-4xl md:text-[4rem] align-bottom">Mohit Tawarmalani</h1>
-<span id="pronounce" class="pronounce cursor-pointer min-[1180px]:inline-block lg:w-min-[1180px]:pl-5 [1180px]:p-1" data-url={audiourl} onclick="playAudio()">
+<span id="pronounce" class="pronounce cursor-pointer min-[1180px]:inline-block lg:w-min-[1180px]:pl-5 w-[1180px]:p-1" data-url={audiourl} onclick="playAudio()">
 <!--<img width=30 height=30 class="inline" src=`${base}hearicon.png` alt="hear">-->
 <Image width=30 height=30 class=inline src={hearicon} alt="hear" />(pronounce) 
 </span>

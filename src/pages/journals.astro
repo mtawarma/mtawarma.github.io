@@ -1,4 +1,5 @@
 ---
+import "../styles/global.css";
 import CVcomp from '../components/CVcomp.astro'
 import CV from '../components/journals.mdx';
 ---
@@ -38,12 +39,12 @@ collapseDetBtn.addEventListener("click", toggleDetails.bind(null, false));
       display: block;
     }
  }
-   .myinclude {
-    :global(p) {
+ .myinclude {
+   :global(p) {
       margin: 0em 0;
-    }
-    :global(li) {
-      @apply pb-8;
-    }
    }
+   :global(li) {
+     @apply pb-8;
+   }
+ }
 </style>

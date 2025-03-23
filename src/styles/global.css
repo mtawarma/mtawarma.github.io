@@ -1,9 +1,26 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer base {
-  html {
-    font-family: "Noto Sans", system-ui, sans-serif;
-  }
+@import "tailwindcss";
+@import "./fonts.scss";
+@theme {
+  --font-family-sans: "Noto Sans", system-ui, sans-serif;
+  --text-2xl: 1.7rem;
+  --text-2xl--line-height: 2.4rem;
+  --text-2xl--letter-spacing: 0em;
+  --text-2xl--font-weight: 450;
+  --text-3xl: 1.9rem;
+  --text-3xl--line-height: 3.25rem;
+  --text-3xl--letter-spacing: 0em;
+  --text-3xl--font-weight: 900;
+}
+@plugin "daisyui" {
+  themes: garden --default, dark --prefersdark;
+}
+@plugin "daisyui/theme" {
+  name: "garden";
+  default: "true";
+  --color-primary: rgb(193 46 54);
+  --color-secondary: rgb(147 51 234);
+  --color-accent: rgb(37 99 235);
+  --color-neutral-content: rgb(249 249 249);
+  --color-base-100: rgb(249 249 249);
+  --color-base-200: rgb(249 249 249)
 }
