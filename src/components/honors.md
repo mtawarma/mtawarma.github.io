@@ -2,14 +2,17 @@
 
 ## Honors
 
+-   Led Krenicki center as a 2025 Mira award finalist for higher
+    education innovation
+
 -   2024 Computing in Chemical Engineering Award (with R. Agrawal), CAST
     Division, AIChE
 
 -   Big Academic Alliance Academic Leadership Program Fellow, 2024-2025
 
--   Salgo-Noren Outstanding Master’s Teacher, 2023
+-   Led Purdue’s team to win 2023 INFORMS UPS George D. Smith Prize
 
--   Salgo-Noren Outstanding Master’s Teacher, 2022
+-   Salgo-Noren Outstanding Master’s Teacher, 2022, 2023
 
 -   Distinguished Residential Master’s Program Teacher, Spring 2021
 

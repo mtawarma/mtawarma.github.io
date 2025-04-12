@@ -17,6 +17,7 @@ let isBook:boolean = false;
 let isPubs:boolean = false;
 let isConf:boolean = false;
 let isHonors:boolean = false;
+let isStudents:boolean = false;
 let isTeaching:boolean = false;
 let isContact:boolean = false;
 let isSearch:boolean = false;
@@ -29,6 +30,7 @@ switch (pagetype) {
    case "publications": isPubs = true; break;
    case "conferences": isConf = true; break;
    case "honors": isHonors = true; break;
+   case "students": isStudents = true; break;
    case "teaching": isTeaching = true; break;
    case "contact": isContact = true; break;
    case "search": isSearch = true; break;
@@ -51,6 +53,7 @@ switch (pagetype) {
         {isAppointment ? <link rel="canonical" href="https://www.mohit.prof/appointments/"> : undefined}
         {isContact ? <link rel="canonical" href="https://www.mohit.prof/contact/"> : undefined}
         {isResume ? <link rel="canonical" href="https://www.mohit.prof/cv/"> : undefined}
+        {isStudents ? <link rel="canonical" href="https://www.mohit.prof/phdstudents/"> : undefined}
         {isBook ? <link rel="canonical" href="https://www.mohit.prof/books/"> : undefined}
         {isSearch ? <link rel="canonical" href="https://www.mohit.prof/search/"> : undefined}
         <link rel="apple-touch-icon" href={`${base}apple-touch-icon-precomposed.png`}>
@@ -101,14 +104,15 @@ switch (pagetype) {
 </label></span></li>-->
            <li><a class:list={["menuitem pagehome", {"navlink": !isHome}, {"myactive": isHome}]} href={base}>Home</a></li>
            <li><a class:list={["menuitem pageresume", {"navlink": !isResume}, {"myactive": isResume}]} href={`${base}cv/`}>Resume</a></li>
-           <li><a class:list={["menuitem pageresume", {"navlink": !isAppointment}, {"myactive": isAppointment}]} href={`${base}appointments/`}>Appointments</a></li>
+           <li><a class:list={["menuitem pageappoint", {"navlink": !isAppointment}, {"myactive": isAppointment}]} href={`${base}appointments/`}>Appointments</a></li>
            <li><a class:list={["menuitem pagebook", {"navlink": !isBook}, {"myactive": isBook}]} href={`${base}books/`}>Book</a></li>
            <li><a class:list={["menuitem pagepub", {"navlink": !isPubs}, {"myactive": isPubs}]} href={`${base}journals/`}>Publications</a></li>
            <li><a class:list={["menuitem pageconf", {"navlink": !isConf}, {"myactive": isConf}]} href={`${base}conferences/`}>Conferences</a></li>
            <li><a class:list={["menuitem pagehonor", {"navlink": !isHonors}, {"myactive": isHonors}]} href={`${base}honors/`}>Honors</a></li> 
-           <li><a class:list={["menuitem pagehonor", {"navlink": !isTeaching}, {"myactive": isTeaching}]} href={`${base}teaching/`}>Teaching</a></li> 
-           <li><a class:list={["menuitem pagehonor", {"navlink": !isContact}, {"myactive": isContact}]} href={`${base}contact/`}>Contact</a></li> 
-           <li><a class:list={["menuitem pagehonor", {"navlink": !isSearch}, {"myactive": isSearch}]} href={`${base}searchsite/`}>Search</a></li> 
+           <li><a class:list={["menuitem pagephdstudents", {"navlink": !isStudents}, {"myactive": isStudents}]} href={`${base}phdstudents/`}>PhD Students</a></li> 
+           <li><a class:list={["menuitem pageteach", {"navlink": !isTeaching}, {"myactive": isTeaching}]} href={`${base}teaching/`}>Teaching</a></li> 
+           <li><a class:list={["menuitem pagecontact", {"navlink": !isContact}, {"myactive": isContact}]} href={`${base}contact/`}>Contact</a></li> 
+           <li><a class:list={["menuitem pagesearch", {"navlink": !isSearch}, {"myactive": isSearch}]} href={`${base}searchsite/`}>Search</a></li> 
          </ul>
  
        </div>

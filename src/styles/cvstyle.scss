@@ -52,7 +52,7 @@ a {
    .myinclude {
        :global(#books), :global(#journal-publications), :global(#trade-publications),
        :global(#refereed-book-chapters), :global(#refereed-conference-proceedings),
-       :global(#presentations), :global(#grants) {
+       :global(#presentations), :global(#grants), :global(#graduated-phd-students) {
           :global(ol) {
             @apply list-outside list-decimal lg:pl-14  max-lg:pl-10;
           }

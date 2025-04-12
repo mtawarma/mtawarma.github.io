@@ -1,0 +1,25 @@
+---
+import "../styles/global.css";
+import CVcomp from '../components/CVcomp.astro'
+import CV from '../components/phdstudents.md';
+---
+
+<CVcomp title="Mohit Tawarmalani: PhD Students"
+ description="Mohit Tawarmalani: Graduated PhD Students"
+ pagetype="students"
+>
+<div class="myinclude">
+<CV />
+</div>
+</CVcomp>
+
+<style lang="scss">
+ @use "../styles/cvstyle.scss";
+ @use "../styles/cvhide.scss";
+
+ .myinclude {
+    :global(#honors) {
+      display: block;
+    }
+ }
+</style>
