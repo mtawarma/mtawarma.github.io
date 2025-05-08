@@ -1502,6 +1502,7 @@ and Decision Analysis, Optimization Models.
 13. [Kwanghun Chung
     (2010)](https://scu.hongik.ac.kr/en/academics/intro-faculty-detail.do?mode=prof&deptCd=AAC130&S1=2011&S2=10069)
 
+</section>
 <section id="grants">
 
 ## Grants
