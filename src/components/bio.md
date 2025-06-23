@@ -14,7 +14,7 @@
 [INFORMSUPS]: https://www.informs.org/Recognizing-Excellence/INFORMS-Prizes/UPS-George-D.-Smith-Prize
 [CCE]: https://www.aiche.org/community/sites/divisions-forums/computing-systems-technology-division-cast/blog/2024-computing-chemical-engineering-award
 
-Mohit Tawarmalani is the Executive Associate Dean of Faculty and
+Mohit Tawarmalani is the Executive Associate Dean and
 Allison and Nancy Schleicher Professor at the 
 [Mitch Daniels School of Business, Purdue University][Daniels]. 
 He serves as the academic director of 
