@@ -67,102 +67,100 @@ India, July 1993 - December 1994
 Executive Associate Dean of Faculty, Mitch Daniels School of Business,
 July 2024-present
 
--   Led restructuring the Mitch Daniels School of Business from 2
-    departments to 9 departments
+- Led restructuring the Mitch Daniels School of Business from 2
+  departments to 9 departments
 
--   Represent DSB as Associate Dean for Research and Associate Dean for
-    Faculty Affairs
+- Represent DSB as Associate Dean for Research and Associate Dean for
+  Faculty Affairs
 
--   Led senior hiring program
+- Led senior hiring program
 
--   Organized the named and distinguished professor committee
+- Organized the named and distinguished professor committee
 
--   Led the awards and books initiative
+- Led the awards and books initiative
 
--   Streamlined and automated process operations such as voting and
-    research tracking
+- Streamlined and automated process operations such as voting and
+  research tracking
 
 Acting Executive Associate Dean of Faculty, Mitch Daniels School of
 Business, September 2023–June 2024
 
--   Represent DSB as Associate Dean for Research and Associate Dean for
-    Faculty Affairs
+- Represent DSB as Associate Dean for Research and Associate Dean for
+  Faculty Affairs
 
--   Initiated various joint degree program initiatives
+- Initiated various joint degree program initiatives
 
--   Chaired area promotion committee for School of Business
+- Chaired area promotion committee for School of Business
 
--   Faculty hiring initiative
+- Faculty hiring initiative
 
--   Allocation of PhD and Faculty lines across departments and areas
+- Allocation of PhD and Faculty lines across departments and areas
 
--   Secure faculty for executive education across campus
+- Secure faculty for executive education across campus
 
--   Direct suitable engagement opportunities from campus to relevant
-    faculty
+- Direct suitable engagement opportunities from campus to relevant
+  faculty
 
 Interim Dean, Mitch Daniels School of Business, July 2023 – August 2023
 
--   Request for faculty positions
+- Request for faculty positions
 
--   Developed a growth model for teaching needs
+- Developed a growth model for teaching needs
 
--   Instituted Dean’s Distinguished Lecture Series
+- Instituted Dean’s Distinguished Lecture Series
 
--   Transitioning new dean
+- Transitioning new dean
 
 Director of Krenicki Center for Business Analytics and Machine Learning,
 2022–present
 
--   Co-organizer of Data for Good Gala celebrating INFORMS UPS George D.
-    Smith Prize
+- Co-organizer of Data for Good Gala celebrating INFORMS UPS George D.
+  Smith Prize
 
--   Co-organizer for Statistics and Optimization in Data Science
-    Workshop
+- Co-organizer for Statistics and Optimization in Data Science Workshop
 
--   Helped organize Purdue Student Lab with AT Kearney.
+- Helped organize Purdue Student Lab with AT Kearney.
 
--   Chaired the design of a PhD program in Business Analytics & Data
-    Science
+- Chaired the design of a PhD program in Business Analytics & Data
+  Science
 
--   Establish and manage consulting engagements with several leading
-    companies
+- Establish and manage consulting engagements with several leading
+  companies
 
--   Co-crafted a proposal for the New School of Business at Purdue
+- Co-crafted a proposal for the New School of Business at Purdue
 
 Area Head, Quantitative Methods, 2020–2023
 
--   Led the team that won the INFORMS UPS George D. Smith Prize for
-    Business Analytics and Information Management programs
+- Led the team that won the INFORMS UPS George D. Smith Prize for
+  Business Analytics and Information Management programs
 
--   Hired faculty with analytics research with varied terminal degrees
+- Hired faculty with analytics research with varied terminal degrees
 
--   Planned area growth strategy, teaching activities, and managed area
-    budgets
+- Planned area growth strategy, teaching activities, and managed area
+  budgets
 
--   Managed multiple program starts and dynamic scheduling during
-    COVID-19 pandemic
+- Managed multiple program starts and dynamic scheduling during COVID-19
+  pandemic
 
--   Helped develop consensus for an A journal list
+- Helped develop consensus for an A journal list
 
 Chair, Bachelors Program in Business Analytics and Information
 Management 2020-2021
 
--   Designed the undergraduate degree program; helped create classes to
-    fill gaps; introduced new lab classes during sophomore year for
-    early engagement with analytics
+- Designed the undergraduate degree program; helped create classes to
+  fill gaps; introduced new lab classes during sophomore year for early
+  engagement with analytics
 
--   the first cohort consists of over 110 students; including students
-    that changed their degree there are 180+ students in the program
+- the first cohort consists of over 110 students; including students
+  that changed their degree there are 180+ students in the program
 
 Founding director, Masters in Business Analytics and Information
 Management 2014–2018
 
--   Designed program and obtained STEM certification by helping create a
-    new process for majors at Purdue University
+- Designed program and obtained STEM certification by helping create a
+  new process for majors at Purdue University
 
--   Grew the program from 21 to 83 students in its third year of
-    inception
+- Grew the program from 21 to 83 students in its third year of inception
 
 </section>
 <section id="research-interests">
@@ -201,344 +199,350 @@ and Decision Analysis, Optimization Models.
 
 ## Journal Publications
 
-1.  Nogaja, A. S., Tawarmalani, M., & Agrawal, R. (2025). [Comparing
+1.  Jiang, Z., Tawarmalani, M., & Agrawal, R. (2025). [Minimum reflux
+    calculation for multicomponent distillation in multi-feed,
+    multi-product columns: Algorithms and
+    examples](https://doi.org/10.1002/aic.70016). *AIChE Journal*,
+    e70016.
+
+2.  Nogaja, A. S., Tawarmalani, M., & Agrawal, R. (2025). [Comparing
     exergy and heat pump work in distillation
     systems](https://doi.org/10.1002/aic.18895). *AIChE Journal*,
     e18895.
 
-2.  Nogaja, A., Tawarmalani, M., & Agrawal, R. (2024). [Cogeneration
+3.  Nogaja, A., Tawarmalani, M., & Agrawal, R. (2024). [Cogeneration
     improves separation
     efficiency](https://doi.org/10.1021/acs.iecr.4c03190). *Industrial
     and Engineering Chemistry Research*, *63*, 18564–18574.
 
-3.  Kim, J., Richard, J.-P. P., & Tawarmalani, M. (2024, accepted). [A
+4.  Kim, J., Richard, J.-P. P., & Tawarmalani, M. (2024, accepted). [A
     reciprocity between tree ensemble optimization and multilinear
     optimization](https://doi.org/10.1287/opre.2022.0150). *Operations
     Research*.
 
-4.  He, T., Liu, S., & Tawarmalani, M. (2024, accepted).
+5.  He, T., Liu, S., & Tawarmalani, M. (2024, accepted).
     [Convexification techniques for fractional
     programs](https://doi.org/10.1007/s10107-024-02131-x). *Mathematical
     Programming*.
 
-5.  He, T., & Tawarmalani, M. (2024, accepted). [MIP relaxations in
+6.  He, T., & Tawarmalani, M. (2024, accepted). [MIP relaxations in
     factorable programming](https://doi.org/10.1137/22M1515537). *SIAM
     Journal on Optimization*.
 
-6.  Kim, J., Richard, J.-P. P., & Tawarmalani, M. (2024, accepted).
+7.  Kim, J., Richard, J.-P. P., & Tawarmalani, M. (2024, accepted).
     [Piecewise polyhedral relaxations of multilinear
     optimization](https://doi.org/10.1137/22M1507486). *SIAM Journal on
     Optimization*.
 
-7.  Gooty, R. T., Agrawal, R., & Tawarmalani, M. (2024). [Advances in
+8.  Gooty, R. T., Agrawal, R., & Tawarmalani, M. (2024). [Advances in
     MINLP to identify energy-efficient distillation
     configurations](https://doi.org/10.1287/opre.2022.2340). *Operations
     Research*, *72*, 639–659.
 
-8.  Chen, Z., Tawarmalani, M., & Agrawal, R. (2024). [Global
+9.  Chen, Z., Tawarmalani, M., & Agrawal, R. (2024). [Global
     minimization of power consumptions for multicomponent gas membrane
     cascades](https://doi.org/10.1016/j.compchemeng.2023.108464).
     *Computers & Chemical Engineering*, *180*, 108464.
 
-9.  Mathew, T. J., Narayanan, S., Jalan, A., Matthews, L. R., Gupta, H.,
+10. Mathew, T. J., Narayanan, S., Jalan, A., Matthews, L. R., Gupta, H.,
     Billimoria, R., Pereira, C. S., Goheen, C., Tawarmalani, M., &
     Agrawal, R. (2024). [Optimization of distillation configurations for
     multicomponent-product
     distillations](https://doi.org/10.1016/j.compchemeng.2024.108628).
     *Computers & Chemical Engineering*, 108628.
 
-10. Mathew, T. J., Tawarmalani, M., & Agrawal, R. (2023). [Relaxing the
+11. Mathew, T. J., Tawarmalani, M., & Agrawal, R. (2023). [Relaxing the
     constant molar overflow assumption in distillation
     optimization](https://doi.org/10.1002/aic.18125). *AIChE Journal*,
     *69*(9), e18125.
 
-11. Gooty, R. T., Mathew, T. J., Tawarmalani, M., & Agrawal, R. (2023).
+12. Gooty, R. T., Mathew, T. J., Tawarmalani, M., & Agrawal, R. (2023).
     [An MINLP formulation to identify thermodynamically-efficient
     distillation
     configurations](https://doi.org/10.1016/j.compchemeng.2023.108369).
     *Computers & Chemical Engineering*, *178*, 108369.
 
-12. He, T., & Tawarmalani, M. (2022). [Tractable relaxations of
+13. He, T., & Tawarmalani, M. (2022). [Tractable relaxations of
     composite functions](https://doi.org/10.1287/moor.2021.1162).
     *Mathematics of Operations Research*, *47*(2), 1110–1140.
 
-13. Kim, J., Tawarmalani, M., & Richard, J.-P. P. (2022).
+14. Kim, J., Tawarmalani, M., & Richard, J.-P. P. (2022).
     [Convexification of permutation-invariant sets and an application to
     sparse principal component
     analysis](https://doi.org/10.1287/moor.2021.1219). *Mathematics of
     Operations Research*, *47*(4), 2547–2584.
 
-14. Chandra, A., & Tawarmalani, M. (2022). [Probability estimation via
+15. Chandra, A., & Tawarmalani, M. (2022). [Probability estimation via
     policy restrictions, convexification, and approximate
     sampling](https://doi.org/10.1007/s10107-022-01823-6). *Mathematical
     Programming*, *196*(1), 309–345.
 
-15. Chavez Velasco, J. A., Tawarmalani, M., & Agrawal, R. (2022). [Which
+16. Chavez Velasco, J. A., Tawarmalani, M., & Agrawal, R. (2022). [Which
     separation scenarios are advantageous for membranes or
     distillations?](https://doi.org/10.1002/aic.17839) *AIChE Journal*,
     *68*(11), e17839.
 
-16. Nogaja, A. S., Mathew, T. J., Tawarmalani, M., & Agrawal, R. (2022).
+17. Nogaja, A. S., Mathew, T. J., Tawarmalani, M., & Agrawal, R. (2022).
     [Identifying heat-integrated energy-efficient multicomponent
     distillation
     configurations](https://doi.org/10.1021/acs.iecr.2c00870).
     *Industrial & Engineering Chemistry Research*, *61*(37),
     13984–13995.
 
-17. Jiang, Z., Tawarmalani, M., & Agrawal, R. (2022). [Minimum reflux
+18. Jiang, Z., Tawarmalani, M., & Agrawal, R. (2022). [Minimum reflux
     calculation for multicomponent distillation in multi-feed,
     multi-product columns: Mathematical
     model](https://doi.org/10.1002/aic.17929). *AIChE Journal*,
     *68*(12), e17929.
 
-18. Mathew, T. J., Narayanan, S., Jalan, A., Matthews, L., Gupta, H.,
+19. Mathew, T. J., Narayanan, S., Jalan, A., Matthews, L., Gupta, H.,
     Billimoria, R., Pereira, C. S., Goheen, C., Tawarmalani, M., &
     Agrawal, R. (2022). [Advances in distillation: Significant
     reductions in energy consumption and carbon dioxide emissions for
     crude oil separation](https://doi.org/10.1016/j.joule.2022.10.004).
     *Joule*, *6*(11), 2500–2512.
 
-19. Nguyen, T. T., Richard, J.-P. P., & Tawarmalani, M. (2021).
+20. Nguyen, T. T., Richard, J.-P. P., & Tawarmalani, M. (2021).
     [Convexification techniques for linear complementarity
     constraints](https://doi.org/10.1007/s10898-020-00979-9). *Journal
     of Global Optimization*, *80*, 249–286.
 
-20. He, T., & Tawarmalani, M. (2021). [A new framework to relax
+21. He, T., & Tawarmalani, M. (2021). [A new framework to relax
     composite functions in nonlinear
     programs](https://doi.org/10.1007/s10107-020-01541-x). *Mathematical
     Programming*, *190*, 427–466.
 
-21. Chavez Velasco, J. A., Tawarmalani, M., & Agrawal, R. (2021).
+22. Chavez Velasco, J. A., Tawarmalani, M., & Agrawal, R. (2021).
     [Systematic analysis reveals thermal separations are not necessarily
     most energy intensive](https://doi.org/10.1016/j.joule.2020.12.002).
     *Joule*, *5*(2), 330–343.
 
-22. Chavez Velasco, J. A., Gooty, R. T., Tawarmalani, M., & Agrawal, R.
+23. Chavez Velasco, J. A., Gooty, R. T., Tawarmalani, M., & Agrawal, R.
     (2021). [Optimal design of membrane cascades for gaseous and liquid
     mixtures via MINLP](https://doi.org/10.1016/j.memsci.2021.119514).
     *Journal of Membrane Science*, *636*, 119514.
 
-23. Mathew, T. J., Tumbalam Gooty, R., Tawarmalani, M., & Agrawal, R.
+24. Mathew, T. J., Tumbalam Gooty, R., Tawarmalani, M., & Agrawal, R.
     (2021). [A simple criterion for feasibility of heat integration
     between distillation streams based on relative
     volatilities](https://doi.org/10.1021/acs.iecr.1c01036). *Industrial
     & Engineering Chemistry Research*, *60*(28), 10286–10302.
 
-24. Kim, J., Tawarmalani, M., & Richard, J.-P. P. (2019). [On cutting
+25. Kim, J., Tawarmalani, M., & Richard, J.-P. P. (2019). [On cutting
     planes for cardinality-constrained linear
     programs](https://doi.org/10.1007/s10107-018-1306-0). *Mathematical
     Programming*, *178*, 417–448.
 
-25. Wu, J., Tawarmalani, M., & Kannan, K. N. (2019). [Cardinality
+26. Wu, J., Tawarmalani, M., & Kannan, K. N. (2019). [Cardinality
     bundling with Spence–Mirrlees reservation
     prices](https://doi.org/10.1287/mnsc.2017.2998). *Management
     Science*, *65*(4), 1891–1908.
 
-26. Gooty, R. T., Agrawal, R., & Tawarmalani, M. (2019). [An MINLP
+27. Gooty, R. T., Agrawal, R., & Tawarmalani, M. (2019). [An MINLP
     formulation for the optimization of multicomponent distillation
     configurations](https://doi.org/10.1016/j.compchemeng.2019.02.013).
     *Computers & Chemical Engineering*, *125*, 13–30.
 
-27. Jiang, Z., Mathew, T. J., Zhang, H., Huff, J., Nallasivam, U.,
+28. Jiang, Z., Mathew, T. J., Zhang, H., Huff, J., Nallasivam, U.,
     Tawarmalani, M., & Agrawal, R. (2019). [Global optimization of
     multicomponent distillation configurations: Global minimization of
     total cost for multicomponent mixture
     separations](https://doi.org/10.1016/j.compchemeng.2019.04.009).
     *Computers & Chemical Engineering*, *126*, 249–262.
 
-28. Jiang, Z., Chen, Z., Huff, J., Shenvi, A. A., Tawarmalani, M., &
+29. Jiang, Z., Chen, Z., Huff, J., Shenvi, A. A., Tawarmalani, M., &
     Agrawal, R. (2019). [Global minimization of total exergy loss of
     multicomponent distillation
     configurations](https://doi.org/10.1002/aic.16737). *AIChE Journal*,
     *65*(11), e16737.
 
-29. Mathew, T. J., Tumbalam Gooty, R., Tawarmalani, M., & Agrawal, R.
+30. Mathew, T. J., Tumbalam Gooty, R., Tawarmalani, M., & Agrawal, R.
     (2019). [110th anniversary: Thermal coupling via heat transfer: A
     potential route to simple distillation configurations with lower
     heat duty](https://doi.org/10.1021/acs.iecr.9b04689). *Industrial &
     Engineering Chemistry Research*, *58*(47), 21671–21678.
 
-30. Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2018). [A
+31. Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2018). [A
     systematic method to synthesize all dividing wall columns for
     n-component separation: Part II](https://doi.org/10.1002/aic.15963).
     *AIChE Journal*, *64*(2), 660–672.
 
-31. Nguyen, T. T., Richard, J.-P. P., & Tawarmalani, M. (2018).
+32. Nguyen, T. T., Richard, J.-P. P., & Tawarmalani, M. (2018).
     [Deriving convex hulls through lifting and
     projection](https://doi.org/10.1007/s10107-017-1138-3).
     *Mathematical Programming*, *169*, 377–415.
 
-32. Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2018). [A
+33. Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2018). [A
     systematic method to synthesize all dividing wall columns for
     n-component separation—Part I](https://doi.org/10.1002/aic.15964).
     *AIChE Journal*, *64*(2), 649–659.
 
-33. Jiang, Z., Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2018).
+34. Jiang, Z., Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2018).
     [Minimum energy of multicomponent distillation systems using minimum
     additional heat and mass integration
     sections](https://doi.org/10.1002/aic.16189). *AIChE Journal*,
     *64*(9), 3410–3418.
 
-34. Ramapriya, G. M., Selvarajah, A., Jimenez Cucaita, L. E., Huff, J.,
+35. Ramapriya, G. M., Selvarajah, A., Jimenez Cucaita, L. E., Huff, J.,
     Tawarmalani, M., & Agrawal, R. (2018). [Short-cut methods versus
     rigorous methods for performance-evaluation of distillation
     configurations](https://doi.org/10.1021/acs.iecr.7b05214).
     *Industrial & Engineering Chemistry Research*, *57*(22), 7726–7731.
 
-35. Davarnia, D., Richard, J.-P. P., & Tawarmalani, M. (2017).
+36. Davarnia, D., Richard, J.-P. P., & Tawarmalani, M. (2017).
     [Simultaneous convexification of bilinear functions over polytopes
     with application to network
     interdiction](https://doi.org/10.1137/16m1066166). *SIAM Journal on
     Optimization*, *27*(3), 1801–1833.
 
-36. Kannan, K., Rahman, M. S., & Tawarmalani, M. (2016). [Economic and
+37. Kannan, K., Rahman, M. S., & Tawarmalani, M. (2016). [Economic and
     policy implications of restricted patch
     distribution](https://doi.org/10.1287/mnsc.2015.2309). *Management
     Science*, *62*(11), 3161–3182.
 
-37. Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2016). [Thermal
+38. Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2016). [Thermal
     coupling links to liquid-only transfer streams: An enumeration
     method for new FTC dividing wall
     columns](https://doi.org/10.1002/aic.15053). *AIChE Journal*,
     *62*(4), 1200–1211.
 
-38. Nallasivam, U., Shah, V. H., Shenvi, A. A., Huff, J., Tawarmalani,
+39. Nallasivam, U., Shah, V. H., Shenvi, A. A., Huff, J., Tawarmalani,
     M., & Agrawal, R. (2016). [Global optimization of multicomponent
     distillation configurations: 2. Enumeration based global
     minimization algorithm](https://doi.org/10.1002/aic.15204). *AIChE
     Journal*, *62*(6), 2071–2086.
 
-39. Bao, X., Khajavirad, A., Sahinidis, N. V., & Tawarmalani, M. (2015).
+40. Bao, X., Khajavirad, A., Sahinidis, N. V., & Tawarmalani, M. (2015).
     [Global optimization of nonconvex problems with multilinear
     intermediates](https://doi.org/10.1007/s12532-014-0073-z).
     *Mathematical Programming Computation*, *7*(1), 1–37.
 
-40. Ramapriya, G. M., Shenvi, A. A., Tawarmalani, M., & Agrawal, R.
+41. Ramapriya, G. M., Shenvi, A. A., Tawarmalani, M., & Agrawal, R.
     (2015). [A new framework for combining a condenser and reboiler in a
     configuration to consolidate distillation
     columns](https://doi.org/10.1021/acs.iecr.5b01701). *Industrial &
     Engineering Chemistry Research*, *54*(42), 10449–10464.
 
-41. Gençer, E., Mallapragada, D. S., Maréchal, F., Tawarmalani, M., &
+42. Gençer, E., Mallapragada, D. S., Maréchal, F., Tawarmalani, M., &
     Agrawal, R. (2015). [Round-the-clock power supply and a sustainable
     economy via synergistic integration of solar thermal power and
     hydrogen processes](https://doi.org/10.1073/pnas.1513488112).
     *Proceedings of the National Academy of Sciences*, *112*(52),
     15821–15826.
 
-42. Chung, K., Richard, J.-P. P., & Tawarmalani, M. (2014). [Lifted
+43. Chung, K., Richard, J.-P. P., & Tawarmalani, M. (2014). [Lifted
     inequalities for 0-1 mixed-integer bilinear covering
     sets](https://doi.org/10.1007/s10107-013-0652-1). *Mathematical
     Programming*, *145*(1), 403–450.
 
-43. Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2014). [Modified
+44. Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2014). [Modified
     basic distillation configurations with intermediate sections for
     energy savings](https://doi.org/10.1002/aic.14324). *AIChE Journal*,
     *60*(3), 1091–1097.
 
-44. Mallapragada, D. S., Tawarmalani, M., & Agrawal, R. (2014).
+45. Mallapragada, D. S., Tawarmalani, M., & Agrawal, R. (2014).
     [Synthesis of augmented biofuel processes using solar
     energy](https://doi.org/10.1002/aic.14456). *AIChE Journal*,
     *60*(7), 2533–2545.
 
-45. Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2014). [Thermal
+46. Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2014). [Thermal
     coupling links to liquid-only transfer streams: A path for new
     dividing wall columns](https://doi.org/10.1002/aic.14468). *AIChE
     Journal*, *60*(8), 2949–2961.
 
-46. Tawarmalani, M., Richard, J.-P. P., & Xiong, C. (2013). [Explicit
+47. Tawarmalani, M., Richard, J.-P. P., & Xiong, C. (2013). [Explicit
     convex and concave envelopes through polyhedral
     subdivisions](https://doi.org/10.1007/s10107-012-0581-4).
     *Mathematical Programming*, *138*(1), 531–577.
 
-47. Nallasivam, U., Shah, V. H., Shenvi, A. A., Tawarmalani, M., &
+48. Nallasivam, U., Shah, V. H., Shenvi, A. A., Tawarmalani, M., &
     Agrawal, R. (2013). [Global optimization of multicomponent
     distillation configurations: 1. Need for a reliable global
     optimization algorithm](https://doi.org/10.1002/aic.13875). *AIChE
     Journal*, *59*(3), 971–981.
 
-48. Bao, X., Sahinidis, N. V., & Tawarmalani, M. (2011). [Semidefinite
+49. Bao, X., Sahinidis, N. V., & Tawarmalani, M. (2011). [Semidefinite
     relaxations for quadratically constrained quadratic programming: A
     review and comparisons](https://doi.org/10.1007/s10107-011-0462-2).
     *Mathematical Programming*, *129*, 129–157.
 
-49. Tawarmalani, M., & Li, Y. (2011). [Multi-period maintenance
+50. Tawarmalani, M., & Li, Y. (2011). [Multi-period maintenance
     scheduling of tree networks with minimum flow
     disruption](https://doi.org/10.1002/nav.20455). *Naval Research
     Logistics*, *58*(5), 507–530.
 
-50. Richard, J.-P. P., & Tawarmalani, M. (2010). [Lifting inequalities:
+51. Richard, J.-P. P., & Tawarmalani, M. (2010). [Lifting inequalities:
     A framework for generating strong cuts for nonlinear
     programs](https://doi.org/10.1007/s10107-008-0226-9). *Mathematical
     Programming*, *121*, 61–104.
 
-51. Tawarmalani, M., Richard, J.-P. P., & Chung, K. (2010). [Strong
+52. Tawarmalani, M., Richard, J.-P. P., & Chung, K. (2010). [Strong
     valid inequalities for orthogonal disjunctions and bilinear covering
     sets](https://doi.org/10.1007/s10107-010-0374-6). *Mathematical
     Programming*, *124*(1), 481–512.
 
-52. Bao, X., Sahinidis, N. V., & Tawarmalani, M. (2009). [Multiterm
+53. Bao, X., Sahinidis, N. V., & Tawarmalani, M. (2009). [Multiterm
     polyhedral relaxations for nonconvex, quadratically constrained
     quadratic programs](https://doi.org/10.1080/10556780902883184).
     *Optimization Methods & Software*, *24*(4-5), 485–504.
 
-53. Tawarmalani, M., Kannan, K., & De, P. (2009). [Allocating objects in
+54. Tawarmalani, M., Kannan, K., & De, P. (2009). [Allocating objects in
     a network of caches: Centralized and decentralized
     analyses](https://doi.org/10.1287/mnsc.1080.0923). *Management
     Science*, *55*(1), 132–147.
 
-54. Tawarmalani, M., & Sahinidis, N. V. (2005). [A polyhedral
+55. Tawarmalani, M., & Sahinidis, N. V. (2005). [A polyhedral
     branch-and-cut approach to global
     optimization](https://doi.org/10.1007/s10107-005-0581-8).
     *Mathematical Programming*, *103*(2), 225–249.
 
-55. Sahinidis, N. V., & Tawarmalani, M. (2005). [Accelerating
+56. Sahinidis, N. V., & Tawarmalani, M. (2005). [Accelerating
     branch-and-bound through a modeling language construct for
     relaxation-specific
     constraints](https://doi.org/10.1007/s10898-004-2705-8). *Journal of
     Global Optimization*, *32*, 259–280.
 
-56. Tawarmalani, M., & Sahinidis, N. V. (2004). [Global optimization of
+57. Tawarmalani, M., & Sahinidis, N. V. (2004). [Global optimization of
     mixed-integer nonlinear programs: A theoretical and computational
     study](https://doi.org/10.1007/s10107-003-0467-6). *Mathematical
     Programming*, *99*(3), 563–591.
 
-57. Ahmed, S., Tawarmalani, M., & Sahinidis, N. V. (2004). [A finite
+58. Ahmed, S., Tawarmalani, M., & Sahinidis, N. V. (2004). [A finite
     branch-and-bound algorithm for two-stage stochastic integer
     programs](https://doi.org/10.1007/s10107-003-0475-6). *Mathematical
     Programming*, *100*(2), 355–377.
 
-58. Sahinidis, N. V., Tawarmalani, M., & Yu, M. (2003). [Design of
+59. Sahinidis, N. V., Tawarmalani, M., & Yu, M. (2003). [Design of
     alternative refrigerants via global
     optimization](https://doi.org/10.1002/aic.690490714). *AIChE
     Journal*, *49*(7), 1761–1775.
 
-59. Tawarmalani, M., & Sahinidis, N. V. (2002). [Convex extensions and
+60. Tawarmalani, M., & Sahinidis, N. V. (2002). [Convex extensions and
     envelopes of lower semi-continuous
     functions](https://doi.org/10.1007/s10107-002-0308-z). *Mathematical
     Programming*, *93*(2), 247–263.
 
-60. Tawarmalani, M., Ahmed, S., & Sahinidis, N. V. (2002). [Global
+61. Tawarmalani, M., Ahmed, S., & Sahinidis, N. V. (2002). [Global
     optimization of 0-1 hyperbolic
     programs](https://doi.org/10.1023/A:1021279918708). *Journal of
     Global Optimization*, *24*(4), 385–416.
 
-61. Tawarmalani, M., & Sahinidis, N. V. (2001). [Semidefinite
+62. Tawarmalani, M., & Sahinidis, N. V. (2001). [Semidefinite
     relaxations of fractional programs via novel convexification
     techniques](https://doi.org/10.1023/A:1011233805045). *Journal of
     Global Optimization*, *20*, 133–154.
 
-62. Tawarmalani, M., Ahmed, S., & Sahinidis, N. V. (2001). [Product
+63. Tawarmalani, M., Ahmed, S., & Sahinidis, N. V. (2001). [Product
     disaggregation in global optimization and relaxations of rational
     programs](https://doi.org/10.1023/A:1021043227181). *Optimization
     and Engineering*, *3*, 281–303.
 
-63. Sahinidis, N. V., & Tawarmalani, M. (2000). [Applications of global
+64. Sahinidis, N. V., & Tawarmalani, M. (2000). [Applications of global
     optimization to process and molecular
     design](https://doi.org/10.1016/s0098-1354(00)00583-4). *Computers &
     Chemical Engineering*, *24*(9-10), 2157–2169.
 
-64. Adhya, N., Tawarmalani, M., & Sahinidis, N. V. (1999). [A lagrangian
+65. Adhya, N., Tawarmalani, M., & Sahinidis, N. V. (1999). [A lagrangian
     approach to the pooling problem](https://doi.org/10.1021/ie980666q).
     *Industrial & Engineering Chemistry Research*, *38*(5), 1956–1972.
 
@@ -574,128 +578,134 @@ and Decision Analysis, Optimization Models.
 
 ## Refereed Conference Proceedings
 
-1.  Nagoja, A., Tawarmalani, M., & Agrawal, R. (2024). [An MINLP
+1.  AlQiam, A. A., Li, Z., Ahuja, S. S., Wang, Z., Zhang, Y., Rao, S.
+    G., Ribeiro, B., & Tawarmalani, M. (2025). [Hattrick: Solving
+    multi-class TE using neural
+    models](https://doi.org/10.1145/3718958.3750470). *Proceedings of
+    the ACM SIGCOMM 2025 Conference*, 264–278.
+
+2.  Nagoja, A., Tawarmalani, M., & Agrawal, R. (2024). [An MINLP
     formulation for global optimization of heat integration-heat pump
     assisted distillations](https://doi.org/10.69997/sct.182820).
     *Proceedings of the 10th International Conference on Foundations of
     Computer-Aided Process Design*.
 
-2.  AlQiam, A. A., Yao, Y., Wang, Z., Ahuja, S. S., Zhang, Y., Rao, S.
+3.  AlQiam, A. A., Yao, Y., Wang, Z., Ahuja, S. S., Zhang, Y., Rao, S.
     G., Ribeiro, B., & Tawarmalani, M. (2024). [Transferable neural WAN
     TE for changing
     topologies](https://doi.org/10.1145/3651890.3672237). *Proceedings
     of the ACM SIGCOMM 2024 Conference*, 86–102.
 
-3.  Jafri, S. U., Rao, S., Shrivastav, V., & Tawarmalani, M. (2024).
+4.  Jafri, S. U., Rao, S., Shrivastav, V., & Tawarmalani, M. (2024).
     Leo: Online <span class="nocase">ML-based</span> traffic
     classification at Multi-Terabit line rate. *21st USENIX Symposium on
     Networked Systems Design and Implementation (NSDI 24)*, 1573–1591.
     [URL](https://www.usenix.org/conference/nsdi24/presentation/jafri)
 
-4.  Jiang, C., Li, Z., Rao, S., & Tawarmalani, M. (2022). [Flexile:
+5.  Jiang, C., Li, Z., Rao, S., & Tawarmalani, M. (2022). [Flexile:
     Meeting bandwidth objectives almost
     always](https://doi.org/10.1145/3555050.3569119). *Proceedings of
     the 18th International Conference on Emerging Networking Experiments
     and Technologies*, 110–125.
 
-5.  Mathew, T. J., Tawarmalani, M., & Agrawal, R. (2022).
+6.  Mathew, T. J., Tawarmalani, M., & Agrawal, R. (2022).
     [Systematically identifying energy-efficient and attractive
     multicomponent distillation
     configurations](https://doi.org/10.1016/b978-0-323-85159-6.50106-8).
     In *Computer aided chemical engineering* (Vol. 49, pp. 637–642).
     Elsevier.
 
-6.  Chavez Velasco, J. A., Chen, Z., Gooty, R. T., Tawarmalani, M., &
+7.  Chavez Velasco, J. A., Chen, Z., Gooty, R. T., Tawarmalani, M., &
     Agrawal, R. (2021). [Energy-efficient membrane cascades for
     industrial
     separations](https://doi.org/10.1016/b978-0-323-88506-5.50057-7). In
     *Computer aided chemical engineering* (Vol. 50, pp. 359–364).
     Elsevier.
 
-7.  Jiang, C., Rao, S., & Tawarmalani, M. (2020). [PCF: Provably
+8.  Jiang, C., Rao, S., & Tawarmalani, M. (2020). [PCF: Provably
     resilient flexible
     routing](https://doi.org/10.1145/3387514.3405858). *Proceedings of
     the Annual Conference of the ACM Special Interest Group on Data
     Communication on the Applications, Technologies, Architectures, and
     Protocols for Computer Communication*, 139–153.
 
-8.  Chang, Y., Jiang, C., Chandra, A., Rao, S., & Tawarmalani, M.
+9.  Chang, Y., Jiang, C., Chandra, A., Rao, S., & Tawarmalani, M.
     (2019). [Lancet: Better network resilience by designing for pruned
     failure sets](https://doi.org/10.1145/3393691.3394195). *Proceedings
     of the ACM on Measurement and Analysis of Computing Systems*, *3*,
     1–26.
 
-9.  Gooty, R. T., Mobed, P., Tawarmalani, M., & Agrawal, R. (2018).
+10. Gooty, R. T., Mobed, P., Tawarmalani, M., & Agrawal, R. (2018).
     [Optimal multicomponent distillation column sequencing: Software and
     case studies](https://doi.org/10.1016/b978-0-444-64241-7.50032-x).
     In *Computer aided chemical engineering* (Vol. 44, pp. 223–228).
     Elsevier.
 
-10. Jiang, Z., Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2018).
+11. Jiang, Z., Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2018).
     [Process intensification in multicomponent
     distillation](https://doi.org/10.3303/CET1869141). *Chemical
     Engineering Transactions*, *69*, 841–846.
 
-11. Chang, Y., Rao, S., & Tawarmalani, M. (2017). Robust validation of
+12. Chang, Y., Rao, S., & Tawarmalani, M. (2017). Robust validation of
     network designs under uncertain demands and failures. *14th USENIX
     Symposium on Networked Systems Design and Implementation (NSDI 17)*,
     347–362.
     [URL](https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/chang)
 
-12. Barik, A., Honorio, J., & Tawarmalani, M. (2017). [Information
+13. Barik, A., Honorio, J., & Tawarmalani, M. (2017). [Information
     theoretic limits for linear prediction with graph-structured
     sparsity](https://doi.org/10.1109/isit.2017.8006949). *2017 IEEE
     International Symposium on Information Theory (ISIT)*, 2348–2352.
 
-13. Gençer, E., Tawarmalani, M., & Agrawal, R. (2015). [Integrated solar
+14. Gençer, E., Tawarmalani, M., & Agrawal, R. (2015). [Integrated solar
     thermal hydrogen and power coproduction process for continuous power
     supply and production of
     chemicals](https://doi.org/10.1016/b978-0-444-63576-1.50076-5). In
     *Computer aided chemical engineering* (Vol. 37, pp. 2291–2296).
     Elsevier.
 
-14. Shankaranarayanan, P., Sivakumar, A., Rao, S., & Tawarmalani, M.
+15. Shankaranarayanan, P., Sivakumar, A., Rao, S., & Tawarmalani, M.
     (2014). [Performance sensitive replication in geo-distributed cloud
     datastores](https://doi.org/10.1109/dsn.2014.34). *2014 44th Annual
     IEEE/IFIP International Conference on Dependable Systems and
     Networks*, 240–251.
 
-15. Gençer, E., Mallapragada, D., Tawarmalani, M., & Agrawal, R. (2014).
+16. Gençer, E., Mallapragada, D., Tawarmalani, M., & Agrawal, R. (2014).
     [Synergistic biomass and natural gas conversion to liquid fuel with
     reduced CO2
     emissions](https://doi.org/10.1016/b978-0-444-63433-7.50072-9). In
     *Computer aided chemical engineering* (Vol. 34, pp. 525–530).
     Elsevier.
 
-16. Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2014). New, useful
+17. Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2014). New, useful
     dividing wall columns for sustainable distillation. *Book of Full
     Papers (Proceedings): 10th International Conference on Distillation
     & Absorption*, 76–81.
 
-17. Nguyen, T. T., Tawarmalani, M., & Richard, J.-P. P. (2011).
+18. Nguyen, T. T., Tawarmalani, M., & Richard, J.-P. P. (2011).
     [Convexification techniques for linear complementarity
     constraints](https://doi.org/10.1007/978-3-642-20807-2_27).
     *International Conference on Integer Programming and Combinatorial
     Optimization*, 336–348.
 
-18. Hajjat, M., Sun, X., Sung, Y.-W. E., Maltz, D., Rao, S.,
+19. Hajjat, M., Sun, X., Sung, Y.-W. E., Maltz, D., Rao, S.,
     Sripanidkulchai, K., & Tawarmalani, M. (2010). [Cloudward bound:
     Planning for beneficial migration of enterprise applications to the
     cloud](https://doi.org/10.1145/1851182.1851212). *ACM SIGCOMM
     Computer Communication Review*, *40*(4), 243–254.
 
-19. Rahman, M. S., Kannan, K. N., & Tawarmalani, M. (2007). The
+20. Rahman, M. S., Kannan, K. N., & Tawarmalani, M. (2007). The
     countervailing incentive of restricted patch distribution: Economic
     and policy implications. *WEIS*.
     [URL](https://econinfosec.org/archive/weis2007/program.htm)
 
-20. Xia, Q., Ersoy, O., Moskowitz, H., & Tawarmalani, M. (2007).
+21. Xia, Q., Ersoy, O., Moskowitz, H., & Tawarmalani, M. (2007).
     [Interactive clustering and
     classification](https://doi.org/10.1115/1.802823.paper58).
     *Proceedings of Conf. Artificial Neural Networks in Eng.,
     (ANNIE’08)*, 463–470.
 
-21. Tawarmalani, M., Kannan, K. N., & De, P. (2005). [A mechanism for
+22. Tawarmalani, M., Kannan, K. N., & De, P. (2005). [A mechanism for
     allocating objects in a network of symmetric
     caches](https://doi.org/10.2139/ssrn.885925). *15th Annual Workshop
     on Information Technolgies & Systems (WITS) Paper*.
@@ -1405,78 +1415,76 @@ and Decision Analysis, Optimization Models.
 
 ## Software
 
--   Co-authored BARON (Branch and Reduce Optimization Navigator) for
-    global optimization of mixed-integer nonlinear programs
+- Co-authored BARON (Branch and Reduce Optimization Navigator) for
+  global optimization of mixed-integer nonlinear programs
 
--   Data Reduction subroutine (Merge) for CADDS5
+- Data Reduction subroutine (Merge) for CADDS5
 
 </section>
 <section id="honors">
 
 ## Honors
 
--   Led Krenicki center as a 2025 Mira award finalist for higher
-    education innovation
+- Led Krenicki center as a 2025 Mira award finalist for higher education
+  innovation
 
--   2024 Computing in Chemical Engineering Award (with R. Agrawal), CAST
-    Division, AIChE
+- 2024 Computing in Chemical Engineering Award (with R. Agrawal), CAST
+  Division, AIChE
 
--   Big Academic Alliance Academic Leadership Program Fellow, 2024-2025
+- Big Academic Alliance Academic Leadership Program Fellow, 2024-2025
 
--   Led Purdue’s team to win 2023 INFORMS UPS George D. Smith Prize
+- Led Purdue’s team to win 2023 INFORMS UPS George D. Smith Prize
 
--   Salgo-Noren Outstanding Master’s Teacher, 2022, 2023
+- Salgo-Noren Outstanding Master’s Teacher, 2022, 2023
 
--   Distinguished Residential Master’s Program Teacher, Spring 2021
+- Distinguished Residential Master’s Program Teacher, Spring 2021
 
--   Distinguished Elective MBA Teaching Recognition, 2014–2023
+- Distinguished Elective MBA Teaching Recognition, 2014–2023
 
--   Runner-up, Salgo Noren Foundation Award for Excellence in Teaching,
-    Krannert School of Management, 2009, 2011, 2016, 2018, 2019, 2020
+- Runner-up, Salgo Noren Foundation Award for Excellence in Teaching,
+  Krannert School of Management, 2009, 2011, 2016, 2018, 2019, 2020
 
--   2006 Beale-Orchard-Hays prize (with N. V. Sahinidis) for the paper
-    \`\`A polyhedral branch-and-cut approach to global optimization’’
+- 2006 Beale-Orchard-Hays prize (with N. V. Sahinidis) for the paper
+  \`\`A polyhedral branch-and-cut approach to global optimization’’
 
--   Krannert Faculty Fellow, 2006
+- Krannert Faculty Fellow, 2006
 
--   Best Paper Award (with K. Kannan and P. De) in the fifteenth
-    Workshop on Information Technologies and Systems (2005) for the
-    paper \`\`A Mechanism for Allocating Objects in a Network of
-    Symmetric Caches’’
+- Best Paper Award (with K. Kannan and P. De) in the fifteenth Workshop
+  on Information Technologies and Systems (2005) for the paper \`\`A
+  Mechanism for Allocating Objects in a Network of Symmetric Caches’’
 
--   Honorable Mention in 2005 Junior Faculty Interest Group Competition
-    (with Y. Li) for the paper \`\`Minimizing Flow Disruption due to
-    Network Maintenance’’
+- Honorable Mention in 2005 Junior Faculty Interest Group Competition
+  (with Y. Li) for the paper \`\`Minimizing Flow Disruption due to
+  Network Maintenance’’
 
--   Distinguished Core MBA Teaching Recognition, 2005–2011, 2014–2020
+- Distinguished Core MBA Teaching Recognition, 2005–2011, 2014–2020
 
--   INFORMS Computing Society Prize (with N. V. Sahinidis), 2004 for
-    research excellence in the interface between Computer Science and
-    Operations Research
+- INFORMS Computing Society Prize (with N. V. Sahinidis), 2004 for
+  research excellence in the interface between Computer Science and
+  Operations Research
 
--   Jay N. Ross Young Faculty Scholar Award, 2002–2003, Purdue
-    University
+- Jay N. Ross Young Faculty Scholar Award, 2002–2003, Purdue University
 
--   American Institute of Chemical Engineers (AICHE) Computers and
-    Systems Technology (CAST) Director’s Award, 1999. Best Poster: Novel
-    Molecular Designs Via Global Optimization
+- American Institute of Chemical Engineers (AICHE) Computers and Systems
+  Technology (CAST) Director’s Award, 1999. Best Poster: Novel Molecular
+  Designs Via Global Optimization
 
--   CSE Fellow, Computational Science & Engineering, University of
-    Illinois, Jan 1999–May 1999
+- CSE Fellow, Computational Science & Engineering, University of
+  Illinois, Jan 1999–May 1999
 
--   Teaching Fellow, Department of Mechanical and Industrial
-    Engineering, University of Illinois, Aug 1998–May 1999
+- Teaching Fellow, Department of Mechanical and Industrial Engineering,
+  University of Illinois, Aug 1998–May 1999
 
--   Tata Consultancy Services award for *best project* in the areas of
-    CAD/CAM, Robotics & Automation, July 1993
+- Tata Consultancy Services award for *best project* in the areas of
+  CAD/CAM, Robotics & Automation, July 1993
 
 </section>
 <section id="patents">
 
 ## Patents
 
--   Distillation Heating System and Method, Provisional Application, PRF
-    70601-01, 63/555,569, (2024)
+- Distillation Heating System and Method, Provisional Application, PRF
+  70601-01, 63/555,569, (2024)
 
 </section>
 <section id="graduated-phd-students">
@@ -1512,227 +1520,224 @@ and Decision Analysis, Optimization Models.
 
 ## Grants
 
--   PI, Air Force Office of Scientific Research, Quantifying
-    Probabilities using Optimization Techniques, $378,105, January
-    2022-January 2025
+- PI, Air Force Office of Scientific Research, Quantifying Probabilities
+  using Optimization Techniques, $378,105, January 2022-January 2025
 
--   PI, National Science Foundation, Collaborative Research: Novel
-    Relaxations for Cardinality-Constrained Optimization Problems with
-    Applications in Network Interdiction and Data Analysis, $396,424,
-    August 2017-July 2021
+- PI, National Science Foundation, Collaborative Research: Novel
+  Relaxations for Cardinality-Constrained Optimization Problems with
+  Applications in Network Interdiction and Data Analysis, $396,424,
+  August 2017-July 2021
 
--   Co-PI, National Science Foundation, CNS Core: Small: Designing
-    Networks for Stringent Performance Requirements, $500,000, October
-    2019-September 2022
+- Co-PI, National Science Foundation, CNS Core: Small: Designing
+  Networks for Stringent Performance Requirements, $500,000, October
+  2019-September 2022
 
--   Co-PI, Optimization of Oil/Gas Processes and Process Flowsheets,
-    Exxon Mobil Research Company, $638,685, March 2017-February 2020
+- Co-PI, Optimization of Oil/Gas Processes and Process Flowsheets, Exxon
+  Mobil Research Company, $638,685, March 2017-February 2020
 
--   Co-PI, Development of method and algorithms to identify easily
-    implementable energy efficient low-cost multicomponent distillation
-    column trains with energy savings for wide number of separations,
-    $1,151,707 (Department of Energy Share: $900,000, Purdue Cost Share:
-    $251,707) December 2014-December 2017
+- Co-PI, Development of method and algorithms to identify easily
+  implementable energy efficient low-cost multicomponent distillation
+  column trains with energy savings for wide number of separations,
+  $1,151,707 (Department of Energy Share: $900,000, Purdue Cost Share:
+  $251,707) December 2014-December 2017
 
--   Co-PI, Multicomponent Distillation Configurations, Eastman Chemical
-    Company, $45,000
+- Co-PI, Multicomponent Distillation Configurations, Eastman Chemical
+  Company, $45,000
 
--   PI, National Science Foundation, Collaborative Research: Novel
-    Tighter Relaxations for Complementarity Constraints with
-    Applications to Nonlinear and Bilevel Programming, $226,172,
-    September 2012–August 2015
+- PI, National Science Foundation, Collaborative Research: Novel Tighter
+  Relaxations for Complementarity Constraints with Applications to
+  Nonlinear and Bilevel Programming, $226,172, September 2012–August
+  2015
 
--   Co-PI, National Science Foundation, CSR: Medium: Collaborative
-    Research: Architecting Performance Sensitive Applications for the
-    Cloud, $400000, August 2012–July 2016
+- Co-PI, National Science Foundation, CSR: Medium: Collaborative
+  Research: Architecting Performance Sensitive Applications for the
+  Cloud, $400000, August 2012–July 2016
 
--   PI, National Science Foundation, Collaborative Research: Generating
-    Strong Cuts for Nonlinear Programs Via Orthogonal Disjunctions and
-    Lifting Techniques, $204171, July 2009–June 2013
+- PI, National Science Foundation, Collaborative Research: Generating
+  Strong Cuts for Nonlinear Programs Via Orthogonal Disjunctions and
+  Lifting Techniques, $204171, July 2009–June 2013
 
--   Amazon.com, $25000 (with Prof. K. Tang), Evidence Based Solutions
-    for Global Fulfillment Network, June 2007
+- Amazon.com, $25000 (with Prof. K. Tang), Evidence Based Solutions for
+  Global Fulfillment Network, June 2007
 
--   Huntingburg OFS project under Global Supply Chain Management
-    Initiative, June 2006
+- Huntingburg OFS project under Global Supply Chain Management
+  Initiative, June 2006
 
--   Purdue Research Foundation Summer Faculty Grant, Relaxation
-    Hierarchies and Continuous Lifting in Deterministic Global
-    Optimization, 2006
+- Purdue Research Foundation Summer Faculty Grant, Relaxation
+  Hierarchies and Continuous Lifting in Deterministic Global
+  Optimization, 2006
 
--   Purdue Research Foundation Summer Faculty Grant, Disjunctive
-    Relaxations of Non-convex Nonlinear Programs, 2005
+- Purdue Research Foundation Summer Faculty Grant, Disjunctive
+  Relaxations of Non-convex Nonlinear Programs, 2005
 
 </section>
 <section id="professional-memberships">
 
 ## Professional Memberships
 
--   Member of Institute of Operations Research and Management Science
-    since 1996
+- Member of Institute of Operations Research and Management Science
+  since 1996
 
--   Member of Mathematical Programming/Optimization Society 2003-2006,
-    2015-present
+- Member of Mathematical Programming/Optimization Society 2003-2006,
+  2015-present
 
--   Web Administrator of Optimization Section of Institute for
-    Operations Research and Management Science 1996-2001
+- Web Administrator of Optimization Section of Institute for Operations
+  Research and Management Science 1996-2001
 
 </section>
 <section id="service">
 
 ## Service
 
--   Quantitative Methods Area Coordinator, 2020-2023
+- Quantitative Methods Area Coordinator, 2020-2023
 
--   Member, Transition Steering Committee, 2022-till date
+- Member, Transition Steering Committee, 2022-till date
 
--   Chair, Design Committee for PhD in Business Analytics & Data
-    Science, 2022
+- Chair, Design Committee for PhD in Business Analytics & Data Science,
+  2022
 
--   Director, Krenicki Center for Business Analytics & Machine Learning,
-    2022-till date
+- Director, Krenicki Center for Business Analytics & Machine Learning,
+  2022-till date
 
--   PhD Advisor for Quantitative Methods, 2007-till date
+- PhD Advisor for Quantitative Methods, 2007-till date
 
--   Member, Organizing team member for AT Kearney sponsored Industry
-    Practicum, Fall 2022
+- Member, Organizing team member for AT Kearney sponsored Industry
+  Practicum, Fall 2022
 
--   Member, Faculty group visit for MOU signing with IIT Chennai and
-    Delhi, 2022
+- Member, Faculty group visit for MOU signing with IIT Chennai and
+  Delhi, 2022
 
--   Member, Clinical faculty search committee, 2022-2023
+- Member, Clinical faculty search committee, 2022-2023
 
--   Member, Krannert Data Initiative Committee, 2022-2023
+- Member, Krannert Data Initiative Committee, 2022-2023
 
--   Co-chair Application for INFORMS UPS Prize, 2022-2023
+- Co-chair Application for INFORMS UPS Prize, 2022-2023
 
--   Member, Application for INFORMS UPS Prize, 2021-2022
+- Member, Application for INFORMS UPS Prize, 2021-2022
 
--   Department Restructuring Committee, 2022
+- Department Restructuring Committee, 2022
 
--   Member, Tech MBA Design Committee, 2022
+- Member, Tech MBA Design Committee, 2022
 
--   Member, MBA Design Committee, 2021
+- Member, MBA Design Committee, 2021
 
--   Co-Chair, Design Committee for Bachelors in Business Analytics and
-    Information Management, 2020-2021
+- Co-Chair, Design Committee for Bachelors in Business Analytics and
+  Information Management, 2020-2021
 
--   PhD Committee, 2018-2019
+- PhD Committee, 2018-2019
 
--   Data Science Initiative, Faculty Representative, 2017-2018
+- Data Science Initiative, Faculty Representative, 2017-2018
 
--   Co-director, Business Information and Analytics Center, 2016-2018
+- Co-director, Business Information and Analytics Center, 2016-2018
 
--   Co-director, MS in Business Analytics and Information Management,
-    2015-2018
+- Co-director, MS in Business Analytics and Information Management,
+  2015-2018
 
--   STAMINA IT/Analytics Case Competition, Judge, 2016, 2017
+- STAMINA IT/Analytics Case Competition, Judge, 2016, 2017
 
--   Krannert delegate for Associate Deans for Research Meetings,
-    2015-2020
+- Krannert delegate for Associate Deans for Research Meetings, 2015-2020
 
--   MBA Review Committee, 2015-2016
+- MBA Review Committee, 2015-2016
 
--   Krannert Masters Committee, 2015-2016
+- Krannert Masters Committee, 2015-2016
 
--   Star Committee, 2013-2014
+- Star Committee, 2013-2014
 
--   Design Committee for MS in Business Analytics and Information
-    Management, 2012-2015
+- Design Committee for MS in Business Analytics and Information
+  Management, 2012-2015
 
--   Reviewer for Big Ideas Challenge. Purdue University, 2016-2017
+- Reviewer for Big Ideas Challenge. Purdue University, 2016-2017
 
--   Graduate Council, 2009-2012
+- Graduate Council, 2009-2012
 
--   Restructuring Committee for Quantitative Methods PhD Program,
-    2007-2008
+- Restructuring Committee for Quantitative Methods PhD Program,
+  2007-2008
 
--   Opportunity Day, Analytical Consulting, Presenter, 2009-2012
+- Opportunity Day, Analytical Consulting, Presenter, 2009-2012
 
--   Katalyst/Blackboard Vista Transition Working Group, 2007-2008
+- Katalyst/Blackboard Vista Transition Working Group, 2007-2008
 
--   PhD Recruitment Committee for Quantitative Methods, 2002-till date
+- PhD Recruitment Committee for Quantitative Methods, 2002-till date
 
--   Faculty Grievance Committee, 2004-2007
+- Faculty Grievance Committee, 2004-2007
 
--   Panel Discussant and Presenter at Research and Teaching Worshop for
-    New Faculty, 2007, 2008
+- Panel Discussant and Presenter at Research and Teaching Worshop for
+  New Faculty, 2007, 2008
 
--   Information Technology Access Committee, Chair, 2007-2008
+- Information Technology Access Committee, Chair, 2007-2008
 
--   DCCME/GSCMI Advisory Committee, 2005-2010
+- DCCME/GSCMI Advisory Committee, 2005-2010
 
--   Undergraduate Task Force, 2005-2006
+- Undergraduate Task Force, 2005-2006
 
--   Undergraduate Curriculum Committee, 2004-2005
+- Undergraduate Curriculum Committee, 2004-2005
 
--   Information Technology Access Committee, Member 2002-2008
+- Information Technology Access Committee, Member 2002-2008
 
--   Faculty Search Committee, Chair 2010-2011
+- Faculty Search Committee, Chair 2010-2011
 
--   Faculty Search Committee, Member 2002-2003, 2010-2011, 2012-2013,
-    2014-2015
+- Faculty Search Committee, Member 2002-2003, 2010-2011, 2012-2013,
+  2014-2015
 
--   KGSA interclub competition judge, 2008
+- KGSA interclub competition judge, 2008
 
 </section>
 <section id="professional-activities">
 
 ## Professional Activities
 
--   Editorial Boards: Associate Editor, *Journal of Global
-    Optimization*, Associate Editor, *Mathematical Programming
-    Computation*, Associate Editor, *SIAM Journal on Optimization*,
-    Associate Editor, *Operations Research Forum*
+- Editorial Boards: Associate Editor, *Journal of Global Optimization*,
+  Associate Editor, *Mathematical Programming Computation*, Associate
+  Editor, *SIAM Journal on Optimization*, Associate Editor, *Operations
+  Research Forum*
 
--   Cluster Co-Chair, ICCOPT, Convexification and Global Optimization,
-    2022
+- Cluster Co-Chair, ICCOPT, Convexification and Global Optimization,
+  2022
 
--   Nicholson Award Committee, 2021, 2022
+- Nicholson Award Committee, 2021, 2022
 
--   Optimization Society Student Paper Prize, Chair, 2015
+- Optimization Society Student Paper Prize, Chair, 2015
 
--   Optimization Society Student Paper Prize, Member, 2015-2016
+- Optimization Society Student Paper Prize, Member, 2015-2016
 
--   Contributing Author for Global Optimization, NEOS Wiki 2011
+- Contributing Author for Global Optimization, NEOS Wiki 2011
 
--   Cluster Chair for Global Optimization, International Symposium on
-    Mathematical Programming, 2015
+- Cluster Chair for Global Optimization, International Symposium on
+  Mathematical Programming, 2015
 
--   Program Committee, 2011 INFORMS Midwest Meeting, 2011
+- Program Committee, 2011 INFORMS Midwest Meeting, 2011
 
--   Program Committee, 2009 CPAIOR International Meeting, Pittsburgh,
-    2009
+- Program Committee, 2009 CPAIOR International Meeting, Pittsburgh, 2009
 
--   Organized the Global Optimization Cluster for ICCOPT-MOPTA,
-    Hamilton, 2007
+- Organized the Global Optimization Cluster for ICCOPT-MOPTA, Hamilton,
+  2007
 
--   Organized the Global Optimization Cluster for INFORMS, Pittsburgh,
-    2006
+- Organized the Global Optimization Cluster for INFORMS, Pittsburgh,
+  2006
 
--   Organized the Global Optimization Cluster for INFORMS, San
-    Francisco, 2005
+- Organized the Global Optimization Cluster for INFORMS, San Francisco,
+  2005
 
--   Vice Chair of Global Optimization, INFORMS Optimization Society,
-    October 2004 to November 2006
+- Vice Chair of Global Optimization, INFORMS Optimization Society,
+  October 2004 to November 2006
 
--   Refereed papers for *Computers and Chemical Engineering*,
-    *Computational Optimization and Applications*, *Discrete
-    Optimization*, *European Journal of Operational Research*,
-    *International Journal of Operations and Quantitative Management*,
-    *International Journal of Systems Science*, *Journal of Global
-    Optimization*, *Journal of Industrial and Management Optimization*,
-    *Journal of Optimization Theory and Applications*, *Management
-    Science*, *Mathematical Programming*, *Operations Research*,
-    *Operations Research Letters*, *Optimization and Engineering*,
-    *Optimization Methods and Software*, and *SIAM Journal on
-    Optimization*.
+- Refereed papers for *Computers and Chemical Engineering*,
+  *Computational Optimization and Applications*, *Discrete
+  Optimization*, *European Journal of Operational Research*,
+  *International Journal of Operations and Quantitative Management*,
+  *International Journal of Systems Science*, *Journal of Global
+  Optimization*, *Journal of Industrial and Management Optimization*,
+  *Journal of Optimization Theory and Applications*, *Management
+  Science*, *Mathematical Programming*, *Operations Research*,
+  *Operations Research Letters*, *Optimization and Engineering*,
+  *Optimization Methods and Software*, and *SIAM Journal on
+  Optimization*.
 
--   Developed and Maintained Web Interface for BARON, October 1999–May
-    2001
+- Developed and Maintained Web Interface for BARON, October 1999–May
+  2001
 
--   Organized Paper Sessions in INFORMS, Miami, 2001, INFORMS, San Jose,
-    2002, INFORMS Optimization Society Meeting, Atlanta, 2008, and
-    INFORMS, Washington DC, 2008.
+- Organized Paper Sessions in INFORMS, Miami, 2001, INFORMS, San Jose,
+  2002, INFORMS Optimization Society Meeting, Atlanta, 2008, and
+  INFORMS, Washington DC, 2008.
 
 </section>
