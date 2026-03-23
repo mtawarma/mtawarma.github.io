@@ -216,20 +216,20 @@ and Decision Analysis, Optimization Models.
     systems](https://doi.org/10.1002/aic.18895). *AIChE Journal*,
     e18895.
 
-4.  He, T., Liu, S., & Tawarmalani, M. (2025). [Convexification
+4.  Kim, J., Richard, J.-P. P., & Tawarmalani, M. (2025). [A reciprocity
+    between tree ensemble optimization and multilinear
+    optimization](https://doi.org/10.1287/opre.2022.0150). *Operations
+    Research*, *73*, 2610–2626.
+
+5.  He, T., Liu, S., & Tawarmalani, M. (2025). [Convexification
     techniques for fractional
     programs](https://doi.org/10.1007/s10107-024-02131-x). *Mathematical
     Programming*, *213*, 107–149.
 
-5.  Nogaja, A., Tawarmalani, M., & Agrawal, R. (2024). [Cogeneration
+6.  Nogaja, A., Tawarmalani, M., & Agrawal, R. (2024). [Cogeneration
     improves separation
     efficiency](https://doi.org/10.1021/acs.iecr.4c03190). *Industrial
     and Engineering Chemistry Research*, *63*, 18564–18574.
-
-6.  Kim, J., Richard, J.-P. P., & Tawarmalani, M. (2024). [A reciprocity
-    between tree ensemble optimization and multilinear
-    optimization](https://doi.org/10.1287/opre.2022.0150). *Operations
-    Research*, *73*, 2610–2626.
 
 7.  He, T., & Tawarmalani, M. (2024). [MIP relaxations in factorable
     programming](https://doi.org/10.1137/22M1515537). *SIAM Journal on
@@ -721,699 +721,736 @@ and Decision Analysis, Optimization Models.
 
 ## Presentations
 
-1.  Tawarmalani, M. (2024). *New relaxation hierarchy for disjoint
+1.  Calmon, Andre, Hall, G., Blaettchen, P., & Tawarmalani, M. (2026).
+    *From trees to treewidth: Inventory management in complex supply
+    chain networks*. INFORMS Optimization Conference, Atlanta.
+
+2.  Wang, C., Richard, J. P.-P., & Tawarmalani, M. (2026). *New
+    convexification techniques for graphical decision models*. INFORMS
+    Optimization Conference, Atlanta.
+
+3.  Tawarmalani, M., Zhu, Haisheng, & He, T. (2026). *MINLP relaxations
+    using computational geometry tools*. INFORMS Optimization
+    Conference, Atlanta.
+
+4.  Nogaja, A., Tawarmalani, M., & Agrawal, R. (2025). *Application of
+    exergy optimization to design efficient processes with electrified
+    process heating*. AIChE, Boston.
+
+5.  Kadu, P., Nogaja, A., Tawarmalani, M., & Agrawal, R. (2025).
+    *Identifying the simpler and energy efficient dividing wall
+    configurations*. AIChE, Boston.
+
+6.  Zhu, H., He, T., & Tawarmalani, M. (2025). *Revisiting composite
+    relaxations from a lifting lens*. INFORMS, Atlanta.
+
+7.  Tawarmalani, M., & Oh, H.-J. (2025). *On disjoint bilinear
+    programs*. 2025 Mathematical Optimization Program Review, AFOSR,
+    Washington DC.
+
+8.  Tawarmalani, M. (2025). *New hierarchies for disjoint bilinear
+    programs*. ICCOPT, Los Angeles.
+
+9.  AlQiam, A. A., Li, Z., Ahuja, S. S., Wang, Z., Zhang, Y., Rao, S.
+    G., Ribeiro, B., & Tawarmalani, M. (2025). *Hattrick: Solving
+    multi-class TE using neural models*. SIGCOMM, Portugal.
+
+10. He, T., & Tawarmalani, M. (2025). *Discrete nonlinear functions:
+    Formulations and applications*. ICCOPT, Los Angeles.
+
+11. Tawarmalani, M. (2024). *New relaxation hierarchy for disjoint
     bilinear programs*. Panos-70 conference, Greece.
 
-2.  Tawarmalani, M. (2024). *New finite relaxations hierarchies for
+12. Tawarmalani, M. (2024). *New finite relaxations hierarchies for
     disjoint bilinear programs*. Discrete Optimization: Mathematics,
     Algorithms, and Computation, ICERM, Providence.
 
-3.  Tawarmalani, M. (2024). *New hierarchies for disjoint bilinear
+13. Tawarmalani, M. (2024). *New hierarchies for disjoint bilinear
     programs*. 2024 Mathematical Optimization Program Review, AFOSR,
     Washington DC.
 
-4.  Tawarmalani, M. (2024). *New finite hierarchy for disjoint bilinear
+14. Tawarmalani, M. (2024). *New finite hierarchy for disjoint bilinear
     programs*. INFORMS, Seattle.
 
-5.  Tawarmalani, M., Kim, J., & Richard, J.-P. P. (2024). *Piecewise
+15. Tawarmalani, M., Kim, J., & Richard, J.-P. P. (2024). *Piecewise
     polyhedral relaxations of multilinear optimization*. ISMP, Montreal.
 
-6.  Bhattacharya, R., Nguyen, T., Sun, W. W., & Tawarmalani, M. (2024).
+16. Bhattacharya, R., Nguyen, T., Sun, W. W., & Tawarmalani, M. (2024).
     *Active learning for fair and stable online allocations*. ACM EC
     2024, New Haven, CT.
 
-7.  AlQiam, A. A., Yao, Y., Wang, Z., Ahuja, S. S., Zhang, Y., Rao, S.
+17. AlQiam, A. A., Yao, Y., Wang, Z., Ahuja, S. S., Zhang, Y., Rao, S.
     G., Ribeiro, B., & Tawarmalani, M. (2024). *Transferable neural WAN
     TE for changing topologies*. ACM SIGCOMM 2024, Sydney.
 
-8.  Nogaja, A., Tawarmalani, M., & Agrawal, R. (2024). *Systematic
+18. Nogaja, A., Tawarmalani, M., & Agrawal, R. (2024). *Systematic
     workflow to design electrified distillation systems for binary and
     ternary separations*. AIChE 2024 Spring Meeting & 20th Global
     Congress on Process Safety.
 
-9.  Jafri, S. U., Rao, S., Shrivastav, V., & Tawarmalani, M. (2024).
+19. Jafri, S. U., Rao, S., Shrivastav, V., & Tawarmalani, M. (2024).
     *Leo: Online ML-based traffic classification at multi-terabit line
     rate*. NSDI ’24, Santa Clara.
 
-10. Nagoja, A., Tawarmalani, M., & Agrawal, R. (2023). *Heat pumps for
+20. Nagoja, A., Tawarmalani, M., & Agrawal, R. (2023). *Heat pumps for
     electrification of multicomponent distillation trains: An MINLP
     formulation*. AIChE Annual Meeting, Orlando.
 
-11. Velasco, J. A. C., Gooty, R. T., Tawarmalani, M., & Agrawal, R.
+21. Velasco, J. A. C., Gooty, R. T., Tawarmalani, M., & Agrawal, R.
     (2023). *Which separation process to use: Membrane or distillation
     or both?* AIChE Annual Meeting, Orlando.
 
-12. Tawarmalani, M., & Lanham, M. (2023). *UPS George D. Smith winner
+22. Tawarmalani, M., & Lanham, M. (2023). *UPS George D. Smith winner
     reprise*. INFORMS Annual Meeting, Phoenix.
 
-13. Tawarmalani, M., He, T., & Liu, S. (2023). *Convexification
+23. Tawarmalani, M., He, T., & Liu, S. (2023). *Convexification
     techniques for fractional programs*. INFORMS Annual Meeting,
     Phoenix.
 
-14. Oh, H.-J. (2023). *Solution of disjoint bilinear programs using
+24. Oh, H.-J. (2023). *Solution of disjoint bilinear programs using
     simplicial branch-and-bound*. INFORMS Annual Meeting, Phoenix.
 
-15. Richard, J.-P. P., Tawarmalani, M., & Kim, J. (2023).
+25. Richard, J.-P. P., Tawarmalani, M., & Kim, J. (2023).
     *Convexification techniques for logical implication constraints
     involving cardinality requirements*. INFORMS Annual Meeting,
     Phoenix.
 
-16. Chandra, A., & Tawarmalani, M. (2023). *Risk minimization for
+26. Chandra, A., & Tawarmalani, M. (2023). *Risk minimization for
     network traffic engineering*. INFORMS Annual Meeting, Phoenix.
 
-17. Tawarmalani, M., He, T., & Liu, S. (2023). *Convexficiation
+27. Tawarmalani, M., He, T., & Liu, S. (2023). *Convexficiation
     techniques for fractional programs, a hatchery of modern
     mathematics*. Oberwolfach, Germany; Mathematical Research Institute
     of Oberwolfach.
 
-18. Tawarmalani, M., & Chandra, A. (2023). *Probability quantification
+28. Tawarmalani, M., & Chandra, A. (2023). *Probability quantification
     and optimization with chance-constraints for network routing*. SIAM
     conference on optimization, Seattle.
 
-19. Liu, S., He, T., & Tawarmalani, M. (2023). *Convexification
+29. Liu, S., He, T., & Tawarmalani, M. (2023). *Convexification
     techniques for 0-1 linear fractional programs*. SIAM conference on
     optimization, Seattle.
 
-20. Tawarmalani, M., Lanham, M., Dejoie, R., Franta, J., Wang, Y.,
+30. Tawarmalani, M., Lanham, M., Dejoie, R., Franta, J., Wang, Y.,
     Crawford, J., Copas, K., & Reynolds, B. (2023). *UPS George D. Smith
     prize competition*. INFORMS Analytics, Aurora.
 
-21. Tawarmalani, M., Kim, J., & Richard, J.-P. P. (2023). *Reciprocity
+31. Tawarmalani, M., Kim, J., & Richard, J.-P. P. (2023). *Reciprocity
     between tree ensemble optimization and multilinear optimization,
     linear and non-linear mixed-integer optimization*. ICERM, Brown,
     Providence.
 
-22. Richard, J.-P. P., Kim, J., & Tawarmalani, M. (2022). *A reciprocity
+32. Richard, J.-P. P., Kim, J., & Tawarmalani, M. (2022). *A reciprocity
     between tree ensemble optimization and multilinear optimization*.
     MIP, Rutgers.
 
-23. Chandra, A., & Tawarmalani, M. (2022). *Convex approximations of
+33. Chandra, A., & Tawarmalani, M. (2022). *Convex approximations of
     risk measures with applications to chance-constrained programming*.
     ICCOPT, Bethlehem.
 
-24. Chandra, A., & Tawarmalani, M. (2022). *Convex approximations of
+34. Chandra, A., & Tawarmalani, M. (2022). *Convex approximations of
     risk measures with applications to chance-constrained programming*.
     INFORMS Annual Meeting, Indianapolis.
 
-25. Mathew, T. J., Tawarmalani, M., & Agrawal, R. (2022). *Relaxing the
+35. Mathew, T. J., Tawarmalani, M., & Agrawal, R. (2022). *Relaxing the
     constant relative volatilities and constant molar overflow
     assumptions in distillation while retaining their benefits*. AIChE
     Annual Meeting, New Orleans.
 
-26. Varsha, V., Tawarmalani, M., Gitau, M. W., & Agrawal, R. (2022).
+36. Varsha, V., Tawarmalani, M., Gitau, M. W., & Agrawal, R. (2022).
     *Developing optimization framework for sustainable co-production of
     food and energy*. AIChE Annual Meeting, New Orleans.
 
-27. Chavez Velasco, J. A., Tawarmalani, M., & Agrawal, R. (2022). *Which
+37. Chavez Velasco, J. A., Tawarmalani, M., & Agrawal, R. (2022). *Which
     separation method needs lower power: Membrane or distillation*.
     AIChE Annual Meeting, New Orleans.
 
-28. Iyer, A., Lanham, M., David, A., Feng, Q., & Tawarmalani, M. (2022).
+38. Iyer, A., Lanham, M., David, A., Feng, Q., & Tawarmalani, M. (2022).
     *UPS George D. Smith prize competition*. INFORMS Analytics, Houston.
 
-29. Kim, J., Tawarmalani, M., & Richard, J.-P. P. (2021). *On SDP
+39. Kim, J., Tawarmalani, M., & Richard, J.-P. P. (2021). *On SDP
     relaxations for sparse principal component analysis*. INFORMS Annual
     Meeting, Anaheim.
 
-30. Jiang, C., Rao, S., & Tawarmalani, M. (2021). *Resilient and
+40. Jiang, C., Rao, S., & Tawarmalani, M. (2021). *Resilient and
     flexible routing*. INFORMS Annual Meeting, Anaheim.
 
-31. Kim, J., Richard, J.-P. P., & Tawarmalani, M. (2021). *A reciprocity
+41. Kim, J., Richard, J.-P. P., & Tawarmalani, M. (2021). *A reciprocity
     between tree ensemble optimization and multilinear optimization over
     the cartesian product of simplices*. INFORMS Annual Meeting,
     Anaheim.
 
-32. Chandra, A., & Tawarmalani, M. (2021). *Optimization for probability
+42. Chandra, A., & Tawarmalani, M. (2021). *Optimization for probability
     estimation and application to network reliability*. INFORMS Annual
     Meeting, Anaheim.
 
-33. Oh, H.-J., & Tawarmalani, M. (2021). *Convexification of disjoint
+43. Oh, H.-J., & Tawarmalani, M. (2021). *Convexification of disjoint
     bilinear programs*. INFORMS Annual Meeting, Anaheim.
 
-34. Tawarmalani, M., & Chandra, A. (2021). *Quantifying probabilities
+44. Tawarmalani, M., & Chandra, A. (2021). *Quantifying probabilities
     using optimization techniques*. SIAM conference on optimization.
 
-35. Kim, J., Tawarmalani, M., & Richard, J.-P. P. (2021). *Decision
+45. Kim, J., Tawarmalani, M., & Richard, J.-P. P. (2021). *Decision
     forests and multilinear polytopes*. SIAM conference on optimization.
 
-36. Kim, J., Taslimi, B., Richard, J.-P. P., & Tawarmalani, M. (2020).
+46. Kim, J., Taslimi, B., Richard, J.-P. P., & Tawarmalani, M. (2020).
     *A cutting plane for tree-ensembles optimization*. INFORMS Annual
     Meeting.
 
-37. Richard, J.-P. P., Tawarmalani, M., & Kim, J. (2020). *Permutation
+47. Richard, J.-P. P., Tawarmalani, M., & Kim, J. (2020). *Permutation
     invariance in 0-1 mixed integer programming*. INFORMS Annual
     Meeting.
 
-38. Chandra, A., & Tawarmalani, M. (2020). *Optimization techniques for
+48. Chandra, A., & Tawarmalani, M. (2020). *Optimization techniques for
     probability estimation*. INFORMS Annual Meeting.
 
-39. Gooty, R. T., Agrawal, R., & Tawarmalani, M. (2020).
+49. Gooty, R. T., Agrawal, R., & Tawarmalani, M. (2020).
     *Energy-efficient disitillation configurations: Novel formulation,
     relaxations, and discretizations, CAST director’s student
     presentation award finalists*. AICHE Annual Meeting.
 
-40. Chen, Z., Gooty, R. T., Chavez Velasco, J. A., Tawarmalani, M., &
+50. Chen, Z., Gooty, R. T., Chavez Velasco, J. A., Tawarmalani, M., &
     Agrawal, R. (2020). *Global optimization of multicomponent membrane
     cascade*. AICHE Annual Meeting.
 
-41. Chavez Velasco, J. A., Tawarmalani, M., & Agrawal, R. (2019). *A
+51. Chavez Velasco, J. A., Tawarmalani, M., & Agrawal, R. (2019). *A
     novel methodology to correctly compare the energy efficiency between
     membranes and distillation*. AIChE Annual Meeting, Orlando, FL.
 
-42. Mathew, T., Jalan, A., Goheen, C., Kocis, G., Narayanan, S., Yang,
+52. Mathew, T., Jalan, A., Goheen, C., Kocis, G., Narayanan, S., Yang,
     L., Tawarmalani, M., & Agrawal, R. (2019). *Process
     conceptualization in a carbon-constrained world: Leveraging
     optimization and systems engineering to balance multiple
     objectives*. AIChE Annual Meeting, Orlando, FL.
 
-43. Taslimi, B., Kim, J., Richard, J.-P. P., & Tawarmalani, M. (2019).
+53. Taslimi, B., Kim, J., Richard, J.-P. P., & Tawarmalani, M. (2019).
     *Computational evaluation of new mixed-integer programming models
     for tree ensembles optimization*. INFORMS Annual Meeting, Seattle.
 
-44. Tawarmalani, M., & He, T. (2019). *New relaxations for composite
+54. Tawarmalani, M., & He, T. (2019). *New relaxations for composite
     functions*. CRM/DIMACS Workshop on Mixed-Integer Nonlinear
     Programming, Montreal.
 
-45. Kim, J., Taslimi, B., Richard, J.-P. P., & Tawarmalani, M. (2019).
+55. Kim, J., Taslimi, B., Richard, J.-P. P., & Tawarmalani, M. (2019).
     *Polyhedral results for tree ensembles optimization*. INFORMS Annual
     Meeting, Seattle.
 
-46. Tawarmalani, M., & He, T. (2019). *New relaxations for composite
+56. Tawarmalani, M., & He, T. (2019). *New relaxations for composite
     functions*. INFORMS Annual Meeting, Seattle.
 
-47. Tawarmalani, M., & He, T. (2019). *New relaxations for composite
+57. Tawarmalani, M., & He, T. (2019). *New relaxations for composite
     functions, mixed integer nonlinear programming: A hatchery of modern
     mathematics*. Oberwolfach, Germany; Mathematical Research Institute
     of Oberwolfach.
 
-48. Tawarmalani, M., & He, T. (2019). *New relaxations for composite
+58. Tawarmalani, M., & He, T. (2019). *New relaxations for composite
     functions, los alamos national laboratory*. Los Alamos, NM.
 
-49. Gooty, R. T., Agrawal, R., & Tawarmalani, M. (2018). *On piecewise
+59. Gooty, R. T., Agrawal, R., & Tawarmalani, M. (2018). *On piecewise
     under- and over-estimators of fractional terms*. AIChE Annual
     Meeting, Salt Lake City.
 
-50. Jiang, Z., Tawarmalani, M., & Agrawal, R. (2018). *Minimum reflux
+60. Jiang, Z., Tawarmalani, M., & Agrawal, R. (2018). *Minimum reflux
     behavior of multicomponent mixture separation using complex
     distillation columns*. AIChE Annual Meeting, Salt Lake City.
 
-51. Mathew, T. J., Gooty, R. T., Tawarmalani, M., & Agrawal, R. (2018).
+61. Mathew, T. J., Gooty, R. T., Tawarmalani, M., & Agrawal, R. (2018).
     *Optimization of heat-integrated multicomponent distillation
     sequences*. AIChE Annual Meeting, Salt Lake City.
 
-52. Gooty, R. T., Mathew, T. J., Tawarmalani, M., & Agrawal, R. (2018).
+62. Gooty, R. T., Mathew, T. J., Tawarmalani, M., & Agrawal, R. (2018).
     *An MINLP formulation for the optimization of heat-pump assisted
     distillation configurations*. AIChE Annual Meeting, Salt Lake City.
 
-53. Richard, J.-P. P., Kim, J., Taslimi, B., & Tawarmalani, M. (2018).
+63. Richard, J.-P. P., Kim, J., Taslimi, B., & Tawarmalani, M. (2018).
     *Computational evaluation of new models for tree ensembles
     optimization*. INFORMS Annual Meeting, Phoenix.
 
-54. T., H., & Tawarmalani, M. (2018). *Mining expression trees to
+64. T., H., & Tawarmalani, M. (2018). *Mining expression trees to
     improve factorable relaxations*. INFORMS Annual Meeting, Phoenix.
 
-55. He, T., & Tawarmalani, M. (2018). *New convexification techniques
+65. He, T., & Tawarmalani, M. (2018). *New convexification techniques
     for nonconvex optimization*. INFORMS Optimization Society
     Conference, Denver.
 
-56. Richard, J.-P. P., Taslimi, B., Kim, J., & Tawarmalani, M. (2018).
+66. Richard, J.-P. P., Taslimi, B., Kim, J., & Tawarmalani, M. (2018).
     *Computational evaluation of new MIP models for tree ensembles
     optimization*. ISMP, Bordeaux.
 
-57. Tawarmalani, M., & He, T. (2018). *Product convexification: A new
+67. Tawarmalani, M., & He, T. (2018). *Product convexification: A new
     relaxation framework for nonconvex programs*. ISMP, Bordeaux.
 
-58. Tawarmalani, M., & He, T. (2018). *Product convexification: A new
+68. Tawarmalani, M., & He, T. (2018). *Product convexification: A new
     relaxation framework for nonconvex programs*. Designing and
     Implementation Algorithms for Mixed-Integer Nonlinear Optimization,
     Dagstuhl Seminar.
 
-59. Gooty, R. T., Mobed, P., Tawarmalani, M., & Agrawal, R. (2017). *A
+69. Gooty, R. T., Mobed, P., Tawarmalani, M., & Agrawal, R. (2017). *A
     tightly constrained MINLP-based formulation for the identification
     of energy efficient distillation configurations*. AIChE Annual
     Meeting, Minneapolis.
 
-60. Jiang, Z., Tawarmalani, M., & Agrawal, R. (2017). *Process
+70. Jiang, Z., Tawarmalani, M., & Agrawal, R. (2017). *Process
     intensification in multicomponent distillation*. AIChE Annual
     Meeting, Minneapolis.
 
-61. Mobed, P., Jiang, Z., Mathew, T. J., Tawarmalani, M., & Agrawal, R.
+71. Mobed, P., Jiang, Z., Mathew, T. J., Tawarmalani, M., & Agrawal, R.
     (2017). *Global minimization of multicomponent distillation
     configurations total cost*. AIChE Annual Meeting, Minneapolis.
 
-62. Jiang, Z., Tawarmalani, M., & Agrawal, R. (2017). *A new minimum
+72. Jiang, Z., Tawarmalani, M., & Agrawal, R. (2017). *A new minimum
     reflux calculation method for multiple-feed distillation columns
     distilling ideal multicomponent mixtures*. AIChE Annual Meeting,
     Minneapolis.
 
-63. Ridha, T., Gençer, E., Li, Y., Tawarmalani, M., Delgass, W. N.,
+73. Ridha, T., Gençer, E., Li, Y., Tawarmalani, M., Delgass, W. N.,
     Ribeiro, F., & Agrawal, R. (2017). *Upgrading fast-hydropyrolysis
     products of cellulose to higher molecular weight products using
     systems-level molecular mapping*. AIChE Annual Meeting, Minneapolis.
 
-64. Tawarmalani, M., & He, T. (2017). *Product convexification: A new
+74. Tawarmalani, M., & He, T. (2017). *Product convexification: A new
     relaxation framework for nonconvex programs*. MIT OR Center.
 
-65. Taotao, H., & Tawarmalani, M. (2017). *On relaxations of products of
+75. Taotao, H., & Tawarmalani, M. (2017). *On relaxations of products of
     functions*. INFORMS Annual Meeting, Houston.
 
-66. Tawarmalani, M., & Taotao, H. (2017). *Revisiting the factorable
+76. Tawarmalani, M., & Taotao, H. (2017). *Revisiting the factorable
     relaxation scheme*. SIAM Conference on Optimization, Vancouver.
 
-67. Jiang, Z., Ramapriya, G. M., Gooty, R. T., Tawarmalani, M., &
+77. Jiang, Z., Ramapriya, G. M., Gooty, R. T., Tawarmalani, M., &
     Agrawal, R. (2016). *A method for minimization of total exergy loss
     over the complete search space of regular distillation
     configurations*. AIChE Annual Meeting, San Francisco.
 
-68. Jiang, Z., Ramapriya, G. M., Gooty, R. T., Tawarmalani, M., &
+78. Jiang, Z., Ramapriya, G. M., Gooty, R. T., Tawarmalani, M., &
     Agrawal, R. (2016). *Process intensification of multicomponent
     distillation configurations using minimum additional number of heat
     and mass integrated sections*. AIChE Annual Meeting, San Francisco.
 
-69. Gençer, E., Tawarmalani, M., & Agrawal, R. (2016). *Systematic
+79. Gençer, E., Tawarmalani, M., & Agrawal, R. (2016). *Systematic
     process design strategies for efficient and synergistic integration
     of solar thermal hydrogen, electricity and fresh water production
     processes*. AIChe Annual Meeting, San Francisco.
 
-70. Tao, J., Nguyen, T., & Tawarmalani, M. (2016). *An iterative
+80. Tao, J., Nguyen, T., & Tawarmalani, M. (2016). *An iterative
     rounding algorithm and almost feasibility for nonconvex
     optimization*. INFORMS Annual Meeting, Nashville.
 
-71. He, T., & Tawarmalani, M. (2016). *On LP relaxations for nonlinear
+81. He, T., & Tawarmalani, M. (2016). *On LP relaxations for nonlinear
     programs*. INFORMS Annual Meeting, Nashville.
 
-72. Wu, J., Tawarmalani, M., & Kannan, K. (2016). *Cardinality bundling
+82. Wu, J., Tawarmalani, M., & Kannan, K. (2016). *Cardinality bundling
     with complex costs*. INFORMS Annual Meeting, Nashville.
 
-73. Tawarmalani, M., Kim, J., & Richard, J.-P. P. (2016). *Exploiting
+83. Tawarmalani, M., Kim, J., & Richard, J.-P. P. (2016). *Exploiting
     permutation-invariance to construct tight relaxations*. INFORMS
     Annual Meeting, Nashville.
 
-74. Rao, S. G., Chang, Y., & Tawarmalani, M. (2016). *Robust network
+84. Rao, S. G., Chang, Y., & Tawarmalani, M. (2016). *Robust network
     design with flexible routing*. NSF Algorithms in the Field Workshop
     on Algorithms for Software-Defined Networking, New Jersey.
 
-75. Tawarmalani, M., Kim, J., & Richard, J.-P. P. (2016). *Exploiting
+85. Tawarmalani, M., Kim, J., & Richard, J.-P. P. (2016). *Exploiting
     permutation-invariance to construct tight relaxations*. MIP, Miami.
 
-76. Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2015). *A heat &
+86. Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2015). *A heat &
     mass integration approach to reduce capital and operating costs of a
     distillation configuration*. AIChE Annual Meeting, Salt Lake City.
 
-77. Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2015). *Efficient
+87. Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2015). *Efficient
     separation-process synthesis*. AIChE Annual Meeting, Salt Lake City.
 
-78. Gençer, E., Tawarmalani, M., & Agrawal, R. (2015). *Integrated
+88. Gençer, E., Tawarmalani, M., & Agrawal, R. (2015). *Integrated
     process design for efficient solar thermal hydrogen and power
     production*. AIChE Annual Meeting, Salt Lake City.
 
-79. Kim, J., Richard, J.-P. P., & Tawarmalani, M. (2015). *Sparse
+89. Kim, J., Richard, J.-P. P., & Tawarmalani, M. (2015). *Sparse
     principal component analysis (SPCA) via convexification*. INFORMS
     Annual Meeting, Philadelphia.
 
-80. Davarnia, D., Richard, J.-P. P., & Tawarmalani, M. (2015).
+90. Davarnia, D., Richard, J.-P. P., & Tawarmalani, M. (2015).
     *Envelopes of bilinear functions over polytopes with application to
     network interdiction*. INFORMS Annual Meeting, Philadelphia.
 
-81. Kim, J., Richard, J.-P. P., & Tawarmalani, M. (2015). *A cut
+91. Kim, J., Richard, J.-P. P., & Tawarmalani, M. (2015). *A cut
     generation procedure for cardinality constrained optimization
     problems (CCOP*. ISMP, Pittsburgh.
 
-82. Davarnia, D., Richard, J.-P. P., & Tawarmalani, M. (2015).
+92. Davarnia, D., Richard, J.-P. P., & Tawarmalani, M. (2015).
     *Envelopes of bilinear functions over polytopes with applications to
     network interdiction*. ISMP, Pittsburgh.
 
-83. Richard, J.-P. P., Davarnia, D., & Tawarmalani, M. (2015). *Improved
+93. Richard, J.-P. P., Davarnia, D., & Tawarmalani, M. (2015). *Improved
     formulations for network interdiction through envelopes of bilinear
     functions over polytopes*. MIP, Chicago.
 
-84. Gençer, E., Tawarmalani, M., & Agrawal, R. (2015). *Efficient solar
+94. Gençer, E., Tawarmalani, M., & Agrawal, R. (2015). *Efficient solar
     thermal integrated power and chemical production cycles for
     uninterrupted power supply*. AIChE Midwest Regional Conference,
     Chicago.
 
-85. Gençer, E., Mallagragada, D., Tawarmalani, M., & Agrawal, R. (2014).
+95. Gençer, E., Mallagragada, D., Tawarmalani, M., & Agrawal, R. (2014).
     *Synergistic biomass and natural gas process design for liquid fuel
     production with reduced CO2 emissions*. AIChE Annual Meeting,
     Atlanta.
 
-86. Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2014). *Plethora
+96. Ramapriya, G. M., Tawarmalani, M., & Agrawal, R. (2014). *Plethora
     of dividing wall columns for fully thermally coupled distillation*.
     AIChE Annual Meeting, Atlanta.
 
-87. Gençer, E., Mallagragada, D., Maréchal, F., Tawarmalani, M., &
+97. Gençer, E., Mallagragada, D., Maréchal, F., Tawarmalani, M., &
     Agrawal, R. (2014). *High efficiency solar thermal power and
     integrated chemical storage cycles for continuous grid power
     supply*. AIChE Annual Meeting, Atlanta.
 
-88. Tawarmalani, M., & Richard, J.-P. P. (2014). *Techniques in
+98. Tawarmalani, M., & Richard, J.-P. P. (2014). *Techniques in
     convexification of separable polynomial inequalities*. INFORMS
     Annual Meeting, San Francisco.
 
-89. Richard, J.-P. P., Nguyen, T., & Tawarmalani, M. (2014). *On the
+99. Richard, J.-P. P., Nguyen, T., & Tawarmalani, M. (2014). *On the
     equate-and-relax procedure for LPCCs*. INFORMS Annual Meeting, San
     Francisco.
 
-90. Kim, J., Richard, J.-P. P., & Tawarmalani, M. (2014). *On cutting
-    planes for cardinality constrained optimization problems*. INFORMS
-    Annual Meeting, San Francisco.
+100. Kim, J., Richard, J.-P. P., & Tawarmalani, M. (2014). *On cutting
+     planes for cardinality constrained optimization problems*. INFORMS
+     Annual Meeting, San Francisco.
 
-91. Davarnia, D., Richard, J.-P. P., & Tawarmalani, M. (2014). *On
-    convex relaxations of network interdiction problems*. INFORMS Annual
-    Meeting, San Francisco.
+101. Davarnia, D., Richard, J.-P. P., & Tawarmalani, M. (2014). *On
+     convex relaxations of network interdiction problems*. INFORMS
+     Annual Meeting, San Francisco.
 
-92. Wu, J., Kannan, K., & Tawarmalani, M. (2014). *Cardinality bundling
-    with constrained prices*. INFORMS Annual Meeting, San Francisco.
+102. Wu, J., Kannan, K., & Tawarmalani, M. (2014). *Cardinality bundling
+     with constrained prices*. INFORMS Annual Meeting, San Francisco.
 
-93. Kannan, K., Tawarmalani, M., & Wu, J. (2014). *Cardinality bundles
-    with constrained prices*. 8th China Workshop on Information
-    Management, Chengdu, China.
+103. Kannan, K., Tawarmalani, M., & Wu, J. (2014). *Cardinality bundles
+     with constrained prices*. 8th China Workshop on Information
+     Management, Chengdu, China.
 
-94. Tawarmalani, M., & Richard, J.-P. P. (2014). *Decomposition
-    techniques in convexification of separable polynomial inequalities*.
-    George Tech ISyE Colloquium, Atlanta.
+104. Tawarmalani, M., & Richard, J.-P. P. (2014). *Decomposition
+     techniques in convexification of separable polynomial
+     inequalities*. George Tech ISyE Colloquium, Atlanta.
 
-95. Richard, J.-P. P., Nguyen, T., & Tawarmalani, M. (2014). *On the
-    convex hull of some nonlinear sets*. 18th Combinatorial Optimization
-    Workshop, Aussois.
+105. Richard, J.-P. P., Nguyen, T., & Tawarmalani, M. (2014). *On the
+     convex hull of some nonlinear sets*. 18th Combinatorial
+     Optimization Workshop, Aussois.
 
-96. Wu, J., Kannan, K., & Tawarmalani, M. (2013). *Cardinality bundles
-    for spence-mirrlees reservation prices*. INFORMS Annual Meeting,
-    Minnesota.
+106. Wu, J., Kannan, K., & Tawarmalani, M. (2013). *Cardinality bundles
+     for spence-mirrlees reservation prices*. INFORMS Annual Meeting,
+     Minnesota.
 
-97. Kim, J., Tawarmalani, M., & Richard, J.-P. P. (2013). *Cardinality
-    constrained linear program: Facial disjunctive formulation and valid
-    inequalitis*. INFORMS Annual Meeting, Minnesota.
+107. Kim, J., Tawarmalani, M., & Richard, J.-P. P. (2013). *Cardinality
+     constrained linear program: Facial disjunctive formulation and
+     valid inequalitis*. INFORMS Annual Meeting, Minnesota.
 
-98. Tawarmalani, M., Nguyen, T., & Richard, J.-P. P. (2013).
-    *Convexification techniques for complementarity constraints*.
-    INFORMS Annual Meeting, Minnesota.
+108. Tawarmalani, M., Nguyen, T., & Richard, J.-P. P. (2013).
+     *Convexification techniques for complementarity constraints*.
+     INFORMS Annual Meeting, Minnesota.
 
-99. Tawarmalani, M., & Richard, J.-P. P. (2013). *Convexification
-    techniques for separable polynomial inequalities*. INFORMS Annual
-    Meeting, Minnesota.
+109. Tawarmalani, M., & Richard, J.-P. P. (2013). *Convexification
+     techniques for separable polynomial inequalities*. INFORMS Annual
+     Meeting, Minnesota.
 
-100. Richard, J.-P. P., & Tawarmalani, M. (2013). *On the convex hull of
+110. Richard, J.-P. P., & Tawarmalani, M. (2013). *On the convex hull of
      some nonlinear sets*. INFORMS Annual Meeting, Minnesota.
 
-101. Davarnia, D., Richard, J.-P. P., & Tawarmalani, M. (2013).
+111. Davarnia, D., Richard, J.-P. P., & Tawarmalani, M. (2013).
      *Polyhedral results for network interdiction problem*. INFORMS
      Annual Meeting, Minnesota.
 
-102. Nguyen, T. T., Richard, J.-P., & Tawarmalani, M. (2012).
+112. Nguyen, T. T., Richard, J.-P., & Tawarmalani, M. (2012).
      *Disjunctive cutting planes for linear complementarity
      constraints*. INFORMS Annual Meeting, Phoenix.
 
-103. Khajavirad, A., Bao, X., Sahinidis, N. V., & Tawarmalani, M.
+113. Khajavirad, A., Bao, X., Sahinidis, N. V., & Tawarmalani, M.
      (2012). *Global optimization of nonconvex problems with multilinear
      intermediates*. INFORMS Annual Meeting, Phoenix.
 
-104. Tawarmalani, M., & Richard, J.-P. P. (2012). *Strong cuts for
+114. Tawarmalani, M., & Richard, J.-P. P. (2012). *Strong cuts for
      polynomial inequalities via disjunctive arguments*. INFORMS Annual
      Meeting, Phoenix.
 
-105. Nguyen, T. T., Tawarmalani, M., & Richard, J.-P. P. (2011).
+115. Nguyen, T. T., Tawarmalani, M., & Richard, J.-P. P. (2011).
      *Convexification techniques for linear complementarity
      constraints*. INFORMS Annual Meeting, Charlotte.
 
-106. Nguyen, T. T., Richard, J.-P. P., & Tawarmalani, M. (2011).
+116. Nguyen, T. T., Richard, J.-P. P., & Tawarmalani, M. (2011).
      *Cutting planes for linear complementarity constraints*. INFORMS
      Annual Meeting, Charlotte.
 
-107. Richard, J.-P. P., Chung, K., & Tawarmalani, M. (2011). *On
+117. Richard, J.-P. P., Chung, K., & Tawarmalani, M. (2011). *On
      relations between 0-1 mixed integer bilinear covering sets and
      fixed-charge flow sets*. INFORMS Annual Meeting, Charlotte.
 
-108. Tawarmalani, M., & Richard, J.-P. P. (2011). *Strong inequalities
+118. Tawarmalani, M., & Richard, J.-P. P. (2011). *Strong inequalities
      for polynomial covering sets via orthogonal disjunctions*. INFORMS
      Annual Meeting, Charlotte.
 
-109. Nguyen, T. T., Tawarmalani, M., & Richard, J.-P. P. (2011).
+119. Nguyen, T. T., Tawarmalani, M., & Richard, J.-P. P. (2011).
      *Convexification techniques for linear complementarity
      constraints*. 15th conference on Integer Programming and
      Combinatorial Optimization, Armonk.
 
-110. Tawarmalani, M., Nguyen, T. T., & Richard, J.-P. P. (2010). *On
+120. Tawarmalani, M., Nguyen, T. T., & Richard, J.-P. P. (2010). *On
      convex relaxations for orthogonal disjunctions and complementarity
      constraints*. Exploratory Workshop of Mixed-Integer Nonlinear
      Programming, Seville, Spain.
 
-111. Nallasivam, U., Shah, V. H., Shenvi, A. A., Agrawal, R., &
+121. Nallasivam, U., Shah, V. H., Shenvi, A. A., Agrawal, R., &
      Tawarmalani, M. (2010). *Global optimization of multicomponent
      distillation configurations*. AIChE Annual Meeting, Salt Lake City.
 
-112. Tawarmalani, M., Richard, J.-P. P., & Xiong, C. (2010). *Explicit
+122. Tawarmalani, M., Richard, J.-P. P., & Xiong, C. (2010). *Explicit
      envelopes through polyhedral subdivisions*. INFORMS Annual Meeting,
      Austin.
 
-113. Tawarmalani, M. (2010). *Simultaneous convexification of nonlinear
+123. Tawarmalani, M. (2010). *Simultaneous convexification of nonlinear
      functions and sets*. INFORMS Annual Meeting, Austin.
 
-114. Nguyen, T. T., Richard, J.-P. P., & Tawarmalani, M. (2010). *Global
+124. Nguyen, T. T., Richard, J.-P. P., & Tawarmalani, M. (2010). *Global
      optimization results for linear complementarity problems*. INFORMS
      Annual Meeting, Austin.
 
-115. Hajjat, M., Sun, X., Sung, Y. W., Maltz, D., Rao, S. G.,
+125. Hajjat, M., Sun, X., Sung, Y. W., Maltz, D., Rao, S. G.,
      Sripanidkulchai, K., & Tawarmalani, M. (2010). *Cloudward bound:
      Planning for beneficial migration of enterprise applications to the
      cloud*. ACM Sigcomm, New Delhi, India.
 
-116. Richard, J.-P. P., Tawarmalani, M., & Xiong, C. (2010). *Explicit
+126. Richard, J.-P. P., Tawarmalani, M., & Xiong, C. (2010). *Explicit
      convex and concave envelopes via polyhedral subdivisions*. MIP,
      Atlanta.
 
-117. Tawarmalani, M. (2010). *Polyhedrality and inclusion certificates
+127. Tawarmalani, M. (2010). *Polyhedrality and inclusion certificates
      in convexification*. European Workshop of Mixed-Integer Nonlinear
      Programming, Marseille, France.
 
-118. Tawarmalani, M., Sahinidis, N. V., & Bao, X. (2009). *Exploiting
+128. Tawarmalani, M., Sahinidis, N. V., & Bao, X. (2009). *Exploiting
      multilinearity in global optimization relaxations*. INFORMS Annual
      Meeting, San Diego.
 
-119. Xiong, C., Tawarmalani, M., & Richard, J.-P. P. (2009).
+129. Xiong, C., Tawarmalani, M., & Richard, J.-P. P. (2009).
      *Convexification of nonconvex functions and polyhedral envelopes*.
      INFORMS Annual Meeting, San Diego.
 
-120. Sahinidis, N. V., & Tawarmalani, M. (2009). *Global optimization of
+130. Sahinidis, N. V., & Tawarmalani, M. (2009). *Global optimization of
      MINLPs with BARON*. INFORMS Annual Meeting, San Diego.
 
-121. Chung, K., Richard, J.-P. P., & Tawarmalani, M. (2009). *Strong
+131. Chung, K., Richard, J.-P. P., & Tawarmalani, M. (2009). *Strong
      valid inequalities for an MPCC via orthogonal disjunctions*.
      INFORMS Annual Meeting, San Diego.
 
-122. Bao, X., Sahinidis, N. V., & Tawarmalani, M. (2008). *Polyhedral
+132. Bao, X., Sahinidis, N. V., & Tawarmalani, M. (2008). *Polyhedral
      relaxations for nonconvex quad-ratically-constrained quadratic
      programs*. AIChE Annual Meeting, Philadelphia.
 
-123. Xia, Q., Ersoy, O., Tawarmalani, M., & Moskowitz, H. (2008).
+133. Xia, Q., Ersoy, O., Tawarmalani, M., & Moskowitz, H. (2008).
      *Interactive clustering and classification*. Artificial Neural
      Networks in Engineering (ANNIE), St. Louis.
 
-124. Sahinidis, N. V., & Tawarmalani, M. (2008). *Computational solution
+134. Sahinidis, N. V., & Tawarmalani, M. (2008). *Computational solution
      of MINLPs with BARON*. INFORMS Annual Meeting, Washington DC.
 
-125. Sahinidis, N. V., & Tawarmalani, M. (2008). *A unifying framework
+135. Sahinidis, N. V., & Tawarmalani, M. (2008). *A unifying framework
      for domain reduction*. INFORMS Annual Meeting, Washington DC.
 
-126. Tawarmalani, M., & Richard, J.-P. P. (2008). *Strong inequalities
+136. Tawarmalani, M., & Richard, J.-P. P. (2008). *Strong inequalities
      for disjunctive sets via lifting*. INFORMS Annual Meeting,
      Washington DC.
 
-127. Tawarmalani, M., Chung, K., & Richard, J.-P. P. (2008). *Strong
+137. Tawarmalani, M., Chung, K., & Richard, J.-P. P. (2008). *Strong
      inequalities for orthogonal disjunctions and polynomial covering
      sets*. INFORMS Annual Meeting, Washington DC.
 
-128. Tawarmalani, M., Chung, K., & Richard, J.-P. P. (2008). *Strong
+138. Tawarmalani, M., Chung, K., & Richard, J.-P. P. (2008). *Strong
      inequalities for bilinear knapsack sets*. INFORMS Optimization
      Society Conference, Atlanta.
 
-129. Tawarmalani, M., & Richard, J.-P. P. (2008). *Lifting inequalities:
+139. Tawarmalani, M., & Richard, J.-P. P. (2008). *Lifting inequalities:
      Generating strong cuts for nonlinear programs*. INFORMS
      Optimization Society Conference, Atlanta.
 
-130. Chung, K., Tawarmalani, M., & Richard, J.-P. P. (2007). *Strong
+140. Chung, K., Tawarmalani, M., & Richard, J.-P. P. (2007). *Strong
      valid inequalities for bilinear integer knapsack sets*. INFORMS
      Annual Meeting, Seattle.
 
-131. Tawarmalani, M., & Richard, J.-P. P. (2007). *Extending
+141. Tawarmalani, M., & Richard, J.-P. P. (2007). *Extending
      mixed-integer programming lifting techniques to nonlinear
      programming*.
 
-132. Tawarmalani, M., & Richard, J.-P. P. (2007). *Generating strong
+142. Tawarmalani, M., & Richard, J.-P. P. (2007). *Generating strong
      cuts for nonlinear programs by lifting inequalities*. MIP,
      Montreal.
 
-133. Rahman, M. S., Kannan, K., & Tawarmalani, M. (2007). *The
+143. Rahman, M. S., Kannan, K., & Tawarmalani, M. (2007). *The
      countervailing incentive of restricted patch distribution: Economic
      and policy implications*. Workshop on the Economics of Information
      Security, Pittsburgh.
 
-134. Tawarmalani, M. (2006). *Convex extensions, inclusion certificates
+144. Tawarmalani, M. (2006). *Convex extensions, inclusion certificates
      and disjunctive programming*. INFORMS Annual Meeting, Pittsburgh.
 
-135. Tawarmalani, M., & Richard, J.-P. P. (2006). *MIP lifting
+145. Tawarmalani, M., & Richard, J.-P. P. (2006). *MIP lifting
      techniques for nonlinear programs*. INFORMS Annual Meeting,
      Pittsburgh.
 
-136. Tawarmalani, M., Kannan, K., & De, P. (2006). *Allocating objects
+146. Tawarmalani, M., Kannan, K., & De, P. (2006). *Allocating objects
      in a network of caches: Centralized and decentralized analyses*.
      INFORMS Annual Meeting, Pittsburgh.
 
-137. Tawarmalani, M. (2006). *Convex extensions, inclusion certificates
+147. Tawarmalani, M. (2006). *Convex extensions, inclusion certificates
      and disjunctive programming*. 19th Mathematical Programming
      Symposium, Rio De Janerio.
 
-138. Richard, J.-P., & Tawarmalani, M. (2006). *MIP lifting techniques
+148. Richard, J.-P., & Tawarmalani, M. (2006). *MIP lifting techniques
      for mixed-integer nonlinear programs*. MIP, Coral Gables.
 
-139. Tawarmalani, M. (2006). *Inclusion certificates and disjunctive
+149. Tawarmalani, M. (2006). *Inclusion certificates and disjunctive
      programming*. Pittsburgh; Carnegie Mellon University, Pittsburgh.
 
-140. Tawarmalani, M., Kannan, K., & De, P. (2005). *A mechanism for
+150. Tawarmalani, M., Kannan, K., & De, P. (2005). *A mechanism for
      allocating objects in a network of symmetric caches*. Fifteenth
      Workshop on Information Technologies and Systems, Las Vegas.
 
-141. Tawarmalani, M. (2005). *Convex extensions and convexification of
+151. Tawarmalani, M. (2005). *Convex extensions and convexification of
      nonlinear sets*. INFORMS Annual Meeting, San Francisco.
 
-142. Richard, J.-P., & Tawarmalani, M. (2005). *MIP lifting techniques
+152. Richard, J.-P., & Tawarmalani, M. (2005). *MIP lifting techniques
      for mixed-integer nonlinear programs*. INFORMS Annual Meeting, San
      Francisco.
 
-143. Wei, J., Duran, M., Furman, K., Sahinidis, N. V., & Tawarmalani, M.
+153. Wei, J., Duran, M., Furman, K., Sahinidis, N. V., & Tawarmalani, M.
      (2005). *Global optimization of stochastic nonconvex mixed integer
      nonlinear programming (MINLP) problems*. INFORMS Annual Meeting,
      San Francisco.
 
-144. Tawarmalani, M., & Li, Y. (2005). *Minimizing flow disruption due
+154. Tawarmalani, M., & Li, Y. (2005). *Minimizing flow disruption due
      to network maintenance*. INFORMS Annual Meeting, San Francisco.
 
-145. Sahinidis, N. V., & Tawarmalani, M. (2005). *Global optimization
+155. Sahinidis, N. V., & Tawarmalani, M. (2005). *Global optimization
      with branch-and-reduce*. INFORMS Annual Meeting, San Francisco.
 
-146. Tawarmalani, M., De, K. K. P., & Kumar, C. (2005). *Allocating
+156. Tawarmalani, M., De, K. K. P., & Kumar, C. (2005). *Allocating
      objects in a network of caches: Social welfare and incentive
      compatibility*. First CDGO International Conference, Blacksburg.
 
-147. Tawarmalani, M., & Sahinidis, N. V. (2005). *Solving nonlinear
+157. Tawarmalani, M., & Sahinidis, N. V. (2005). *Solving nonlinear
      global optimization problems using BARON*. INFORMS ICS 9th
      Conference, Annapolis.
 
-148. Tawarmalani, M. (2004). *Convexification and global optimization of
+158. Tawarmalani, M. (2004). *Convexification and global optimization of
      nonlinear programs*. Workshop on Integer Programming and Continuous
      Optimization, Chemnitz, Germany.
 
-149. Sahinidis, N. V., & Tawarmalani, M. (2004). *Strengthening
+159. Sahinidis, N. V., & Tawarmalani, M. (2004). *Strengthening
      polyhedral relaxations for global optimization problems*. AIChE
      Annual Meeting, Austin.
 
-150. Sahinidis, N. V., & Tawarmalani, M. (2004). *A polyhedral
+160. Sahinidis, N. V., & Tawarmalani, M. (2004). *A polyhedral
      branch-and-cut algorithm for global optimization*. INFORMS Annual
      Meeting, Denver.
 
-151. Tawarmalani, M. (2003). *Convex extensions and convexification of
+161. Tawarmalani, M. (2003). *Convex extensions and convexification of
      nonlinear functions*. INFORMS Annual Meeting, Atlanta.
 
-152. Tawarmalani, M., & Sahinidis, N. V. (2003). *A two-step procedure
+162. Tawarmalani, M., & Sahinidis, N. V. (2003). *A two-step procedure
      for convexification of lower semicontinuous functions*. INFORMS
      Annual Meeting, Atlanta.
 
-153. Sahinidis, N. V., & Tawarmalani, M. (2003). *Global optimization
+163. Sahinidis, N. V., & Tawarmalani, M. (2003). *Global optimization
      with GAMS/BARON*. Atlanta.
 
-154. Tawarmalani, M. (2003). *Convex extensions and polyhedral basis*.
+164. Tawarmalani, M. (2003). *Convex extensions and polyhedral basis*.
      18th International Symposium of Mathematical Programming, Denmark.
 
-155. Sahinidis, N. V., & Tawarmalani, M. (2002). *Global optimization
+165. Sahinidis, N. V., & Tawarmalani, M. (2002). *Global optimization
      with BARON*. INFORMS Annual Meeting, San Jose.
 
-156. Tawarmalani, M. (2002). *Convex extensions and polyhedral basis*.
+166. Tawarmalani, M. (2002). *Convex extensions and polyhedral basis*.
      INFORMS Annual Meeting, San Jose.
 
-157. Tawarmalani, M., & Sahinidis, N. V. (2002). *Finiteness and
+167. Tawarmalani, M., & Sahinidis, N. V. (2002). *Finiteness and
      convexification issues in mixed-integer nonlinear programming*.
      Integer Programming Conference in Honor of Egon Balas, Pittsburgh,
      PA.
 
-158. Tawarmalani, M., & Sahinidis, N. V. (2001). *Global optimization of
+168. Tawarmalani, M., & Sahinidis, N. V. (2001). *Global optimization of
      mixed integer nonlinear programs*. AICHE Annual Meeting.
 
-159. Sahinidis, N. V., Tawarmalani, M., Yu, M., & Nanda, G. (2001). *A
+169. Sahinidis, N. V., Tawarmalani, M., Yu, M., & Nanda, G. (2001). *A
      novel MINLP approach to molecular design*. AICHE Annual Meeting,
      Reno.
 
-160. Tawarmalani, M., & Sahinidis, N. V. (2001). *Convex envelopes of
+170. Tawarmalani, M., & Sahinidis, N. V. (2001). *Convex envelopes of
      nonlinear functions*. INFORMS Annual Meeting, Miami.
 
-161. Sahinidis, N. V., & Tawarmalani, M. (2001). *Global optimization of
+171. Sahinidis, N. V., & Tawarmalani, M. (2001). *Global optimization of
      mixed integer nonlinear programs*. INFORMS Annual Meeting, Miami.
 
-162. Tawarmalani, M., & Sahinidis, N. V. (2001). *Domain reduction in
+172. Tawarmalani, M., & Sahinidis, N. V. (2001). *Domain reduction in
      global optimization and mixed integer nonlinear programs*. INFORMS
      Annual Meeting, Miami.
 
-163. Tawarmalani, M., & Sahinidis, N. V. (2000). *Global optimization of
+173. Tawarmalani, M., & Sahinidis, N. V. (2000). *Global optimization of
      mixed integer nonlinear programs*. 17th International Symposium of
      Mathematical Programming, Atlanta.
 
-164. Tawarmalani, M., & Sahinidis, N. V. (2000). *Semidefinite
+174. Tawarmalani, M., & Sahinidis, N. V. (2000). *Semidefinite
      relaxations of fractional programs via novel techniques for
      constructing convex envelopes of nonlinear functions*. 17th
      International Symposium of Mathematical Programming, Atlanta.
 
-165. Ahmed, S., Tawarmalani, M., & Sahinidis, N. V. (2000). *Global
+175. Ahmed, S., Tawarmalani, M., & Sahinidis, N. V. (2000). *Global
      optimization of two-stage stochastic integer programs*. 17th
      International Symposium of Mathematical Programming, Atlanta.
 
-166. Sahinidis, N. V., & Tawarmalani, M. (2000). *Semidefinite
+176. Sahinidis, N. V., & Tawarmalani, M. (2000). *Semidefinite
      relaxations of fractional programs via novel techniques for
      constructing convex envelopes of nonlinear functions*.
      International Conference on Advances in Convex Analysis and Global
      Optimization, Samos, Greece.
 
-167. Sahindis, N. V., Ahmed, S., & Tawarmalani, M. (2000). *Global
+177. Sahindis, N. V., Ahmed, S., & Tawarmalani, M. (2000). *Global
      optimization for stochastic integer programming*.
 
-168. Tawarmalani, M., & Sahinidis, N. V. (2000). *Convexification using
+178. Tawarmalani, M., & Sahinidis, N. V. (2000). *Convexification using
      convex extensions and semidefinite relaxations of fractional
      programs*. INFORMS Annual Meeting, Salt Lake City, Utah.
 
-169. Ahmed, S., Tawarmalani, M., & Sahinidis, N. V. (2000). *A finite
+179. Ahmed, S., Tawarmalani, M., & Sahinidis, N. V. (2000). *A finite
      branch and bound algorithm for two-stage stochastic integer
      programs*. INFORMS Annual Meeting, Salt Lake City, Utah.
 
-170. Tawarmalani, M., Ahmed, S., & Sahinidis, N. V. (1999).
+180. Tawarmalani, M., Ahmed, S., & Sahinidis, N. V. (1999).
      *Convexification tools in integer programming*. INFORMS Annual
      Meeting, Philadelphia, PA.
 
-171. Ahmed, S., Tawarmalani, M., & Sahinidis, N. V. (1999). *Global
+181. Ahmed, S., Tawarmalani, M., & Sahinidis, N. V. (1999). *Global
      optimization of two-stage stochastic mixed-integer programs*.
      INFORMS Annual Meeting, Philadelphia, PA.
 
-172. Sahinidis, N. V., Tawarmalani, M., & Yu, M. (1999). *Novel
+182. Sahinidis, N. V., Tawarmalani, M., & Yu, M. (1999). *Novel
      molecular designs via global optimization*. AICHE Annual Meeting,
      Dallas, TX.
 
-173. Ahmed, S., Tawarmalani, M., & Sahinidis, N. V. (1999). *A finite
+183. Ahmed, S., Tawarmalani, M., & Sahinidis, N. V. (1999). *A finite
      branch and bound scheme for two-stage stochastic integer programs*.
      INFORMS Annual Meeting, Cincinnati, OH.
 
-174. Sahinidis, N. V., Tawarmalani, M., & Ahmed, S. (1998). *New results
+184. Sahinidis, N. V., Tawarmalani, M., & Ahmed, S. (1998). *New results
      in 0-1 optimization*. AICHE Annual Meeting, Miami Beach, FL.
 
-175. Tawarmalani, M., Ahmed, S., & Sahinidis, N. V. (1998).
+185. Tawarmalani, M., Ahmed, S., & Sahinidis, N. V. (1998).
      *Convexification of 0-1 fractional programs*. INFORMS Annual
      Meeting, Seattle, WA.
 
-176. Tawarmalani, M., Adhya, N., & Sahinidis, N. V. (1998). *Global
+186. Tawarmalani, M., Adhya, N., & Sahinidis, N. V. (1998). *Global
      optimization of the pooling problem*. INFORMS Annual Meeting,
      Seattle, WA.
 
-177. Tawarmalani, M., Adhya, N., & Sahinidis, N. V. (1998). *Global
+187. Tawarmalani, M., Adhya, N., & Sahinidis, N. V. (1998). *Global
      optimization of the pooling problem*. 2nd Engineering Design
      Automation Conference, Maui, HI.
 
-178. Tawarmalani, M., & Sahinidis, N. V. (1996). *Decomposition method
+188. Tawarmalani, M., & Sahinidis, N. V. (1996). *Decomposition method
      for the TDTSP and QAP*. INFORMS Annual Meeting, Washington, DC.
 
 </section>

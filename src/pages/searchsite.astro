@@ -9,10 +9,29 @@ import SearchField from "../components/SearchField.astro";
  pagetype="search"
 > 
 <div class="myinclude">
-<h2>Search</h2>
-<SearchField id="search" className="pagefind-ui" uiOptions={{ showImages: false }} />
+  <h2>Search</h2>
+  <SearchField id="search" className="pagefind-ui" uiOptions={{ showImages: false }} />
 </div>
 </CVcomp>
+
+<script is:inline>
+  const observer = new MutationObserver((mutations) => {
+    // Target the specific Pagefind input inside your container
+    const searchInput = document.querySelector('#search input.pagefind-ui__search-input');
+    
+    if (searchInput && !searchInput.hasAttribute('aria-label')) {
+      searchInput.setAttribute('aria-label', 'Search Website');
+      // Once fixed, we can stop observing to save resources
+      observer.disconnect();
+    }
+  });
+
+  // Start watching the #search div for the injected Pagefind UI
+  const target = document.getElementById('search');
+  if (target) {
+    observer.observe(target, { childList: true, subtree: true });
+  }
+</script>
 
 <style lang="scss">
 @use "../styles/cvstyle.scss"
