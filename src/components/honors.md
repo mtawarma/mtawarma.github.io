@@ -2,6 +2,9 @@
 
 ## Honors
 
+- Walk the Talk Award 2026 in recognition of strong ethical character
+  and integrity
+
 - Led Krenicki center as a 2025 Mira award finalist for higher education
   innovation
 
