@@ -11,7 +11,7 @@
   "dependencies": {
     "@astrojs/mdx": "^7.0.3",
     "@astrojs/sitemap": "^3.6.1",
-    "@astrojs/svelte": "^7.0.9",
+    "@astrojs/svelte": "^8.0.0",
     "@tailwindcss/vite": "^4.0.15",
     "@types/katex": "^0.16.7",
     "astro": "^7.1.6",
@@ -29,10 +29,13 @@
   "overrides": {
     "astro-pagefind": {
       "astro": "$astro"
+    },
+    "@astrojs/svelte": {
+      "astro": "$astro"
     }
   },
   "allowScripts": {
-    "esbuild@0.28.1": true,
-    "esbuild@0.25.12": true
+    "esbuild": true
   }
 }
+
