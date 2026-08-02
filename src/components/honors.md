@@ -1,9 +1,13 @@
 <section id="honors">
 
-## Honors
+## Awards and Honors
 
 - Walk the Talk Award 2026 in recognition of strong ethical character
   and integrity
+
+- 2025 Seed for Success Acorn Award (with Rajamani Gounder and Rakesh
+  Agrawal) for \`\`Electrified CO2 Hydrogenation to Olefins for
+  Sustainable Aviation Fuel’’
 
 - Led Krenicki center as a 2025 Mira award finalist for higher education
   innovation

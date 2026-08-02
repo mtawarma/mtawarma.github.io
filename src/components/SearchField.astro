@@ -21,6 +21,7 @@ const bundlePath = `${import.meta.env.BASE_URL}pagefind/`;
   data-ui-options={JSON.stringify(uiOptions)}
 >
 </div>
+
 <script>
   import { PagefindUI } from "@pagefind/default-ui";
 
@@ -34,17 +35,51 @@ const bundlePath = `${import.meta.env.BASE_URL}pagefind/`;
       ].join("");
       const bundlePath = el.getAttribute("data-bundle-path");
       const opts = JSON.parse(el.getAttribute("data-ui-options") ?? "{}");
+      
       new PagefindUI({
         ...opts,
         element: elSelector,
         showSubResults: true,
         highlightParam: "highlight",
         bundlePath,
+        // 👇 UPDATED OFFICIAL HOOK: Fixes both primary and nested header links
+        processResult: function (result) {
+          if (!result) return result;
+
+          // Helper function to safely merge the split parameters using native URL mechanics
+          const combineHighlightParams = (rawUrlString) => {
+            if (!rawUrlString) return rawUrlString;
+            
+            const url = new URL(rawUrlString, window.location.origin);
+            const highlights = url.searchParams.getAll("highlight");
+
+            if (highlights.length > 1) {
+              url.searchParams.delete("highlight");
+              url.searchParams.set("highlight", highlights.join(" "));
+              return url.pathname + url.search + url.hash;
+            }
+            return rawUrlString;
+          };
+
+          // 1. Process the main page link target
+          result.url = combineHighlightParams(result.url);
+
+          // 2. Loop through and fix every sub-result heading link target on screen
+          if (result.sub_results && Array.isArray(result.sub_results)) {
+            result.sub_results = result.sub_results.map((sub) => {
+              sub.url = combineHighlightParams(sub.url);
+              return sub;
+            });
+          }
+
+          return result;
+        }
       });
+      
       el.classList.remove("pagefind-init");
       const query = el.getAttribute("data-query");
       if (query) {
-        const input = el.querySelector<HTMLInputElement>(`input[type="text"]`);
+        const input = el.querySelector(`input[type="text"]`);
         if (input) {
           input.value = query;
           input.dispatchEvent(new Event("input", { bubbles: true }));
@@ -60,3 +95,4 @@ const bundlePath = `${import.meta.env.BASE_URL}pagefind/`;
     initPageFind();
   }
 </script>
+
