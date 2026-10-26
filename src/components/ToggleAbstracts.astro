@@ -1,15 +1,38 @@
 ---
 // Buttons + script shared by the publications pages (journals, conferences)
+// NOTE: is:inline scripts share the global page scope -- IIFE-wrapped so
+// the helper name cannot collide with BibtexCopy.astro's script.
+// ADA: every button carries a purpose description (aria-label + title).
+// Size: the .btn font-size/weight overrides put the bulk buttons on
+// the same --disclosure-size knob and the same regular (400) weight as the
+// per-paper disclosure text (inline style wins over daisyUI's fixed 1rem and
+// semi-bold; the buttons sit inside .myinclude, where the variable is
+// declared).
 ---
-<button class="btn mr-8" id="showBtn">Show abstracts</button>
-<button class="btn" id="hideBtn">Hide abstracts</button>
+<button class="btn mr-8" id="showAbsBtn" style="font-size: var(--disclosure-size); font-weight: 400"
+  aria-label="Show the abstracts for all papers on this page"
+  title="Show the abstracts for all papers">Show abstracts</button>
+<button class="btn mr-8" id="hideAbsBtn" style="font-size: var(--disclosure-size); font-weight: 400"
+  aria-label="Hide the abstracts for all papers on this page"
+  title="Hide the abstracts for all papers">Hide abstracts</button>
+<button class="btn mr-8" id="showBibBtn" style="font-size: var(--disclosure-size); font-weight: 400"
+  aria-label="Show the BibTeX entries for all papers on this page"
+  title="Show the BibTeX entries for all papers">Show BibTeX</button>
+<button class="btn" id="hideBibBtn" style="font-size: var(--disclosure-size); font-weight: 400"
+  aria-label="Hide the BibTeX entries for all papers on this page"
+  title="Hide the BibTeX entries for all papers">Hide BibTeX</button>
 
 <script is:inline>
-  const setAbstracts = (open) => {
-    for (const el of document.getElementsByTagName("details")) {
-      el.open = open;
-    }
-  };
-  document.getElementById("showBtn").addEventListener("click", () => setAbstracts(true));
-  document.getElementById("hideBtn").addEventListener("click", () => setAbstracts(false));
+  (function () {
+    const setHidden = (els, open) => {
+      for (const el of els) {
+        if (open) el.removeAttribute("hidden");
+        else el.setAttribute("hidden", "");
+      }
+    };
+    document.getElementById("showAbsBtn").addEventListener("click", () => setHidden(document.querySelectorAll(".abstract-body"), true));
+    document.getElementById("hideAbsBtn").addEventListener("click", () => setHidden(document.querySelectorAll(".abstract-body"), false));
+    document.getElementById("showBibBtn").addEventListener("click", () => setHidden(document.querySelectorAll("div.bibtex"), true));
+    document.getElementById("hideBibBtn").addEventListener("click", () => setHidden(document.querySelectorAll("div.bibtex"), false));
+  })();
 </script>

@@ -2,6 +2,7 @@
 import Page from '../components/Page.astro'
 import CV from '../components/journals.mdx';
 import ToggleAbstracts from '../components/ToggleAbstracts.astro';
+import BibtexCopy from '../components/BibtexCopy.astro';
 ---
 
 <Page title="Mohit Tawarmalani: Journal Publications"
@@ -10,20 +11,5 @@ import ToggleAbstracts from '../components/ToggleAbstracts.astro';
 > 
 <ToggleAbstracts />
 <CV />
+<BibtexCopy />
 </Page>
-
-
-<style lang="scss">
-  @reference "../styles/global.css";
-
-  :global(.myinclude) {
-    :global(#journal-publications) {
-      :global(p) {
-         margin: 0em 0;
-      }
-      :global(li) {
-        @apply pb-8;
-      }
-    }
-  }
-</style>

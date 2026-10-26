@@ -1,6 +1,10 @@
 @reference "../styles/global.css";
 
    .myinclude {
+    /* ONE knob for all per-paper disclosure text (Abstract/BibTeX toggles,
+       copy button, abstract, entry) -- change it here and everything
+       rescales together */
+    --disclosure-size: 0.85em;
     :global(p) {
       margin: 1em 0;
     }
@@ -40,7 +44,102 @@
        :global(#refereed-book-chapters), :global(#refereed-conference-proceedings),
        :global(#presentations), :global(#grants), :global(#graduated-phd-students) {
           :global(ol) {
-            @apply list-outside list-decimal lg:pl-14  max-lg:pl-10;
+            /* numbers via ::before, not ::marker: list-inside puts the
+               marker on its own line (the li's first child is a block
+               <p> from markdown), and list-outside right-aligns it */
+            list-style: none;
+            counter-reset: item;
+          }
+          :global(p) {
+            margin: 0em 0;
+          }
+          :global(li) {
+            @apply pb-4;
+          }
+          :global(ol) :global(li) {
+            counter-increment: item;
+            position: relative;
+            padding-left: 2em; /* number gutter + gap (2.3em for 3-digit #presentations, below) */
+          }
+          :global(ol) :global(li)::before {
+            content: counter(item) ".";
+            position: absolute;
+            left: 0; /* left-aligned for every item */
+          }
+          :global(button.abs-toggle),
+          :global(button.bib-toggle) {
+            background: none;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+            color: var(--color-accent);
+            font-size: var(--disclosure-size);
+          }
+          :global(button.abs-toggle),
+          :global(button.bib-toggle) {
+            @apply ml-2;
+          }
+          :global(button.abs-toggle:hover),
+          :global(button.bib-toggle:hover) {
+            text-decoration: underline;
+          }
+          :global(button.bibtex-copy) {
+            /* carries the .btn class -- same styling as the bulk Show/Hide
+               buttons; here only the font-size override (beats the
+               .myinclude .btn text-2xl), the weight (daisyUI .btn is
+               semi-bold; user wants the regular weight of the Abstract/
+               BibTeX writing), and the offset are needed */
+            font-size: var(--disclosure-size);
+            font-weight: 400;
+            margin-top: 0.5em;
+          }
+          /* ADA: visible keyboard focus (WCAG 2.4.7) */
+          :global(button.abs-toggle:focus-visible),
+          :global(button.bib-toggle:focus-visible),
+          :global(button.bibtex-copy:focus-visible) {
+            outline: 2px solid var(--color-accent);
+            outline-offset: 2px;
+          }
+          :global(.abstract-body) {
+            /* boxed like the bibtex pre (same grey, same padding) so the
+               two disclosures read as one visual family; both boxes size
+               to their content -- no max-height/vertical scroll (user);
+               wide lines get a horizontal scrollbar (user: "horizontal
+               scrolling is fine") */
+            @apply mt-2 rounded-md p-3;
+            overflow-x: auto;
+            background: rgba(0, 0, 0, 0.04);
+            :global(.csl-block) {
+              font-size: var(--disclosure-size);
+              color: #6b7280;
+              :global(.katex) {
+                font-size: 1em;
+              }
+            }
+          }
+          :global(.bibtex) {
+            @apply mt-3;
+            :global(pre) {
+              font-size: var(--disclosure-size);
+              /* NOT the UA default monospace: at the same em size it
+                 reads far chunkier/larger than the page's sans (user:
+                 "the bibtex pre looks much larger than the abstract") */
+              font-family: inherit;
+              @apply mt-2 rounded-md p-3;
+              /* box sizes to its content vertically -- no max-height/
+                 vertical scroll (user: "I do not have to scroll for
+                 either"); pre text does not wrap, so wide lines get a
+                 horizontal scrollbar (user: "horizontal scrolling is
+                 fine") */
+              overflow-x: auto;
+              background: rgba(0, 0, 0, 0.04);
+            }
           }
         }
      }
+   .myinclude {
+     :global(#presentations) :global(ol) :global(li) {
+       /* the only 3-digit numbered list (189 items) needs a wider gutter */
+       padding-left: 2.3em;
+     }
+   }

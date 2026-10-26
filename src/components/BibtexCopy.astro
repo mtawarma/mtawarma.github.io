@@ -1,0 +1,58 @@
+---
+// Wires the compact per-paper disclosure on the publication pages:
+// - each reference line ends with two small links, "Abstract" and "BibTeX"
+//   (items without an abstract get only "BibTeX"); each toggles its own
+//   hidden block below (div.abstract-body / div.bibtex)
+// - the <pre> for each BibTeX block is injected from data-bibtex
+//   (URL-encoded -- satteri's MDX cannot hold the script or the braces in
+//   element text), placed above the Copy BibTeX button (which gets a small
+//   clipboard icon) so the button sits right under the grey entry block
+// - the page-level Show/Hide abstracts + Show/Hide BibTeX buttons live in
+//   ToggleAbstracts.astro
+// NOTE: every is:inline script on a page shares the global scope -- the
+// whole body is IIFE-wrapped so helper names (setHidden etc.) cannot
+// collide with ToggleAbstracts.astro's script.
+---
+
+<script is:inline>
+  (function () {
+    function setHidden(el, on) {
+      if (on) el.setAttribute('hidden', '');
+      else el.removeAttribute('hidden');
+    }
+    function toggle(b, el) {
+      var closed = !el.hasAttribute('hidden');
+      setHidden(el, closed);
+      b.setAttribute('aria-expanded', String(!closed));
+    }
+    var COPY_ICON =
+      '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" ' +
+      'stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
+      '<rect x="9" y="9" width="13" height="13" rx="2"></rect>' +
+      '<path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>';
+    document.querySelectorAll('div.bibtex').forEach(function (d) {
+      var b = d.querySelector('button.bibtex-copy');
+      var pre = document.createElement('pre');
+      pre.textContent = decodeURIComponent(d.getAttribute('data-bibtex'));
+      d.insertBefore(pre, b); /* entry above, copy button under the grey block */
+      /* icon + label span, so the "Copied!" feedback keeps the icon */
+      b.innerHTML = COPY_ICON + '<span>' + b.textContent.trim() + '</span>';
+      b.addEventListener('click', function () {
+        navigator.clipboard.writeText(pre.textContent).then(function () {
+          b.querySelector('span').textContent = 'Copied!';
+          setTimeout(function () { b.querySelector('span').textContent = 'Copy BibTeX'; }, 1500);
+        });
+      });
+    });
+    document.querySelectorAll('button.abs-toggle').forEach(function (b) {
+      b.addEventListener('click', function () {
+        toggle(b, b.closest('li').querySelector('.abstract-body'));
+      });
+    });
+    document.querySelectorAll('button.bib-toggle').forEach(function (b) {
+      b.addEventListener('click', function () {
+        toggle(b, b.closest('li').querySelector(':scope > .bibtex'));
+      });
+    });
+  })();
+</script>
