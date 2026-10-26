@@ -6,8 +6,8 @@
   and integrity
 
 - 2025 Seed for Success Acorn Award (with Rajamani Gounder and Rakesh
-  Agrawal) for \`\`Electrified CO2 Hydrogenation to Olefins for
-  Sustainable Aviation Fuel’’
+  Agrawal) for “Electrified CO2 Hydrogenation to Olefins for Sustainable
+  Aviation Fuel”
 
 - Led Krenicki center as a 2025 Mira award finalist for higher education
   innovation
@@ -28,18 +28,18 @@
 - Runner-up, Salgo Noren Foundation Award for Excellence in Teaching,
   Krannert School of Management, 2009, 2011, 2016, 2018, 2019, 2020
 
-- 2006 Beale-Orchard-Hays prize (with N. V. Sahinidis) for the paper
-  \`\`A polyhedral branch-and-cut approach to global optimization’’
+- 2006 Beale-Orchard-Hays prize (with N. V. Sahinidis) for the paper “A
+  polyhedral branch-and-cut approach to global optimization”
 
 - Krannert Faculty Fellow, 2006
 
 - Best Paper Award (with K. Kannan and P. De) in the fifteenth Workshop
-  on Information Technologies and Systems (2005) for the paper \`\`A
-  Mechanism for Allocating Objects in a Network of Symmetric Caches’’
+  on Information Technologies and Systems (2005) for the paper “A
+  Mechanism for Allocating Objects in a Network of Symmetric Caches”
 
 - Honorable Mention in 2005 Junior Faculty Interest Group Competition
-  (with Y. Li) for the paper \`\`Minimizing Flow Disruption due to
-  Network Maintenance’’
+  (with Y. Li) for the paper “Minimizing Flow Disruption due to Network
+  Maintenance”
 
 - Distinguished Core MBA Teaching Recognition, 2005–2011, 2014–2020
 
