@@ -11,17 +11,17 @@ const {title, description, pagetype} = Astro.props;
 const base:string = String(import.meta.env.BASE_URL);
 
 const canonical: Record<string, string> = {
-  home: "https://www.mohit.prof/",
-  resume: "https://www.mohit.prof/cv/",
-  appointments: "https://www.mohit.prof/appointments/",
-  books: "https://www.mohit.prof/books/",
-  publications: "https://www.mohit.prof/journals/",
-  conferences: "https://www.mohit.prof/conferences/",
-  honors: "https://www.mohit.prof/honors/",
-  students: "https://www.mohit.prof/phdstudents/",
-  teaching: "https://www.mohit.prof/teaching/",
-  contact: "https://www.mohit.prof/contact/",
-  search: "https://www.mohit.prof/searchsite/",
+  home: base,
+  resume: `${base}cv/`,
+  appointments: `${base}appointments/`,
+  books: `${base}books/`,
+  publications: `${base}journals/`,
+  conferences: `${base}conferences/`,
+  honors: `${base}honors/`,
+  students: `${base}phdstudents/`,
+  teaching: `${base}teaching/`,
+  contact: `${base}contact/`,
+  search: `${base}searchsite/`,
 };
 
 const navItems = [

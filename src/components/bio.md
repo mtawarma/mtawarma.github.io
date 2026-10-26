@@ -1,7 +1,5 @@
 [BOOK]: /books/
 
-<div class="flex flex-col space-y-5 text-2xl max-md:text-xl">
-
 [UIUC]: https://illinois.edu/
 [Daniels]: https://business.purdue.edu/
 [Krenicki]: https://business.purdue.edu/centers/krenicki-center/
@@ -47,5 +45,3 @@ Mohit was a founding co-director of Purdue’s
 Mohit serves as an Area Editor for Mathematical Programming Computation and as an 
 Associate Editor for the Journal of Global Optimization and SIAM Journal on Optimization. 
 Mohit is a participant of the 2024-2025 Big Ten Academic Alliance Academic Leadership Program.
-
-</div>
