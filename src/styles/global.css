@@ -24,3 +24,12 @@
   --color-base-100: rgb(249 249 249);
   --color-base-200: rgb(249 249 249)
 }
+
+a {
+  @apply link-accent hover:link-primary visited:link-secondary;
+}
+
+/* Completes the obfuscated email addresses (e.g. mtawarma@purdue.edu) */
+span.myemail::before {
+  content: "mtawarma";
+}

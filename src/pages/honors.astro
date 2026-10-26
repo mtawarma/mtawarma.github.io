@@ -1,25 +1,11 @@
 ---
-import "../styles/global.css";
-import CVcomp from '../components/CVcomp.astro'
+import Page from '../components/Page.astro'
 import CV from '../components/honors.md';
 ---
 
-<CVcomp title="Mohit Tawarmalani: Honors"
+<Page title="Mohit Tawarmalani: Honors"
  description="Mohit Tawarmalani: Honors"
  pagetype="honors"
 >
-<div class="myinclude">
 <CV />
-</div>
-</CVcomp>
-
-<style lang="scss">
- @use "../styles/cvstyle.scss";
- @use "../styles/cvhide.scss";
-
- .myinclude {
-    :global(#honors) {
-      display: block;
-    }
- }
-</style>
+</Page>

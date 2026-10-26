@@ -1,10 +1,9 @@
 ---
-import "../styles/global.css";
-import CVcomp from '../components/CVcomp.astro'
+import Page from '../components/Page.astro'
 import Time from '../components/timeline.astro'
 ---
 
-<CVcomp
+<Page
  title="Mohit Tawarmalani: Appointments"
  description="Mohit Tawarmalani: Appointments"
  pagetype="appointments" 
@@ -23,7 +22,7 @@ import Time from '../components/timeline.astro'
     </div>
   </Time>
   </li>
-  <li><hr class="bg-base-content" />
+  <li>
   <Time>
     <div class="timeline-end mb-10">
       <time class="italic">2022 &mdash; present</time>
@@ -35,7 +34,7 @@ import Time from '../components/timeline.astro'
     </div>
   </Time>
   </li>
-  <li><hr class="bg-base-content" />
+  <li>
   <Time>
     <div class="timeline-start mb-10 md:text-end">
       <time class="italic">2020 &mdash; 2023</time>
@@ -48,7 +47,7 @@ import Time from '../components/timeline.astro'
     </div>
   </Time>
   </li>
-  <li><hr class="bg-base-content" />
+  <li>
   <Time>
     <div class="timeline-end mb-10">
       <time class="italic">2015 &mdash; 2018</time>
@@ -61,8 +60,9 @@ import Time from '../components/timeline.astro'
     </div>
   </Time>
   </li>
-  <li><hr class="bg-base-content" />
-     <div class="timeline-start mb-10 md:text-end">
+  <li>
+  <Time>
+    <div class="timeline-start mb-10 md:text-end">
       <time class="italic">2012 &mdash; present</time>
       <div class="font-extrabold">Professor of Management<br/> Allison and Nancy Schleicher Chair (2014 &mdash; present) <br/> Chemical Engineering (Courtesy) (2022 &mdash; present) <br/> </div>
       <ul>
@@ -73,24 +73,12 @@ import Time from '../components/timeline.astro'
       <li> Developed new techniques for network routing for demand uncertainty and failure resilience </li>
       </ul>
     </div>
-  <Time>
   </Time>
   </li>
 </ul>
-</CVcomp>
+</Page>
 
 <style>
-@reference "../styles/global.css";
-    h2 {
-	font-size: 2rem;
-	font-weight: 600;
-	line-height: 1;
-	/* text-align: center; */
-	margin-bottom: 1em; 
-	@apply max-md:text-2xl;
-	margin-top: 1.4em;
-    }
-
     .timeline-start.mb-10 {
       margin-bottom: 2.5rem;
     }

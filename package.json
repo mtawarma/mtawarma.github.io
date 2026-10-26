@@ -14,7 +14,7 @@
     "@astrojs/svelte": "^8.0.0",
     "@tailwindcss/vite": "^4.0.15",
     "@types/katex": "^0.16.7",
-    "astro": "^7.1.6",
+    "astro": "^7.4.2",
     "astro-pagefind": "^1.8.3",
     "katex": "^0.16.21",
     "svelte": "^5.25.2",

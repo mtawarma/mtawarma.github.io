@@ -1,28 +1,19 @@
 ---
-import "../styles/global.css";
-import CVcomp from '../components/CVcomp.astro'
+import Page from '../components/Page.astro'
 import CV from '../components/contact.md';
 ---
 
-<CVcomp title="Mohit Tawarmalani: Contact"
+<Page title="Mohit Tawarmalani: Contact"
  description="Mohit Tawarmalani: Contact Information"
  pagetype="contact"
 > 
-<div class="myinclude">
 <CV />
-</div>
-</CVcomp>
+</Page>
 
 <style lang="scss">
- @use "../styles/cvstyle.scss";
- @use "../styles/cvhide.scss";
-
- .myinclude {
-    :global(#contact-information) {
-      display: inline;
-    }
-    :global(span.myemail)::before {
-       content: "mtawarma";
-    }
- }
+  :global(.myinclude) {
+     :global(#contact-information) {
+       display: inline;
+     }
+  }
 </style>

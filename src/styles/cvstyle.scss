@@ -8,7 +8,6 @@
 	font-size: 2rem;
 	font-weight: 600;
 	line-height: 1;
-	/* text-align: center; */
 	margin-bottom: 1em; 
 	@apply max-md:text-2xl;
 	margin-top: 1.4em;
@@ -28,19 +27,6 @@
 		max-width: calc(100%); 
 		line-height: 1.6;
 	}
-        span.myemail::before {
-          content: "mtawarma";
-        }
-a {
-   @apply link-accent hover:link-primary visited:link-secondary;
-}
-   .myinclude {
-      :global(a) {
-        @apply link-accent hover:link-primary visited:link-secondary;
-        /*@apply underline text-blue-600 hover:text-blue-800 visited:text-purple-600;*/
-        /*@apply max-md:break-all;*/
-     }
-   }
    .myinclude {
       :global(#leadership-activities),:global(#honors), :global(#grants),
       :global(#service), :global(#professional-activities), :global(#teaching)  {
@@ -58,4 +44,3 @@ a {
           }
         }
      }
-

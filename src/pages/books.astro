@@ -1,25 +1,11 @@
 ---
-import "../styles/global.css";
-import CVcomp from '../components/CVcomp.astro'
+import Page from '../components/Page.astro'
 import CV from '../components/books.mdx';
 ---
 
-<CVcomp title="Mohit Tawarmalani: Book"
+<Page title="Mohit Tawarmalani: Book"
  description="Mohit Tawarmalani: Book"
  pagetype="books"
 > 
-<div class="myinclude">
 <CV />
-</div>
-</CVcomp>
-
-<style lang="scss">
- @use "../styles/cvstyle.scss";
- @use "../styles/cvhide.scss";
-
- .myinclude {
-    :global(#books) {
-      display: block;
-    }
- }
-</style>
+</Page>

@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Name from '../components/name.astro';
+
+interface Props {
+	title: string;
+	description: string;
+	pagetype: string;
+}
+
+const {title, description, pagetype} = Astro.props;
+---
+<Layout title={title} description={description} pagetype={pagetype}>
+<main>
+<Name />
+
+<div class="lg:space-x-10 max-lg:space-y-5 md:text-2xl max-md:text-xl">
+<div class="myinclude">
+<slot />
+</div>
+</div>
+</main>
+</Layout>
+
+<style lang="scss">
+ @use "../styles/cvstyle.scss";
+</style>
