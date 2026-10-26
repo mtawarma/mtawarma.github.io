@@ -120,6 +120,17 @@ const navItems = [
           opacity: 1;
         }
 
+        /* Menu links stay base-content (near black), not the site-wide link
+           colors: global.css' `a{link-accent...visited:link-secondary}` compiles
+           into @layer daisyui.l1.l2, which beats the .menu component color
+           (layer components). This rule is unlayered, so it wins over both --
+           the menu keeps its black typesetting (visited included) while the
+           page content links stay accent/primary/secondary. The :hover and
+           .myactive rules below are also unlayered with equal-or-greater
+           specificity and later source order, so they still win over this. */
+        a.menuitem, a.menuitem:visited {
+             @apply text-base-content;
+        }
         li.menuitem > :active {
              @apply bg-base-100;
         }
