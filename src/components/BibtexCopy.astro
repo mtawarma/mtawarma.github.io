@@ -7,8 +7,10 @@
 //   (URL-encoded -- satteri's MDX cannot hold the script or the braces in
 //   element text), placed above the Copy BibTeX button (which gets a small
 //   clipboard icon) so the button sits right under the grey entry block
-// - the page-level Show/Hide abstracts + Show/Hide BibTeX buttons live in
-//   ToggleAbstracts.astro
+// - the page-level stateful Abstracts/BibTeX buttons live in
+//   ToggleAbstracts.astro; their state is derived from the first block on
+//   the page, and their script re-syncs after our per-paper handlers via a
+//   delegated document click listener (no shared state, the DOM governs)
 // NOTE: every is:inline script on a page shares the global scope -- the
 // whole body is IIFE-wrapped so helper names (setHidden etc.) cannot
 // collide with ToggleAbstracts.astro's script.

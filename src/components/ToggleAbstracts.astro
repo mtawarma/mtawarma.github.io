@@ -1,38 +1,76 @@
 ---
-// Buttons + script shared by the publications pages (journals, conferences)
-// NOTE: is:inline scripts share the global page scope -- IIFE-wrapped so
-// the helper name cannot collide with BibtexCopy.astro's script.
-// ADA: every button carries a purpose description (aria-label + title).
-// Size: the .btn font-size/weight overrides put the bulk buttons on
-// the same --disclosure-size knob and the same regular (400) weight as the
-// per-paper disclosure text (inline style wins over daisyUI's fixed 1rem and
-// semi-bold; the buttons sit inside .myinclude, where the variable is
-// declared).
+// Two stateful page-level buttons shared by the publications pages (journals,
+// conferences): "Abstracts" and "BibTeX".
+//
+// State is NOT stored separately -- it is *derived* from the first disclosure
+// block of that type on the page (the first div.abstract-body / first
+// div.bibtex in DOM order). The first item governs the button, so it can never
+// disagree with the page: toggle the first paper's link and the top button
+// follows (this script notices via a delegated click listener). Clicking a
+// button sets ALL blocks of that type to the opposite of the first block's
+// state -- one click brings the page to a uniform state, both directions
+// reachable from any state.
+//
+// NOTE: is:inline scripts share the global page scope -- IIFE-wrapped so the
+// helper name cannot collide with BibtexCopy.astro's script.
+// ADA: aria-pressed carries the state (screen readers announce "pressed" /
+// "not pressed"); aria-label describes the purpose; title is the tooltip.
+// Size: the inline style puts the buttons on the same --disclosure-size knob
+// and the same regular (400) weight as the per-paper disclosure text (inline
+// style wins over daisyUI's fixed 1rem and semi-bold; the buttons sit inside
+// .myinclude, where the variable is declared).
 ---
-<button class="btn mr-8" id="showAbsBtn" style="font-size: var(--disclosure-size); font-weight: 400"
-  aria-label="Show the abstracts for all papers on this page"
-  title="Show the abstracts for all papers">Show abstracts</button>
-<button class="btn mr-8" id="hideAbsBtn" style="font-size: var(--disclosure-size); font-weight: 400"
-  aria-label="Hide the abstracts for all papers on this page"
-  title="Hide the abstracts for all papers">Hide abstracts</button>
-<button class="btn mr-8" id="showBibBtn" style="font-size: var(--disclosure-size); font-weight: 400"
-  aria-label="Show the BibTeX entries for all papers on this page"
-  title="Show the BibTeX entries for all papers">Show BibTeX</button>
-<button class="btn" id="hideBibBtn" style="font-size: var(--disclosure-size); font-weight: 400"
-  aria-label="Hide the BibTeX entries for all papers on this page"
-  title="Hide the BibTeX entries for all papers">Hide BibTeX</button>
+<button class="btn mr-8" id="absToggleBtn" aria-pressed="false"
+  aria-label="Toggle the abstracts of all papers on this page"
+  title="Show or hide all abstracts" style="font-size: var(--disclosure-size); font-weight: 400">Abstracts</button>
+<button class="btn" id="bibToggleBtn" aria-pressed="false"
+  aria-label="Toggle the BibTeX entries of all papers on this page"
+  title="Show or hide all BibTeX entries" style="font-size: var(--disclosure-size); font-weight: 400">BibTeX</button>
+
+<style>
+  /* Pressed = the first block of that type is currently shown. An accent
+     inner ring (the same accent the per-paper Abstract/BibTeX links use) --
+     quiet, on-palette; the state is read from the aria-pressed attribute the
+     script derives from the DOM, so CSS and JS can never disagree. */
+  .btn[aria-pressed="true"] {
+    outline: 2px solid var(--color-accent);
+    outline-offset: -2px;
+  }
+</style>
 
 <script is:inline>
   (function () {
-    const setHidden = (els, open) => {
-      for (const el of els) {
-        if (open) el.removeAttribute("hidden");
+    function sync(btnId, blockSel) {
+      var first = document.querySelector(blockSel);
+      document.getElementById(btnId).setAttribute(
+        "aria-pressed", String(!!first && !first.hasAttribute("hidden")));
+    }
+    function flip(btnId, blockSel) {
+      var first = document.querySelector(blockSel);
+      if (!first) return;
+      var show = first.hasAttribute("hidden");
+      document.querySelectorAll(blockSel).forEach(function (el) {
+        if (show) el.removeAttribute("hidden");
         else el.setAttribute("hidden", "");
-      }
-    };
-    document.getElementById("showAbsBtn").addEventListener("click", () => setHidden(document.querySelectorAll(".abstract-body"), true));
-    document.getElementById("hideAbsBtn").addEventListener("click", () => setHidden(document.querySelectorAll(".abstract-body"), false));
-    document.getElementById("showBibBtn").addEventListener("click", () => setHidden(document.querySelectorAll("div.bibtex"), true));
-    document.getElementById("hideBibBtn").addEventListener("click", () => setHidden(document.querySelectorAll("div.bibtex"), false));
+      });
+      sync(btnId, blockSel);
+    }
+    document.getElementById("absToggleBtn").addEventListener("click", function () { flip("absToggleBtn", ".abstract-body"); });
+    document.getElementById("bibToggleBtn").addEventListener("click", function () { flip("bibToggleBtn", "div.bibtex"); });
+    // Per-paper toggles (BibtexCopy.astro): re-derive the button state when
+    // one is used. Their handlers run in the target phase, before this
+    // document-level (bubble) listener, so the hidden attribute is already
+    // updated by the time we read it.
+    document.addEventListener("click", function (e) {
+      if (e.target.closest("button.abs-toggle")) sync("absToggleBtn", ".abstract-body");
+      else if (e.target.closest("button.bib-toggle")) sync("bibToggleBtn", "div.bibtex");
+    });
+    // The script sits above the mdx content, so the blocks are not parsed yet
+    // at run time; re-derive on load so the initial state matches whatever
+    // the generator emitted (all hidden today).
+    document.addEventListener("DOMContentLoaded", function () {
+      sync("absToggleBtn", ".abstract-body");
+      sync("bibToggleBtn", "div.bibtex");
+    });
   })();
 </script>
