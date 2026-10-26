@@ -1,3 +1,9 @@
+<!-- DaisyUI 5 draws the connecting line with the `hr:first-child` (segment above
+     the icon) and `hr:last-child` (segment below) selectors, so both hr elements
+     must be direct children of the li, with the slotted content between them.
+     That gives one continuous line through the icons — a single trailing hr
+     only ever rendered the below-icon half. -->
+<hr class="bg-base-content" />
 <div class="timeline-middle">
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,5 +16,5 @@
       clip-rule="evenodd" />
   </svg>
 </div>
-  <slot />
+<slot />
 <hr class="bg-base-content" />
