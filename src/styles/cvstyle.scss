@@ -72,31 +72,37 @@
             border: none;
             padding: 0;
             cursor: pointer;
-            /* state colors (user: "this distinction is for status"):
-               green (the theme's success color) = non-visited (closed),
-               red = visited (open). Hover has its own color (the theme's
-               --color-hover: red in the light theme, gold in the dark
-               one). */
-            color: var(--color-success);
+            /* state colors (user: "this distinction is for status") --
+               the toggle mirrors the theme's link trichotomy EXACTLY:
+               closed = the theme's link rest color (accent: blue in the
+               light theme, the standard green in the dark one -- the
+               light theme has no green in its triad, user: "the abstract
+               and bibtex are green in light mode .. this is wierd"),
+               open = the theme's visited color (purple in light, pink in
+               dark), hover = the theme's hover color (red in light, gold
+               in dark). One rule in both themes: accent/secondary/primary,
+               the same three the links use. */
+            color: var(--color-accent);
             font-size: var(--disclosure-size);
           }
           :global(button.abs-toggle),
           :global(button.bib-toggle) {
             @apply ml-2;
           }
+          /* open = "visited" = the theme's visited color (secondary):
+             purple in the light theme, pink in the dark one */
           :global(button.abs-toggle[aria-expanded="true"]),
           :global(button.bib-toggle[aria-expanded="true"]) {
-            color: var(--color-primary);
+            color: var(--color-secondary);
           }
-          /* hover is a separate signal from the open state: the theme's
-             --color-hover -- red in the light theme (its primary; the
-             garden palette is blue/purple/red), gold in the dark theme
-             (the user's RGB 207, 185, 145). Later in source order, so
+          /* hover = the theme's hover color (the site's primary: red in
+             light, the gold in dark) -- the same color the menu and the
+             bulk buttons take on hover. Later in source order, so
              hovering an open toggle shows the hover color while the
              mouse is on it. */
           :global(button.abs-toggle:hover),
           :global(button.bib-toggle:hover) {
-            color: var(--color-hover);
+            color: var(--color-primary);
           }
           :global(button.bibtex-copy) {
             /* carries the .btn class -- same styling as the bulk Show/Hide
@@ -123,18 +129,19 @@
                scrolling is fine") */
             @apply mt-2 rounded-md p-3;
             overflow-x: auto;
-            /* theme-consistent subtle box: base-content mixed 6% into
-               base-100 -- light grey in the light theme (same look as
-               before), a subtly lighter box in the dark one (an
-               rgba(0,0,0,0.04) black overlay was invisible on the dark
-               background) */
+            /* theme-consistent subtle box: base-content mixed 12% into
+               base-100 -- a light grey in the light theme, a clearly
+               lighter box in the dark one (an rgba(0,0,0,0.04) black
+               overlay was invisible on the dark background; 12% after the
+               user asked for a stronger grey) */
             background: color-mix(in oklab, var(--color-base-content) 12%, var(--color-base-100));
             :global(.csl-block) {
               font-size: var(--disclosure-size);
-              /* theme-consistent muted grey: base-content mixed 60% into
-                 base-100 -- mid grey in the light theme, a visible
-                 mid-light grey in the dark one (was a hardcoded #6b7280) */
-              color: color-mix(in oklab, var(--color-base-content) 60%, var(--color-base-100));
+              /* the text is the theme's base-content -- exactly the
+                 same color as the bibtex pre text (user: "the text is
+                 a different color .. they should be the same color, the
+                 same in light and dark .. no ad-hoc colors"); the old
+                 60% muted mix is gone */
               :global(.katex) {
                 font-size: 1em;
               }

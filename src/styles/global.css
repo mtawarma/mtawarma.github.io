@@ -22,21 +22,26 @@
   --color-accent: rgb(37 99 235);
   --color-neutral-content: rgb(249 249 249);
   --color-base-100: rgb(249 249 249);
-  --color-base-200: rgb(249 249 249);
-  /* the toggle hover color, per theme (user: "the red for hover was good
-     there -- that theme works with blue, purple and red"). Light keeps
-     red (the site's primary); the dark theme takes the gold instead
-     (the user's RGB 207, 185, 145). */
-  --color-hover: rgb(193 46 54)
+  --color-base-200: rgb(249 249 249)
 }
-/* The stock daisyUI dark palette with two changes: primary is the
-   site's red (garden's primary) instead of the stock purple, and its
-   content white like garden's; the toggle hover is the gold (the
-   user's RGB 207, 185, 145) instead of the red the light theme uses.
-   The site-wide concept is "link hover => red" in every theme (user:
-   "it should all be consistent") -- the stock dark's purple only ever
-   showed up as the hover color of the links. Everything else (dark
-   bases, cyan accent, pink secondary/visited) is stock. */
+/* The stock daisyUI dark palette with the site's dark link palette
+   (user's concept, "consistency is important" -- the same idea as the
+   light scheme): rest = the website's standard green (the light theme's
+   success value -- the stock dark variant is a brighter neon green the
+   user rejected: "the green is not the original green of the website",
+   so both themes share ONE green), visited = the stock pink, hover =
+   the gold (the ONLY added color, the user's RGB 207, 185, 145, now
+   used as the primary). The light theme keeps its original
+   blue/purple/red unchanged. The menu is the text color in both themes;
+   it takes the theme's hover color (red / gold) on hover and click (the
+   :active state shares the :hover rule), and the Abstract/BibTeX bulk
+   buttons work like menu items too (text color at rest, hover color on
+   hover, the menu's active-item inversion as the pressed state). The
+   per-paper toggles mirror the same trichotomy: closed = the theme's
+   link rest color (accent: blue in light, the standard green in dark),
+   open = the theme's visited color (secondary), hover = the theme's
+   hover color (primary). Everything else (dark bases,
+   neutrals, info/warning/error) is stock. */
 @plugin "daisyui/theme" {
   name: "darkred";
   /* custom themes are not in daisyUI's stock themesObject, so the themes-list
@@ -50,19 +55,28 @@
   --color-base-200: oklch(23.26% .014 253.1);
   --color-base-300: oklch(21.15% .012 254.09);
   --color-base-content: oklch(97.807% .029 256.847);
-  --color-primary: rgb(193 46 54);
-  --color-primary-content: rgb(255 255 255);
+  /* the gold -- the only added color (the user's RGB 207, 185, 145): the
+     dark link hover, menu hover/click, and toggle hover */
+  --color-primary: rgb(207 185 145);
+  --color-primary-content: oklch(41% .112 45.904);
   --color-secondary: oklch(65% .241 354.308);
   --color-secondary-content: oklch(94% .028 342.258);
-  --color-accent: oklch(77% .152 181.912);
-  --color-accent-content: oklch(38% .063 188.416);
+  /* the website's standard green (the light theme's success value -- the
+     "original green of the website", user: "the green is not the original
+     green of the website") -- the link rest color, the same green the
+     closed toggle uses, so one green in both themes */
+  --color-accent: oklch(64.8% .15 160);
+  --color-accent-content: oklch(37% .077 168.94);
   --color-neutral: oklch(14% .005 285.823);
   --color-neutral-content: oklch(92% .004 286.32);
   --color-info: oklch(74% .16 232.661);
   --color-info-content: oklch(29% .066 243.157);
-  --color-success: oklch(76% .177 163.223);
+  /* the website's standard green -- the same value as the accent, so
+     the closed toggle and the link rest are ONE green in both themes
+     (the stock dark success is a brighter neon variant, rejected by the
+     user: "the green is not the original green of the website") */
+  --color-success: oklch(64.8% .15 160);
   --color-success-content: oklch(37% .077 168.94);
-  --color-hover: rgb(207 185 145);
   --color-warning-content: oklch(41% .112 45.904);
   --color-error: oklch(71% .194 13.428);
   --color-error-content: oklch(27% .105 12.094);
@@ -76,8 +90,25 @@
   --noise: 0
 }
 
+/* The site-wide link trichotomy, per theme (user concept: "consistency is
+   important"): rest = accent (blue in light / the standard green in dark),
+   visited = secondary (purple in light / the stock pink in dark), hover =
+   primary (red in light / the gold in dark). Plain rules with the EXACT
+   theme values on purpose -- daisyUI's link utilities compile the hover as
+   color-mix(in oklab, <color> 80%, #000), i.e. the color mixed 20% with
+   black: in the dark theme that darkened gold sits at the same brightness
+   as the green rest, so the hover appears absent (user: "it does not
+   seem to show hover"). The explicit a:visited:hover rule (same
+   specificity as a:visited, later in source order) keeps the hover
+   visible on already-visited links too. */
 a {
-  @apply link-accent hover:link-primary visited:link-secondary;
+  color: var(--color-accent);
+}
+a:visited {
+  color: var(--color-secondary);
+}
+a:hover, a:visited:hover {
+  color: var(--color-primary);
 }
 
 /* Completes the obfuscated email addresses (e.g. mtawarma@purdue.edu) */

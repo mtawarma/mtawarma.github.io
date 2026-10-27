@@ -16,29 +16,53 @@
 // ADA: aria-pressed carries the state (screen readers announce "pressed" /
 // "not pressed"); aria-label describes the purpose; title is the tooltip.
 // Size: the inline style puts the buttons on the same --disclosure-size knob
-// and the same regular (400) weight as the per-paper disclosure text (inline
-// style wins over daisyUI's fixed 1rem and semi-bold; the buttons sit inside
-// .myinclude, where the variable is declared).
+// as the per-paper disclosure text (the buttons sit inside .myinclude, where
+// the variable is declared).
+//
+// Look: they work like menu items (user: "they work like menu .. except
+// they appear as clicked when the first abstract or bibtex is open") --
+// the text color at rest, the theme's hover color on hover, and the
+// menu's active-item inversion as the pressed state (a dark box with
+// light text in the light theme, a light box with dark text in the dark
+// one -- the same media-scoped inversion Layout.astro uses for the active
+// menu item).
 ---
-<button class="btn mr-8" id="absToggleBtn" aria-pressed="false"
+<button class="bulkbtn mr-8" id="absToggleBtn" aria-pressed="false"
   aria-label="Toggle the abstracts of all papers on this page"
   title="Show or hide all abstracts" style="font-size: var(--disclosure-size); font-weight: 400">Abstracts</button>
-<button class="btn" id="bibToggleBtn" aria-pressed="false"
+<button class="bulkbtn" id="bibToggleBtn" aria-pressed="false"
   aria-label="Toggle the BibTeX entries of all papers on this page"
   title="Show or hide all BibTeX entries" style="font-size: var(--disclosure-size); font-weight: 400">BibTeX</button>
 
 <style>
-  /* Pressed = the first block of that type is currently shown. An accent
-     inner ring (the same accent the per-paper Abstract/BibTeX links use) --
-     on-palette in both themes (user: "the theme should be consistent"); the
-     state is read from the aria-pressed attribute the script derives from
-     the DOM, so CSS and JS can never disagree. 3px so it reads in the light
-     theme too: the 2px ring was a thin blue line on the light button, while
-     on the dark button the same ring is already loud (user: dark shows what
-     the press will do -- wanted in light as well). */
-  .btn[aria-pressed="true"] {
-    outline: 3px solid var(--color-accent);
-    outline-offset: -3px;
+  @reference "../styles/global.css";
+  /* work like a menu item (see the header note): text color at rest,
+     the theme's hover color (the site's primary: red in light, gold in
+     dark) on hover, and the menu's active-item inversion as the pressed
+     state (the old 3px accent ring is gone). The state is read from the
+     aria-pressed attribute the script derives from the DOM, so CSS and
+     JS can never disagree. The pressed rule comes after :hover in source
+     order, so a pressed button keeps its inversion while hovered (like
+     the active menu item). */
+  .bulkbtn {
+    @apply px-2 py-1 border-0 bg-transparent text-base-content cursor-pointer;
+  }
+  .bulkbtn:hover {
+    @apply text-primary;
+  }
+  .bulkbtn[aria-pressed="true"] {
+    @apply bg-neutral text-neutral-content;
+  }
+  @media (prefers-color-scheme: dark) {
+    .bulkbtn[aria-pressed="true"] {
+      @apply bg-base-content text-base-100;
+    }
+  }
+  /* ADA: visible keyboard focus (WCAG 2.4.7) -- the same outline the
+     per-paper disclosure buttons get (cvstyle.scss) */
+  .bulkbtn:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
   }
 </style>
 
