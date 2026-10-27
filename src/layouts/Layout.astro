@@ -142,6 +142,21 @@ const navItems = [
              @apply bg-neutral;
              @apply text-neutral-content;
         }
+        /* In the default daisyUI dark theme, --color-neutral (oklch 14%) is
+           barely distinguishable from --color-base-100 (oklch 25%), so the
+           active item was a slightly-darker box on a dark menu -- the
+           inversion is invisible (user: "the dark mode is automatically
+           loaded depending on browser preference" -- the HTML carries no
+           data-theme attribute and no theme radio, so the media query
+           scopes the dark theme exactly). Dark-mode inversion: a light
+           box with dark text. This rule is later in source order with
+           equal specificity, so it wins whenever the media matches. */
+        @media (prefers-color-scheme: dark) {
+          a.menuitem.myactive, a.menuitem.myactive:hover {
+               @apply bg-base-content;
+               @apply text-base-100;
+          }
+        }
         .menulist {
              min-height: calc(100vh - 5rem);
         }
