@@ -72,19 +72,20 @@
             border: none;
             padding: 0;
             cursor: pointer;
-            color: var(--color-accent);
+            /* state-colored (user: "the simplest idea"): green (the theme's
+               success color, the same in both themes) = closed, red (the
+               site's primary, the same red in both themes) = open. No hover
+               color -- red means "open", so a red hover on a closed toggle
+               would be a false state. */
+            color: var(--color-success);
             font-size: var(--disclosure-size);
           }
           :global(button.abs-toggle),
           :global(button.bib-toggle) {
             @apply ml-2;
           }
-          /* site-wide link pattern: hover turns primary (red) like every
-             other link (no underline -- the other links don't get one
-             either); these are <button>s, so the a{} rule in global.css
-             never reaches them */
-          :global(button.abs-toggle:hover),
-          :global(button.bib-toggle:hover) {
+          :global(button.abs-toggle[aria-expanded="true"]),
+          :global(button.bib-toggle[aria-expanded="true"]) {
             color: var(--color-primary);
           }
           :global(button.bibtex-copy) {
@@ -117,7 +118,7 @@
                before), a subtly lighter box in the dark one (an
                rgba(0,0,0,0.04) black overlay was invisible on the dark
                background) */
-            background: color-mix(in oklab, var(--color-base-content) 6%, var(--color-base-100));
+            background: color-mix(in oklab, var(--color-base-content) 12%, var(--color-base-100));
             :global(.csl-block) {
               font-size: var(--disclosure-size);
               /* theme-consistent muted grey: base-content mixed 60% into
@@ -145,7 +146,7 @@
                  fine") */
               overflow-x: auto;
               /* same theme-consistent box as .abstract-body */
-              background: color-mix(in oklab, var(--color-base-content) 6%, var(--color-base-100));
+              background: color-mix(in oklab, var(--color-base-content) 12%, var(--color-base-100));
             }
           }
         }
