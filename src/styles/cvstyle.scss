@@ -79,8 +79,11 @@
           :global(button.bib-toggle) {
             @apply ml-2;
           }
+          /* site-wide link pattern: hover turns primary (red) like every
+             other link; the underline stays as the extra affordance */
           :global(button.abs-toggle:hover),
           :global(button.bib-toggle:hover) {
+            color: var(--color-primary);
             text-decoration: underline;
           }
           :global(button.bibtex-copy) {
