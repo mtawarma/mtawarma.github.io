@@ -30,11 +30,15 @@
 <style>
   /* Pressed = the first block of that type is currently shown. An accent
      inner ring (the same accent the per-paper Abstract/BibTeX links use) --
-     quiet, on-palette; the state is read from the aria-pressed attribute the
-     script derives from the DOM, so CSS and JS can never disagree. */
+     on-palette in both themes (user: "the theme should be consistent"); the
+     state is read from the aria-pressed attribute the script derives from
+     the DOM, so CSS and JS can never disagree. 3px so it reads in the light
+     theme too: the 2px ring was a thin blue line on the light button, while
+     on the dark button the same ring is already loud (user: dark shows what
+     the press will do -- wanted in light as well). */
   .btn[aria-pressed="true"] {
-    outline: 2px solid var(--color-accent);
-    outline-offset: -2px;
+    outline: 3px solid var(--color-accent);
+    outline-offset: -3px;
   }
 </style>
 
