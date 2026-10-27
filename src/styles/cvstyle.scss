@@ -80,11 +80,12 @@
             @apply ml-2;
           }
           /* site-wide link pattern: hover turns primary (red) like every
-             other link; the underline stays as the extra affordance */
+             other link (no underline -- the other links don't get one
+             either); these are <button>s, so the a{} rule in global.css
+             never reaches them */
           :global(button.abs-toggle:hover),
           :global(button.bib-toggle:hover) {
             color: var(--color-primary);
-            text-decoration: underline;
           }
           :global(button.bibtex-copy) {
             /* carries the .btn class -- same styling as the bulk Show/Hide
@@ -111,10 +112,18 @@
                scrolling is fine") */
             @apply mt-2 rounded-md p-3;
             overflow-x: auto;
-            background: rgba(0, 0, 0, 0.04);
+            /* theme-consistent subtle box: base-content mixed 6% into
+               base-100 -- light grey in the light theme (same look as
+               before), a subtly lighter box in the dark one (an
+               rgba(0,0,0,0.04) black overlay was invisible on the dark
+               background) */
+            background: color-mix(in oklab, var(--color-base-content) 6%, var(--color-base-100));
             :global(.csl-block) {
               font-size: var(--disclosure-size);
-              color: #6b7280;
+              /* theme-consistent muted grey: base-content mixed 60% into
+                 base-100 -- mid grey in the light theme, a visible
+                 mid-light grey in the dark one (was a hardcoded #6b7280) */
+              color: color-mix(in oklab, var(--color-base-content) 60%, var(--color-base-100));
               :global(.katex) {
                 font-size: 1em;
               }
@@ -135,7 +144,8 @@
                  horizontal scrollbar (user: "horizontal scrolling is
                  fine") */
               overflow-x: auto;
-              background: rgba(0, 0, 0, 0.04);
+              /* same theme-consistent box as .abstract-body */
+              background: color-mix(in oklab, var(--color-base-content) 6%, var(--color-base-100));
             }
           }
         }
