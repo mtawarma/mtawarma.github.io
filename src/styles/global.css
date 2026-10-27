@@ -12,7 +12,7 @@
   --text-3xl--font-weight: 900;
 }
 @plugin "daisyui" {
-  themes: garden --default, dark --prefersdark;
+  themes: garden --default, darkred --prefersdark;
 }
 @plugin "daisyui/theme" {
   name: "garden";
@@ -23,6 +23,50 @@
   --color-neutral-content: rgb(249 249 249);
   --color-base-100: rgb(249 249 249);
   --color-base-200: rgb(249 249 249)
+}
+/* The stock daisyUI dark palette with exactly one change: primary is the
+   site's red (garden's primary) instead of the stock purple, and its
+   content white like garden's. The site-wide concept is "hover => red"
+   in every theme (user: "it should all be consistent") -- the stock
+   dark's purple only ever showed up as the hover color. Everything else
+   (dark bases, cyan accent, pink secondary/visited) is stock. */
+@plugin "daisyui/theme" {
+  name: "darkred";
+  /* custom themes are not in daisyUI's stock themesObject, so the themes-list
+     --prefersdark flag does nothing for them -- the media block
+     (@media (prefers-color-scheme: dark) :root:not([data-theme])) must be
+     requested in the theme block itself (theme/index.js), with an explicit
+     color-scheme (stock themes carry it; custom ones default to normal) */
+  prefersdark: "true";
+  color-scheme: "dark";
+  --color-base-100: oklch(25.33% .016 252.42);
+  --color-base-200: oklch(23.26% .014 253.1);
+  --color-base-300: oklch(21.15% .012 254.09);
+  --color-base-content: oklch(97.807% .029 256.847);
+  --color-primary: rgb(193 46 54);
+  --color-primary-content: rgb(255 255 255);
+  --color-secondary: oklch(65% .241 354.308);
+  --color-secondary-content: oklch(94% .028 342.258);
+  --color-accent: oklch(77% .152 181.912);
+  --color-accent-content: oklch(38% .063 188.416);
+  --color-neutral: oklch(14% .005 285.823);
+  --color-neutral-content: oklch(92% .004 286.32);
+  --color-info: oklch(74% .16 232.661);
+  --color-info-content: oklch(29% .066 243.157);
+  --color-success: oklch(76% .177 163.223);
+  --color-success-content: oklch(37% .077 168.94);
+  --color-warning: oklch(82% .189 84.429);
+  --color-warning-content: oklch(41% .112 45.904);
+  --color-error: oklch(71% .194 13.428);
+  --color-error-content: oklch(27% .105 12.094);
+  --radius-selector: .5rem;
+  --radius-field: .25rem;
+  --radius-box: .5rem;
+  --size-selector: .25rem;
+  --size-field: .25rem;
+  --border: 1px;
+  --depth: 1;
+  --noise: 0
 }
 
 a {
