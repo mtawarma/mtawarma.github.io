@@ -72,11 +72,11 @@
             border: none;
             padding: 0;
             cursor: pointer;
-            /* state-colored (user: "the simplest idea"): green (the theme's
-               success color, the same in both themes) = closed, red (the
-               site's primary, the same red in both themes) = open. No hover
-               color -- red means "open", so a red hover on a closed toggle
-               would be a false state. */
+            /* state colors (user: "this distinction is for status"):
+               green (the theme's success color) = non-visited (closed),
+               red = visited (open). Hover has its own color (the theme's
+               --color-hover: red in the light theme, gold in the dark
+               one). */
             color: var(--color-success);
             font-size: var(--disclosure-size);
           }
@@ -87,6 +87,16 @@
           :global(button.abs-toggle[aria-expanded="true"]),
           :global(button.bib-toggle[aria-expanded="true"]) {
             color: var(--color-primary);
+          }
+          /* hover is a separate signal from the open state: the theme's
+             --color-hover -- red in the light theme (its primary; the
+             garden palette is blue/purple/red), gold in the dark theme
+             (the user's RGB 207, 185, 145). Later in source order, so
+             hovering an open toggle shows the hover color while the
+             mouse is on it. */
+          :global(button.abs-toggle:hover),
+          :global(button.bib-toggle:hover) {
+            color: var(--color-hover);
           }
           :global(button.bibtex-copy) {
             /* carries the .btn class -- same styling as the bulk Show/Hide

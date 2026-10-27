@@ -22,14 +22,21 @@
   --color-accent: rgb(37 99 235);
   --color-neutral-content: rgb(249 249 249);
   --color-base-100: rgb(249 249 249);
-  --color-base-200: rgb(249 249 249)
+  --color-base-200: rgb(249 249 249);
+  /* the toggle hover color, per theme (user: "the red for hover was good
+     there -- that theme works with blue, purple and red"). Light keeps
+     red (the site's primary); the dark theme takes the gold instead
+     (the user's RGB 207, 185, 145). */
+  --color-hover: rgb(193 46 54)
 }
-/* The stock daisyUI dark palette with exactly one change: primary is the
+/* The stock daisyUI dark palette with two changes: primary is the
    site's red (garden's primary) instead of the stock purple, and its
-   content white like garden's. The site-wide concept is "hover => red"
-   in every theme (user: "it should all be consistent") -- the stock
-   dark's purple only ever showed up as the hover color. Everything else
-   (dark bases, cyan accent, pink secondary/visited) is stock. */
+   content white like garden's; the toggle hover is the gold (the
+   user's RGB 207, 185, 145) instead of the red the light theme uses.
+   The site-wide concept is "link hover => red" in every theme (user:
+   "it should all be consistent") -- the stock dark's purple only ever
+   showed up as the hover color of the links. Everything else (dark
+   bases, cyan accent, pink secondary/visited) is stock. */
 @plugin "daisyui/theme" {
   name: "darkred";
   /* custom themes are not in daisyUI's stock themesObject, so the themes-list
@@ -55,7 +62,7 @@
   --color-info-content: oklch(29% .066 243.157);
   --color-success: oklch(76% .177 163.223);
   --color-success-content: oklch(37% .077 168.94);
-  --color-warning: oklch(82% .189 84.429);
+  --color-hover: rgb(207 185 145);
   --color-warning-content: oklch(41% .112 45.904);
   --color-error: oklch(71% .194 13.428);
   --color-error-content: oklch(27% .105 12.094);
