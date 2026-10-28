@@ -66,8 +66,14 @@ const navItems = [
   }
 	</script>
 	<script is:inline type="module">
-     await import('/pagefind/pagefind-highlight.js');
-     new PagefindHighlight({ highlightParam: "highlight" });
+     /* the highlighter only acts on a ?highlight= param (search navigation) --
+        importing it unconditionally put a 9.7 KiB request on every page's
+        critical chain (Lighthouse: "avoid chaining critical requests").
+        On-demand: fetched only on the loads that actually use it. */
+     if (new URLSearchParams(location.search).has("highlight")) {
+       await import('/pagefind/pagefind-highlight.js');
+       new PagefindHighlight({ highlightParam: "highlight" });
+     }
 	</script>
 </head>
 
