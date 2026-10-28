@@ -47,6 +47,15 @@ const navItems = [
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
+	<script is:inline>
+	/* www.mohit.prof is the canonical domain (the CNAME, the canonical
+	   links, the sitemap). The display name stays "mohit.prof" (easier to
+	   remember); if we happen to be served from the apex, bounce to www,
+	   preserving the path and query. */
+	if (location.hostname === "mohit.prof") {
+		location.replace("https://www.mohit.prof" + location.pathname + location.search);
+	}
+	</script>
 	<meta name="description" content={description} />
 	<meta name="viewport" content="width=device-width" />
 	<title>{title}</title>
