@@ -1,0 +1,16 @@
+# GitHub Pages serves every file with Cache-Control: max-age=600 (10 minutes)
+# by default -- Lighthouse flags the resulting 79 KiB of short-TTL transfers.
+# The assets below are content-hashed by the build (new content = new URL),
+# so a 1-year immutable lifetime is safe: a new deploy can never serve a
+# stale copy. HTML pages deliberately keep the 10-minute default so a new
+# deploy is visible immediately.
+/_astro/*
+Cache-Control: public, max-age=31536000, immutable
+
+/fonts/*
+Cache-Control: public, max-age=31536000, immutable
+
+# the Pagefind runtime script -- deliberately NOT the whole /pagefind/*
+# directory: the search index lives there and must revalidate on each deploy
+/pagefind/pagefind-highlight.js
+Cache-Control: public, max-age=31536000
