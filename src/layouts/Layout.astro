@@ -9,19 +9,23 @@ interface Props {
 
 const {title, description, pagetype} = Astro.props;
 const base:string = String(import.meta.env.BASE_URL);
+/* canonical links must be ABSOLUTE urls (Lighthouse/Google: "not a valid
+   rel=canonical -- is not an absolute URL"). BASE_URL is "/" (the config's
+   base), so the absolute form comes from Astro.site (the config's `site`). */
+const origin:string = String(Astro.site);
 
 const canonical: Record<string, string> = {
-  home: base,
-  resume: `${base}cv/`,
-  appointments: `${base}appointments/`,
-  books: `${base}books/`,
-  publications: `${base}journals/`,
-  conferences: `${base}conferences/`,
-  honors: `${base}honors/`,
-  students: `${base}phdstudents/`,
-  teaching: `${base}teaching/`,
-  contact: `${base}contact/`,
-  search: `${base}searchsite/`,
+  home: origin,
+  resume: `${origin}cv/`,
+  appointments: `${origin}appointments/`,
+  books: `${origin}books/`,
+  publications: `${origin}journals/`,
+  conferences: `${origin}conferences/`,
+  honors: `${origin}honors/`,
+  students: `${origin}phdstudents/`,
+  teaching: `${origin}teaching/`,
+  contact: `${origin}contact/`,
+  search: `${origin}searchsite/`,
 };
 
 const navItems = [
