@@ -1514,6 +1514,10 @@ and Decision Analysis, Optimization Models.
 
 ## Awards and Honors
 
+- ICS Harvey J. Greenberg Award, 2026 (with A. Calmon, P. Blaettchen,
+  and G. Hall), for “From Trees to Treewidth: Inventory Management in
+  Complex Supply Chain Networks”
+
 - Walk the Talk Award 2026 in recognition of strong ethical character
   and integrity
 
