@@ -10,6 +10,8 @@
 [MSBAIM]: https://business.purdue.edu/masters/programs/ms-business-analytics-and-information-management/home.php?
 [BSBAIM]: https://business.purdue.edu/undergraduate/academics/business-analytics-and-information-management.php
 [INFORMSUPS]: https://www.informs.org/Recognizing-Excellence/INFORMS-Prizes/UPS-George-D.-Smith-Prize
+[GREENBERG]: https://connect.informs.org/computing/awards/greenberg-research-award/greenberg-award-2025-2029
+[WALKTALK]: https://www.purdue.edu/vpec/awards/walk-the-talk-recipients/
 [CCE]: https://www.aiche.org/community/sites/divisions-forums/computing-systems-technology-division-cast/blog/2024-computing-chemical-engineering-award
 
 Mohit Tawarmalani is the Executive Associate Dean and
@@ -35,12 +37,13 @@ network systems design, and in understanding economics of business decisions.
 For his research, Mohit has been awarded the [INFORMS Computing Society Prize in
 2004][ICSPrize], the Best Paper Award from the Workshop on Information Technology and
 Systems in 2005, the [Beale-Orchard-Hays Prize from the Mathematical
-Programming Society in 2006][BEALE], and the [Computing in Chemical Engineering from AIChE in 2024][CCE].  He is also the 2003 Jay N. Ross Young Faculty
+Programming Society in 2006][BEALE], the [Computing in Chemical Engineering from AIChE in 2024][CCE],
+and the [ICS Harvey J. Greenberg award in 2026][GREENBERG].  He is also the 2003 Jay N. Ross Young Faculty
 Scholar and the 2006 Krannert Faculty Fellow.
 
 Mohit was a founding co-director of Purdue’s 
 [Masters in Business Analytics and Information Management][MSBAIM] program, the co-chair of the design committee for 
-[Bachelors in Business Analytics and Information Management][BSBAIM] program, and led the team that won the [INFORMS UPS George D. Smith Prize][INFORMSUPS] for innovative educational practices in training students to be practitioners of operations research and analytics.
+[Bachelors in Business Analytics and Information Management][BSBAIM] program, and led the team that won the [INFORMS UPS George D. Smith Prize][INFORMSUPS] for innovative educational practices in training students to be practitioners of operations research and analytics. He was awarded the [Walk the Talk Award in 2026][WALKTALK] for exemplifying ethical leadership.
 
 Mohit serves as an Area Editor for Mathematical Programming Computation and as an 
 Associate Editor for the Journal of Global Optimization and SIAM Journal on Optimization. 
