@@ -22,7 +22,7 @@
 11. [Fisher Wu
     (2014)](https://web.csulb.edu/colleges/cob/intranet/vita/public/resume.php?username=fisher.wu&cid=364)
 12. [Chuanhui Xiong
-    (2011)](https://www.uncp.edu/profile/chuanhui-charles-xiong-phd)
+    (2011)](https://www.uncp.edu/about/directory/chuanhui-xiong.html)
 13. [Kwanghun Chung
     (2010)](https://scu.hongik.ac.kr/en/academics/intro-faculty-detail.do?mode=prof&deptCd=AAC130&S1=2011&S2=10069)
 
